@@ -10,4 +10,3 @@
 
 ## Ava's Life in Emojis:
 :heart::dog::v::dancers::muscle::hankey::wave::sparkling_heart:
----
