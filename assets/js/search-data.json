@@ -2,8 +2,8 @@
   
     
         "post0": {
-            "title": "Title",
-            "content": "print (&quot;hello, world!&quot;) .",
+            "title": "This is My First Jupyter Notebook",
+            "content": "print (&quot;Hello I hope you are having a great day!&quot;) . Hello I hope you are having a great day! . Let&#39;s Test Some More Code . print (&quot;hello, world!&quot;) . hello, world! .",
             "url": "https://avac54765.github.io/fastpages-ava/2022/08/21/jupyternotebook.html",
             "relUrl": "/2022/08/21/jupyternotebook.html",
             "date": " • Aug 21, 2022"
