@@ -1,4 +1,4 @@
-### H3 **Ava's Life**
+### Ava's Life
 # Ava's Favorite Things
 1. Kraft Mac and Cheese
 2. The color pink
@@ -7,8 +7,7 @@
 5. ASB
 
 ---
-!{Mocha}(file:///C:/Users/Ava%20Carlson/Downloads/Mocha.jpg)
 
-# H1 Ava's Life in Emojis:
----
+# Ava's Life in Emojis:
 :heart::dog:
+---
