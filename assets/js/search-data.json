@@ -2,10 +2,10 @@
   
     
         "post0": {
-            "title": "Ava's First Markdown",
-            "content": "Ava’s Life . Ava’s Favorite Things . Kraft Mac and Cheese | The color pink | My dog Mocha | Cheerleading | ASB | . Ava’s Life in Emojis: . :heart::dog::v::dancers::muscle::hankey::wave::sparkling_heart: .",
-            "url": "https://avac54765.github.io/fastpages-ava/2022/08/22/Ava's-First-Markdown.html",
-            "relUrl": "/2022/08/22/Ava's-First-Markdown.html",
+            "title": "This is My First Jupyter Notebook",
+            "content": "print (&quot;Hello I hope you are having a great day!&quot;) . Hello I hope you are having a great day! . Let&#39;s Test Some More Code . print (&quot;hello, world!&quot;) . hello, world! .",
+            "url": "https://avac54765.github.io/fastpages-ava/2022/08/22/jupyternotebook.html",
+            "relUrl": "/2022/08/22/jupyternotebook.html",
             "date": " • Aug 22, 2022"
         }
         
@@ -13,11 +13,11 @@
   
     
         ,"post1": {
-            "title": "This is My First Jupyter Notebook",
-            "content": "print (&quot;Hello I hope you are having a great day!&quot;) . Hello I hope you are having a great day! . Let&#39;s Test Some More Code . print (&quot;hello, world!&quot;) . hello, world! .",
-            "url": "https://avac54765.github.io/fastpages-ava/2022/08/21/jupyternotebook.html",
-            "relUrl": "/2022/08/21/jupyternotebook.html",
-            "date": " • Aug 21, 2022"
+            "title": "Ava's First Markdown",
+            "content": "Ava’s Life . Ava’s Favorite Things . Kraft Mac and Cheese | The color pink | My dog Mocha | Cheerleading | ASB | . Ava’s Life in Emojis: . :heart::dog::v::dancers::muscle::hankey::wave::sparkling_heart: .",
+            "url": "https://avac54765.github.io/fastpages-ava/2022/08/22/Ava's-First-Markdown.html",
+            "relUrl": "/2022/08/22/Ava's-First-Markdown.html",
+            "date": " • Aug 22, 2022"
         }
         
     
