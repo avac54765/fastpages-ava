@@ -11,3 +11,7 @@
 ## Ava's Life in Emojis:
 :heart::dog::v::dancers::muscle::hankey::wave::sparkling_heart:
 
+---
+
+## The Fam
+![My Family](Fam pic.jpg)
