@@ -1,5 +1,3 @@
-# Ava's Life
-
 ---
 title: Ava's Life
 toc: true
