@@ -36,7 +36,7 @@
     
         ,"post3": {
             "title": "Ava's First Markdown",
-            "content": "Ava’s Life . This is my first markdown. I am using markdown to tell you a little bit about me. . title: Ava’s First Markdown | toc: true | categories: [APCSP Work] | comments: true | permalink: /first_markdown/markdown | image: /images/mdimage.jpg | tags: [week 0] | . Ava’s Favorite Things . Kraft Mac and Cheese | The color pink | My dog Mocha | Cheerleading | ASB | . Ava’s Life in Emojis: . :heart::dog::v::dancers::muscle::hankey::wave::sparkling_heart: . .",
+            "content": "Ava’s Life . . title: Ava’s Life toc: true comments: true layout: post description: This is my first markdown. I am using markdown to tell you a little bit about me. permalink: /first_markdown/markdown image: /images/mdimage.jpg categories: [APCSP Work] tags: [week 0] — . Ava’s Favorite Things . Kraft Mac and Cheese | The color pink | My dog Mocha | Cheerleading | ASB | . Ava’s Life in Emojis: . :heart::dog::v::dancers::muscle::hankey::wave::sparkling_heart: . .",
             "url": "https://avac54765.github.io/fastpages-ava/2022/08/22/Ava's-First-Markdown.html",
             "relUrl": "/2022/08/22/Ava's-First-Markdown.html",
             "date": " • Aug 22, 2022"
