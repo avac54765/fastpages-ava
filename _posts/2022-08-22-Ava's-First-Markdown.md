@@ -5,6 +5,7 @@
 - title: Ava's First Markdown
 - toc: true
 - categories: [APCSP Work]
+- comments: true
 - permalink: /first_markdown/markdown
 - image: /images/mdimage.jpg
 - tags: [week 0]
