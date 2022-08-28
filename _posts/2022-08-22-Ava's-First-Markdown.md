@@ -6,7 +6,7 @@ layout: post
 description: This is my first markdown. I am using markdown to tell you a little bit about me.
 permalink: /first_markdown/markdown
 image: /images/mdimage.jpg
-tags: [week 0]
+categories: [week 0]
 ---
 
 
