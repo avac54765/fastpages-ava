@@ -10,4 +10,4 @@ title: My Weekly Work
 | Week        | Projects    |
 | ----------- | ----------- |
  | 0           | [My First Jupyter Notebook](https://avac54765.github.io/fastpages-ava/first_jupyter_notebook/python),---> [My First Markdown](https://avac54765.github.io/fastpages-ava/first_markdown/markdown). |
- | 1 | [My Bread Quiz (Python)](https://alexac54767.github.io/Alexa-Fastpage/notebooks/myquiz),---> [Key Tools Check](https://alexac54767.github.io/Alexa-Fastpage/notebooks/toolchecks). |
+ | 1 | [My Bread Quiz (Python)](https://avac54765.github.io/fastpages-ava/bread_quiz/python),---> [Key Tools Check](https://avac54765.github.io/fastpages-ava/tools_check/bash). |
