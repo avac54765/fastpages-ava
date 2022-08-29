@@ -1,11 +1,16 @@
 ---
 layout: page
 title: About Me
-permalink: /about/
+permalink: /aboutava
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
 
+# Ava Carlson
 
+## My Family
+![My Family](Fam pic.jpg)
 
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+## Marvel Love
+![Tom Holland](https://64.media.tumblr.com/0d2e72246984b2cb313edac5fa29f031/a69cf2336b03e32c-fd/s540x810/562d38108be5cc3b6413d1c42dd042ccc435630a.gifv)
+**Spiderman** is the best superhero, and **Tom Holland** is the best Spiderman. Spiderman **No Way Home** is my favorite movie and made me cry like five times during the movie.
+
