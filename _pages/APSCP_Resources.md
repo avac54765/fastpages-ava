@@ -4,4 +4,7 @@ permalink: /resources
 title: APCSP Resources
 ---
 
-# Videos
+|      Format      |    Links     |
+| ----------- | ----------- |
+ | Videos          | [link to video resources](https://avac54765.github.io/fastpages-ava/first_jupyter_notebook/python). |
+ | Posts | [link to post resources)](https://nighthawkcoders.github.io/APCSP/techtalk/tools),
