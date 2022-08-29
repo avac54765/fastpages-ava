@@ -50,10 +50,21 @@
 
   
       ,"page1": {
+          "title": "APCSP Resources",
+          "content": "Videos .",
+          "url": "https://avac54765.github.io/fastpages-ava/resources",
+          "relUrl": "/resources",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page2": {
           "title": "About Me",
-          "content": "This website is powered by fastpages 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
-          "url": "https://avac54765.github.io/fastpages-ava/about/",
-          "relUrl": "/about/",
+          "content": "Ava Carlson . My Family . . Marvel Love . Spiderman is the best superhero, and Tom Holland is the best Spiderman. Spiderman No Way Home is my favorite movie and made me cry like five times during the movie. .",
+          "url": "https://avac54765.github.io/fastpages-ava/aboutava",
+          "relUrl": "/aboutava",
           "date": ""
       }
       
@@ -72,7 +83,7 @@
   
 
   
-      ,"page7": {
+      ,"page8": {
           "title": "My Weekly Work",
           "content": "Trimester 1 Work . Here is all of my APCSP work for every week. Have fun looking through Ava’s struggles and successes. :) . Week Projects . 0 | My First Jupyter Notebook,—&gt; My First Markdown. | . 1 | My Bread Quiz (Python),—&gt; Key Tools Check. | .",
           "url": "https://avac54765.github.io/fastpages-ava/my_work",
@@ -92,7 +103,7 @@
   
 
   
-      ,"page11": {
+      ,"page12": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://avac54765.github.io/fastpages-ava/robots.txt",
