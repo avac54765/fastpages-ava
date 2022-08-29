@@ -14,7 +14,7 @@
     
         ,"post1": {
             "title": "Helpful Posts",
-            "content": "Topic Link . Setting Up Tools | (https://nighthawkcoders.github.io/APCSP/techtalk/tools)). | . Using Bash | (https://nighthawkcoders.github.io/APCSP/techtalk/bash) | . More About Fastpages | (https://nighthawkcoders.github.io/APCSP/techtalk/fastpages) | . What’s Python? | (https://nighthawkcoders.github.io/APCSP/week/1) | . HTML Fragments | (https://nighthawkcoders.github.io/APCSP/techtalk/html) | . What’s JavaScript? | (https://nighthawkcoders.github.io/APCSP/techtalk/javascript) | . Using Code.org | (https://nighthawkcoders.github.io/APCSP/techtalk/applab) | .",
+            "content": "Topic Link . Setting Up Tools | https://nighthawkcoders.github.io/APCSP/techtalk/tools. | . Using Bash | https://nighthawkcoders.github.io/APCSP/techtalk/bash | . More About Fastpages | https://nighthawkcoders.github.io/APCSP/techtalk/fastpages | . What’s Python? | https://nighthawkcoders.github.io/APCSP/week/1 | . HTML Fragments | https://nighthawkcoders.github.io/APCSP/techtalk/html | . What’s JavaScript? | https://nighthawkcoders.github.io/APCSP/techtalk/javascript | . Using Code.org | https://nighthawkcoders.github.io/APCSP/techtalk/applab | .",
             "url": "https://avac54765.github.io/fastpages-ava/helpfulposts",
             "relUrl": "/helpfulposts",
             "date": " • Aug 28, 2022"
@@ -73,7 +73,7 @@
   
       ,"page1": {
           "title": "APCSP Resources",
-          "content": "Format Links . Videos | link to video resources. | . Posts | link to post resources), | .",
+          "content": "Format Links . Videos | link to video resources. | . Posts | link to post resources | .",
           "url": "https://avac54765.github.io/fastpages-ava/resources",
           "relUrl": "/resources",
           "date": ""
