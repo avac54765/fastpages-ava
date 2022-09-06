@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Trimester One Vocabulary",
-            "content": "",
+            "content": "vocablist={&quot;key:value&quot; : &quot;value defines the key&quot;, &quot;variable&quot; : &quot;Stores information (ex. i=0) for a computer program. Types: string, integer, float&quot;, &quot;concatenation&quot; : &quot;the linking or joining of two characters or character strings together to create a phrase or compound word.&quot;, &quot;procederal abstraction&quot; : &quot;taking little pieces of information/code and putting them into a different place to become a bigger system&quot;, &quot;representation data&quot; : &quot;Data Representation refers to the form in which data is stored, processed, and transmitted.&quot;, &quot;html fragments&quot; : &quot;Writing allows you to define a block of HTML that you can then embed in your document at key locations.&quot;} for word in vocablist: print(word,&quot;: &quot;, vocablist[word]) . key:value : value defines the key variable : Stores information (ex. i=0) for a computer program. Types: string, integer, float concatenation : the linking or joining of two characters or character strings together to create a phrase or compound word. procederal abstraction : taking little pieces of information/code and putting them into a different place to become a bigger system representation data : Data Representation refers to the form in which data is stored, processed, and transmitted. html fragments : Writing allows you to define a block of HTML that you can then embed in your document at key locations. .",
             "url": "https://avac54765.github.io/fastpages-ava/tri1vocab/python",
             "relUrl": "/tri1vocab/python",
             "date": " • Sep 5, 2022"
