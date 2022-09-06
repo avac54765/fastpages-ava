@@ -230,6 +230,8 @@ window.onload = wrap_img;
     <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\t</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"Email:"</span><span class="p">,</span> <span class="n">d_rec</span><span class="p">[</span><span class="s2">"Email"</span><span class="p">])</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\t</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"Favorite Foods: "</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">""</span><span class="p">)</span> 
     <span class="nb">print</span><span class="p">(</span><span class="s2">", "</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">d_rec</span><span class="p">[</span><span class="s2">"FavFoods"</span><span class="p">]))</span>  <span class="c1"># join prints values together</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\t</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"Family Names: "</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">""</span> <span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">", "</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">d_rec</span><span class="p">[</span><span class="s2">"FamilyNames"</span><span class="p">]))</span>
     <span class="nb">print</span><span class="p">()</span>
 
 
@@ -259,12 +261,14 @@ Ava Carlson
 	 Residence: San Diego
 	 Email: avabrynncheer@gmail.com
 	 Favorite Foods: mac and cheese, strawberries, chocolate
+	 Family Names: Neil, Leslie, Dylan, Grant, Alexa, Ava
 
 Alexa Carlson
 	 Birth Day: May 16
 	 Residence: San Diego
 	 Email: alexarosecarlson@icould.com
 	 Favorite Foods: pineapple, pasta, ice cream
+	 Family Names: Neil, Leslie, Dylan, Grant, Alexa, Ava
 
 </pre>
 </div>
@@ -299,12 +303,14 @@ Alexa Carlson
     <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\t</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"Email:"</span><span class="p">,</span> <span class="n">d_rec</span><span class="p">[</span><span class="s2">"Email"</span><span class="p">])</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\t</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"Favorite Foods: "</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">""</span><span class="p">)</span> 
     <span class="nb">print</span><span class="p">(</span><span class="s2">", "</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">d_rec</span><span class="p">[</span><span class="s2">"FavFoods"</span><span class="p">]))</span>  <span class="c1"># join prints values together</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\t</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"Family Names: "</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">""</span> <span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">", "</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">d_rec</span><span class="p">[</span><span class="s2">"FamilyNames"</span><span class="p">]))</span>
     <span class="nb">print</span><span class="p">()</span>
 
 
 <span class="c1"># for loop algorithm iterates on length of InfoDb</span>
 <span class="k">def</span> <span class="nf">for_loop</span><span class="p">():</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"For loop output</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"For loop output reversed</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
     <span class="k">for</span> <span class="n">record</span> <span class="ow">in</span> <span class="nb">reversed</span><span class="p">(</span><span class="n">avalist</span><span class="p">):</span> <span class="c1">#adding reversed reverses the records listed</span>
         <span class="n">print_data</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
 
@@ -321,19 +327,21 @@ Alexa Carlson
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>For loop output
+<pre>For loop output reversed
 
 Alexa Carlson
 	 Birth Day: May 16
 	 Residence: San Diego
 	 Email: alexarosecarlson@icould.com
 	 Favorite Foods: pineapple, pasta, ice cream
+	 Family Names: Neil, Leslie, Dylan, Grant, Alexa, Ava
 
 Ava Carlson
 	 Birth Day: May 16
 	 Residence: San Diego
 	 Email: avabrynncheer@gmail.com
 	 Favorite Foods: mac and cheese, strawberries, chocolate
+	 Family Names: Neil, Leslie, Dylan, Grant, Alexa, Ava
 
 </pre>
 </div>
@@ -390,12 +398,14 @@ Ava Carlson
 	 Residence: San Diego
 	 Email: avabrynncheer@gmail.com
 	 Favorite Foods: mac and cheese, strawberries, chocolate
+	 Family Names: Neil, Leslie, Dylan, Grant, Alexa, Ava
 
 Alexa Carlson
 	 Birth Day: May 16
 	 Residence: San Diego
 	 Email: alexarosecarlson@icould.com
 	 Favorite Foods: pineapple, pasta, ice cream
+	 Family Names: Neil, Leslie, Dylan, Grant, Alexa, Ava
 
 </pre>
 </div>
@@ -452,12 +462,14 @@ Alexa Carlson
 	 Residence: San Diego
 	 Email: alexarosecarlson@icould.com
 	 Favorite Foods: pineapple, pasta, ice cream
+	 Family Names: Neil, Leslie, Dylan, Grant, Alexa, Ava
 
 Ava Carlson
 	 Birth Day: May 16
 	 Residence: San Diego
 	 Email: avabrynncheer@gmail.com
 	 Favorite Foods: mac and cheese, strawberries, chocolate
+	 Family Names: Neil, Leslie, Dylan, Grant, Alexa, Ava
 
 </pre>
 </div>
@@ -513,12 +525,14 @@ Ava Carlson
 	 Residence: San Diego
 	 Email: avabrynncheer@gmail.com
 	 Favorite Foods: mac and cheese, strawberries, chocolate
+	 Family Names: Neil, Leslie, Dylan, Grant, Alexa, Ava
 
 Alexa Carlson
 	 Birth Day: May 16
 	 Residence: San Diego
 	 Email: alexarosecarlson@icould.com
 	 Favorite Foods: pineapple, pasta, ice cream
+	 Family Names: Neil, Leslie, Dylan, Grant, Alexa, Ava
 
 </pre>
 </div>
@@ -574,12 +588,14 @@ Alexa Carlson
 	 Residence: San Diego
 	 Email: alexarosecarlson@icould.com
 	 Favorite Foods: pineapple, pasta, ice cream
+	 Family Names: Neil, Leslie, Dylan, Grant, Alexa, Ava
 
 Ava Carlson
 	 Birth Day: May 16
 	 Residence: San Diego
 	 Email: avabrynncheer@gmail.com
 	 Favorite Foods: mac and cheese, strawberries, chocolate
+	 Family Names: Neil, Leslie, Dylan, Grant, Alexa, Ava
 
 </pre>
 </div>
