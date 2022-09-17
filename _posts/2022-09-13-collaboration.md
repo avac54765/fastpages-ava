@@ -29,3 +29,5 @@ Interpersonal Skills Learned:
 - Effective collaboration helps with communication, consensus building, conflict resolution, and negociation skills.
 
 ### Unit 1.1 Video Two Notes
+
+blah blah blah
