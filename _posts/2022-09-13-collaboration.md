@@ -17,7 +17,7 @@ Goals:
 
 
 ### Unit 1.1 Collegeboard Collaboration Video Notes
-- Effective collaboration produces a computing innovation that reflects the diversity of talents and perspectives of those who designed it.
+- <mark>Effective collaboration produces a computing innovation that reflects the diversity of talents and perspectives of those who designed it. </mark>
 
 - A computing innovation includes a program as an integral part of its function.
 
@@ -29,13 +29,20 @@ Interpersonal Skills Learned:
 - Effective collaboration helps with communication, consensus building, conflict resolution, and negociation skills.
 
 ### Unit 1.1 Video Two Notes
-- Consultaton and communication with users are important aspects of the development of computing innovations. 
+- <mark>on and communication with users are important aspects of the development of computing innovations.</mark>
+
 - Information gathered from potential users can be used to understand the purpose of a program from diverse perspectives and to develop a program that fully incorporates these perspectives.
+
 - Online tools support collaboration by allowing programmers to share and provide feedback on ideas and documents.
+
 - Common models such as pair programming exist to facilitate collaboration.
-- **pair programming**= two programmers work together as a pair- one writes the code (driver) while the other reviews each line as being typed in (navigator)
+
+- **pair programming**= <mark>two programmers work together as a pair</mark>- one writes the code (driver) while the other reviews each line as being typed in (navigator)
+
 - **Think-Pair-Share**= students think through a problem alone, pair with a partner to share ideas, and then share results with the class
-- **helpful idea**= leave comments in code!
+
+- **helpful idea**= <mark>leave comments in code!</mark>
+
 
 # Taking the Collegeboard Quizzes
 ## Program Purpose and Function Quiz
