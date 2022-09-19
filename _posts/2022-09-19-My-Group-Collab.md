@@ -3,7 +3,7 @@ title: My Group's Collaboration
 toc: true
 comments: true
 layout: post
-description: My group's collaboration on the Fastpages and Python Project.
+description: My group's collaboration on the Fastpages and Python Project dealing with local servers.
 permalink: /groupcollaboration/markdown
 image: /images/group.png
 categories: [week 4]
