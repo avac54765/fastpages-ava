@@ -51,4 +51,3 @@ Interpersonal Skills Learned:
 ## Collaboration Quiz
 ![Collaboration Quiz]({{site.baseurl}}/images/collaborationquiz.png)
 
-Hello!
