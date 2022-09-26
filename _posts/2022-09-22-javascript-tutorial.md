@@ -22,6 +22,13 @@ layout: notebook
         
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>{% include nav_frontend.html %}</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="console.log-output">console.log output<a class="anchor-link" href="#console.log-output"> </a></h3><p>Output to console using the classic programming introduction using a "Hello, World!" message.</p>
 <ul>
 <li>The command or function is <mark>console.log()</mark></li>
@@ -53,9 +60,11 @@ layout: notebook
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Hello, World!
-</pre>
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">Failed to start the Kernel. 
+</span>
+<span class="ansi-red-intense-fg ansi-bold">View Jupyter &lt;a href=&#39;command:jupyter.viewOutput&#39;&gt;log&lt;/a&gt; for further details.</span></pre>
 </div>
 </div>
 
@@ -270,10 +279,11 @@ object ; [ 1, 2, 3 ]
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-javascript"><pre><span></span><span class="c1">// define a function to hold data for a Person</span>
-<span class="kd">function</span> <span class="nx">Person</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">ghID</span><span class="p">,</span> <span class="nx">classOf</span><span class="p">)</span> <span class="p">{</span>
+<span class="kd">function</span> <span class="nx">Person</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">ghID</span><span class="p">,</span> <span class="nx">classOf</span><span class="p">,</span> <span class="nx">haircolor</span><span class="p">)</span> <span class="p">{</span>
     <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
     <span class="k">this</span><span class="p">.</span><span class="nx">ghID</span> <span class="o">=</span> <span class="nx">ghID</span><span class="p">;</span>
     <span class="k">this</span><span class="p">.</span><span class="nx">classOf</span> <span class="o">=</span> <span class="nx">classOf</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">haircolor</span><span class="o">=</span> <span class="nx">haircolor</span><span class="p">;</span>
     <span class="k">this</span><span class="p">.</span><span class="nx">role</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">;</span>
 <span class="p">}</span>
 
@@ -284,13 +294,13 @@ object ; [ 1, 2, 3 ]
 
 <span class="c1">// define a JSON conversion &quot;method&quot; associated with Person</span>
 <span class="nx">Person</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">toJSON</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-    <span class="kr">const</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span><span class="nx">name</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="p">,</span> <span class="nx">ghID</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">ghID</span><span class="p">,</span> <span class="nx">classOf</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">classOf</span><span class="p">,</span> <span class="nx">role</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">role</span><span class="p">};</span>
+    <span class="kr">const</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span><span class="nx">name</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="p">,</span> <span class="nx">ghID</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">ghID</span><span class="p">,</span> <span class="nx">classOf</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">classOf</span><span class="p">,</span> <span class="nx">haircolor</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">haircolor</span><span class="p">,</span> <span class="nx">role</span><span class="o">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">role</span><span class="p">};</span>
     <span class="kr">const</span> <span class="nx">json</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">obj</span><span class="p">);</span>
     <span class="k">return</span> <span class="nx">json</span><span class="p">;</span>
 <span class="p">}</span>
 
 <span class="c1">// make a new Person and assign to variable teacher</span>
-<span class="kd">var</span> <span class="nx">teacher</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Mr M&quot;</span><span class="p">,</span> <span class="s2">&quot;jm1021&quot;</span><span class="p">,</span> <span class="mf">1977</span><span class="p">);</span>
+<span class="kd">var</span> <span class="nx">teacher</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Mr M&quot;</span><span class="p">,</span> <span class="s2">&quot;jm1021&quot;</span><span class="p">,</span> <span class="mf">1977</span><span class="p">,</span> <span class="s2">&quot;blue&quot;</span><span class="p">);</span>
 <span class="nx">teacher</span><span class="p">.</span><span class="nx">setRole</span><span class="p">(</span><span class="s2">&quot;Teacher&quot;</span><span class="p">);</span>
 
 <span class="c1">// output of Object and JSON/string associated with Teacher</span>
@@ -308,8 +318,13 @@ object ; [ 1, 2, 3 ]
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>object ; Person { name: &#39;Mr M&#39;, ghID: &#39;jm1021&#39;, classOf: 1977, role: &#39;Teacher&#39; }
-string ; {&#34;name&#34;:&#34;Mr M&#34;,&#34;ghID&#34;:&#34;jm1021&#34;,&#34;classOf&#34;:1977,&#34;role&#34;:&#34;Teacher&#34;}
+<pre>object ; Person {
+  name: &#39;Mr M&#39;,
+  ghID: &#39;jm1021&#39;,
+  classOf: 1977,
+  haircolor: &#39;blue&#39;,
+  role: &#39;Teacher&#39; }
+string ; {&#34;name&#34;:&#34;Mr M&#34;,&#34;ghID&#34;:&#34;jm1021&#34;,&#34;classOf&#34;:1977,&#34;haircolor&#34;:&#34;blue&#34;,&#34;role&#34;:&#34;Teacher&#34;}
 </pre>
 </div>
 </div>
@@ -340,12 +355,12 @@ string ; {&#34;name&#34;:&#34;Mr M&#34;,&#34;ghID&#34;:&#34;jm1021&#34;,&#34;cla
     <div class="input_area">
 <div class=" highlight hl-javascript"><pre><span></span><span class="c1">// define a student Array of Person(s)</span>
 <span class="kd">var</span> <span class="nx">students</span> <span class="o">=</span> <span class="p">[</span> 
-    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Anthony&quot;</span><span class="p">,</span> <span class="s2">&quot;tonyhieu&quot;</span><span class="p">,</span> <span class="mf">2022</span><span class="p">),</span>
-    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Bria&quot;</span><span class="p">,</span> <span class="s2">&quot;B-G101&quot;</span><span class="p">,</span> <span class="mf">2023</span><span class="p">),</span>
-    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Allie&quot;</span><span class="p">,</span> <span class="s2">&quot;xiaoa0&quot;</span><span class="p">,</span> <span class="mf">2023</span><span class="p">),</span>
-    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Tigran&quot;</span><span class="p">,</span> <span class="s2">&quot;Tigran7&quot;</span><span class="p">,</span> <span class="mf">2023</span><span class="p">),</span>
-    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Rebecca&quot;</span><span class="p">,</span> <span class="s2">&quot;Rebecca-123&quot;</span><span class="p">,</span> <span class="mf">2023</span><span class="p">),</span>
-    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Vidhi&quot;</span><span class="p">,</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span> <span class="mf">2024</span><span class="p">)</span>
+    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Anthony&quot;</span><span class="p">,</span> <span class="s2">&quot;tonyhieu&quot;</span><span class="p">,</span> <span class="mf">2022</span><span class="p">,</span> <span class="s2">&quot;pink&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Bria&quot;</span><span class="p">,</span> <span class="s2">&quot;B-G101&quot;</span><span class="p">,</span> <span class="mf">2023</span><span class="p">,</span> <span class="s2">&quot;blonde&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Allie&quot;</span><span class="p">,</span> <span class="s2">&quot;xiaoa0&quot;</span><span class="p">,</span> <span class="mf">2023</span><span class="p">,</span> <span class="s2">&quot;ginger&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Tigran&quot;</span><span class="p">,</span> <span class="s2">&quot;Tigran7&quot;</span><span class="p">,</span> <span class="mf">2023</span><span class="p">,</span> <span class="s2">&quot;black&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Rebecca&quot;</span><span class="p">,</span> <span class="s2">&quot;Rebecca-123&quot;</span><span class="p">,</span> <span class="mf">2023</span><span class="p">,</span> <span class="s2">&quot;grey&quot;</span><span class="p">),</span>
+    <span class="k">new</span> <span class="nx">Person</span><span class="p">(</span><span class="s2">&quot;Vidhi&quot;</span><span class="p">,</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span> <span class="mf">2024</span><span class="p">,</span> <span class="s2">&quot;green&quot;</span><span class="p">)</span>
 <span class="p">];</span>
 
 <span class="c1">// define a classroom and build Classroom objects and json</span>
@@ -382,28 +397,55 @@ string ; {&#34;name&#34;:&#34;Mr M&#34;,&#34;ghID&#34;:&#34;jm1021&#34;,&#34;cla
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>object ; [ Person { name: &#39;Mr M&#39;, ghID: &#39;jm1021&#39;, classOf: 1977, role: &#39;Teacher&#39; },
+<pre>object ; [ Person {
+    name: &#39;Mr M&#39;,
+    ghID: &#39;jm1021&#39;,
+    classOf: 1977,
+    haircolor: &#39;blue&#39;,
+    role: &#39;Teacher&#39; },
   Person {
     name: &#39;Anthony&#39;,
     ghID: &#39;tonyhieu&#39;,
     classOf: 2022,
+    haircolor: &#39;pink&#39;,
     role: &#39;Student&#39; },
-  Person { name: &#39;Bria&#39;, ghID: &#39;B-G101&#39;, classOf: 2023, role: &#39;Student&#39; },
-  Person { name: &#39;Allie&#39;, ghID: &#39;xiaoa0&#39;, classOf: 2023, role: &#39;Student&#39; },
+  Person {
+    name: &#39;Bria&#39;,
+    ghID: &#39;B-G101&#39;,
+    classOf: 2023,
+    haircolor: &#39;blonde&#39;,
+    role: &#39;Student&#39; },
+  Person {
+    name: &#39;Allie&#39;,
+    ghID: &#39;xiaoa0&#39;,
+    classOf: 2023,
+    haircolor: &#39;ginger&#39;,
+    role: &#39;Student&#39; },
   Person {
     name: &#39;Tigran&#39;,
     ghID: &#39;Tigran7&#39;,
     classOf: 2023,
+    haircolor: &#39;black&#39;,
     role: &#39;Student&#39; },
   Person {
     name: &#39;Rebecca&#39;,
     ghID: &#39;Rebecca-123&#39;,
     classOf: 2023,
+    haircolor: &#39;grey&#39;,
     role: &#39;Student&#39; },
-  Person { name: &#39;Vidhi&#39;, ghID: &#39;unknown&#39;, classOf: 2024, role: &#39;Student&#39; } ]
+  Person {
+    name: &#39;Vidhi&#39;,
+    ghID: &#39;unknown&#39;,
+    classOf: 2024,
+    haircolor: &#39;green&#39;,
+    role: &#39;Student&#39; } ]
 string ; Mr M
-string ; {&#34;name&#34;:&#34;Mr M&#34;,&#34;ghID&#34;:&#34;jm1021&#34;,&#34;classOf&#34;:1977,&#34;role&#34;:&#34;Teacher&#34;}
-object ; { name: &#39;Mr M&#39;, ghID: &#39;jm1021&#39;, classOf: 1977, role: &#39;Teacher&#39; }
+string ; {&#34;name&#34;:&#34;Mr M&#34;,&#34;ghID&#34;:&#34;jm1021&#34;,&#34;classOf&#34;:1977,&#34;haircolor&#34;:&#34;blue&#34;,&#34;role&#34;:&#34;Teacher&#34;}
+object ; { name: &#39;Mr M&#39;,
+  ghID: &#39;jm1021&#39;,
+  classOf: 1977,
+  haircolor: &#39;blue&#39;,
+  role: &#39;Teacher&#39; }
 </pre>
 </div>
 </div>
@@ -442,18 +484,20 @@ object ; { name: &#39;Mr M&#39;, ghID: &#39;jm1021&#39;, classOf: 1977, role: &#
   <span class="c1">// HTML Style is build using inline structure</span>
   <span class="kd">var</span> <span class="nx">style</span> <span class="o">=</span> <span class="p">(</span>
     <span class="s2">&quot;display:inline-block;&quot;</span> <span class="o">+</span>
-    <span class="s2">&quot;background:black;&quot;</span> <span class="o">+</span>
+    <span class="s2">&quot;background:pink;&quot;</span> <span class="o">+</span>
     <span class="s2">&quot;border: 2px solid grey;&quot;</span> <span class="o">+</span>
-    <span class="s2">&quot;box-shadow: 0.8em 0.4em 0.4em grey;&quot;</span>
+    <span class="s2">&quot;box-shadow: 0.8em 0.4em 0.4em grey;&quot;</span> 
   <span class="p">);</span>
 
   <span class="c1">// HTML Body of Table is build as a series of concatenations (+=)</span>
   <span class="kd">var</span> <span class="nx">body</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">;</span>
+
   <span class="c1">// Heading for Array Columns</span>
   <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;tr&gt;&quot;</span><span class="p">;</span>
   <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;Name&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
   <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;GitHub ID&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
   <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;Class Of&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
+  <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;Hair Color&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
   <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;th&gt;&lt;mark&gt;&quot;</span> <span class="o">+</span> <span class="s2">&quot;Role&quot;</span> <span class="o">+</span> <span class="s2">&quot;&lt;/mark&gt;&lt;/th&gt;&quot;</span><span class="p">;</span>
   <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;/tr&gt;&quot;</span><span class="p">;</span>
   <span class="c1">// Data of Array, iterate through each row of compsci.classroom </span>
@@ -464,6 +508,7 @@ object ; { name: &#39;Mr M&#39;, ghID: &#39;jm1021&#39;, classOf: 1977, role: &#
     <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">name</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
     <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">ghID</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
     <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">classOf</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
+    <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">haircolor</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
     <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;td&gt;&quot;</span> <span class="o">+</span> <span class="nx">row</span><span class="p">.</span><span class="nx">role</span> <span class="o">+</span> <span class="s2">&quot;&lt;/td&gt;&quot;</span><span class="p">;</span>
     <span class="c1">// tr to end line</span>
     <span class="nx">body</span> <span class="o">+=</span> <span class="s2">&quot;&lt;tr&gt;&quot;</span><span class="p">;</span>
@@ -493,11 +538,12 @@ object ; { name: &#39;Mr M&#39;, ghID: &#39;jm1021&#39;, classOf: 1977, role: &#
 
 <div class="output_area">
 
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div style='display:inline-block;background:black;border: 2px solid grey;box-shadow: 0.8em 0.4em 0.4em grey;'><table><tr><th><mark>Name</mark></th><th><mark>GitHub ID</mark></th><th><mark>Class Of</mark></th><th><mark>Role</mark></th></tr><tr><td>Mr M</td><td>jm1021</td><td>1977</td><td>Teacher</td><tr><tr><td>Anthony</td><td>tonyhieu</td><td>2022</td><td>Student</td><tr><tr><td>Bria</td><td>B-G101</td><td>2023</td><td>Student</td><tr><tr><td>Allie</td><td>xiaoa0</td><td>2023</td><td>Student</td><tr><tr><td>Tigran</td><td>Tigran7</td><td>2023</td><td>Student</td><tr><tr><td>Rebecca</td><td>Rebecca-123</td><td>2023</td><td>Student</td><tr><tr><td>Vidhi</td><td>unknown</td><td>2024</td><td>Student</td><tr></table></div>
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">Failed to start the Kernel. 
+</span>
+<span class="ansi-red-intense-fg ansi-bold">View Jupyter &lt;a href=&#39;command:jupyter.viewOutput&#39;&gt;log&lt;/a&gt; for further details.</span></pre>
 </div>
-
 </div>
 
 </div>
