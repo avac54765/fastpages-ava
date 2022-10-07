@@ -15,3 +15,4 @@ title: My Weekly Work
  | 3 | [Making a Quiz on App Lab](https://avac54765.github.io/fastpages-ava/app_lab_quiz/markdown)|
  | 4 | [Learning to Collaborate](https://avac54765.github.io/fastpages-ava/collaboration/markdown),---> [My Group's Collaboration](https://avac54765.github.io/fastpages-ava/groupcollaboration/markdown). |
  | 5 | [Learing Javascript](https://avac54765.github.io/fastpages-ava/learningjavascript/javascript), ---> [Scrum Process](https://avac54765.github.io/fastpages-ava/scrum_process/markdown). |
+ | 6 | [Project Function/Design Notes](https://avac54765.github.io/fastpages-ava/1.2-1.3notes/markdown), ---> [Final Project Wireframe and UML](https://avac54765.github.io/groupfastpage/finalplanning/wireframe).
