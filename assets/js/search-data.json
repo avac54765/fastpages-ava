@@ -225,7 +225,7 @@
   
       ,"page1": {
           "title": "API",
-          "content": "&lt;img src=&quot;/fastpages-ava//images/AVA.jpg height=&quot;200&quot; title=&quot;Data&quot; alt=&quot;&quot;&gt; | Overview | Grammar API | Python Rapid API | . Web API Overview . A Web API is an application programming interface typically for a web browser. Non-changing or Static Endpoints are used in interacting with the server-side Web APIs. RESTful Web APIs use HTTP methods to access resources via URL parameters, and use JSON for transmitting text between client and server. .",
+          "content": "| Overview | Grammar API | Python Rapid API | . Web API Overview . A Web API is an application programming interface typically for a web browser. Non-changing or Static Endpoints are used in interacting with the server-side Web APIs. RESTful Web APIs use HTTP methods to access resources via URL parameters, and use JSON for transmitting text between client and server. .",
           "url": "https://avac54765.github.io/fastpages-ava/API/overview",
           "relUrl": "/API/overview",
           "date": ""
@@ -272,7 +272,7 @@
   
       ,"page10": {
           "title": "My Weekly Work",
-          "content": "Trimester 1 Work . Here is all of my APCSP work for every week. Have fun looking through Ava’s struggles and successes. :) . Week Projects . 0 | My First Jupyter Notebook,—&gt; My First Markdown. | . 1 | My Bread Quiz (Python),—&gt; Key Tools Check. | . 2 | Changing my Theme,—&gt; Lists, Dictionaries, Iteration. | . 3 | Making a Quiz on App Lab | . 4 | Learning to Collaborate,—&gt; My Group’s Collaboration. | . 5 | Learing Javascript, —&gt; Scrum Process. | . 6 | Project Function/Design Notes, —&gt; Final Project Wireframe and UML. | .",
+          "content": "Trimester 1 Work . Here is all of my APCSP work for every week. Have fun looking through Ava’s struggles and successes. :) . Week Projects . 0 | My First Jupyter Notebook,—&gt; My First Markdown. | . 1 | My Bread Quiz (Python),—&gt; Key Tools Check. | . 2 | Changing my Theme,—&gt; Lists, Dictionaries, Iteration. | . 3 | Making a Quiz on App Lab | . 4 | Learning to Collaborate,—&gt; My Group’s Collaboration. | . 5 | Learing Javascript, —&gt; Scrum Process. | . 6 | Project Function/Design Notes, —&gt; Final Project Wireframe and UML. | . 7 | Collegeboard 1.4 Video and Quiz, —&gt; Final Project Planning Collegeboard Criteria, —&gt; API Submenu, —. Correcting Errors | .",
           "url": "https://avac54765.github.io/fastpages-ava/my_work",
           "relUrl": "/my_work",
           "date": ""
