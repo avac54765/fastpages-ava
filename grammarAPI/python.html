@@ -167,9 +167,50 @@ window.onload = wrap_img;
 
 <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">request</span><span class="p">(</span><span class="s2">"POST"</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">json</span><span class="o">=</span><span class="n">payload</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+<span class="c1"># print(response.text)</span>
 
-<span class="n">json</span><span class="o">=</span> 
+<span class="p">{</span>
+  <span class="s2">"elements"</span><span class="p">:</span> <span class="p">[</span>
+    <span class="p">{</span>
+      <span class="s2">"id"</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="s2">"errors"</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+          <span class="s2">"word"</span><span class="p">:</span> <span class="s2">"thiss"</span><span class="p">,</span>
+          <span class="s2">"position"</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+          <span class="s2">"suggestions"</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s2">"this"</span><span class="p">,</span>
+            <span class="s2">"thighs"</span><span class="p">,</span>
+            <span class="s2">"theist"</span><span class="p">,</span>
+            <span class="s2">"thesis"</span><span class="p">,</span>
+            <span class="s2">"ethics"</span><span class="p">,</span>
+            <span class="s2">"theists"</span><span class="p">,</span>
+            <span class="s2">"theism"</span><span class="p">,</span>
+            <span class="s2">"twits"</span><span class="p">,</span>
+            <span class="s2">"thigh"</span><span class="p">,</span>
+            <span class="s2">"twists"</span>
+          <span class="p">]</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+          <span class="s2">"word"</span><span class="p">:</span> <span class="s2">"intresting"</span><span class="p">,</span>
+          <span class="s2">"position"</span><span class="p">:</span> <span class="mi">9</span><span class="p">,</span>
+          <span class="s2">"suggestions"</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s2">"interesting"</span><span class="p">,</span>
+            <span class="s2">"entreating"</span><span class="p">,</span>
+            <span class="s2">"entrusting"</span><span class="p">,</span>
+            <span class="s2">"uninteresting"</span><span class="p">,</span>
+            <span class="s2">"intersecting"</span><span class="p">,</span>
+            <span class="s2">"untrusting"</span><span class="p">,</span>
+            <span class="s2">"interstice"</span><span class="p">,</span>
+            <span class="s2">"interested"</span><span class="p">,</span>
+            <span class="s2">"entireties"</span><span class="p">,</span>
+            <span class="s2">"interning"</span>
+          <span class="p">]</span>
+        <span class="p">}</span>
+      <span class="p">]</span>
+    <span class="p">}</span>
+  <span class="p">],</span>
+  <span class="s2">"spellingErrorCount"</span><span class="p">:</span> <span class="mi">2</span>
+<span class="p">}</span>
 </pre></div>
 
     </div>
@@ -181,10 +222,37 @@ window.onload = wrap_img;
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>{"elements":[{"id":0,"errors":[{"word":"thiss","position":0,"suggestions":["this","thighs","theist","thesis","theists","theism","twits","ethics","thigh","twists"]},{"word":"intresting","position":9,"suggestions":["interesting","entreating","entrusting","uninteresting","intersecting","untrusting","interstice","entireties","interning","interpreting"]}]}],"spellingErrorCount":2}
-</pre>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{'elements': [{'id': 0,
+   'errors': [{'word': 'thiss',
+     'position': 0,
+     'suggestions': ['this',
+      'thighs',
+      'theist',
+      'thesis',
+      'ethics',
+      'theists',
+      'theism',
+      'twits',
+      'thigh',
+      'twists']},
+    {'word': 'intresting',
+     'position': 9,
+     'suggestions': ['interesting',
+      'entreating',
+      'entrusting',
+      'uninteresting',
+      'intersecting',
+      'untrusting',
+      'interstice',
+      'interested',
+      'entireties',
+      'interning']}]}],
+ 'spellingErrorCount': 2}</pre>
 </div>
+
 </div>
 
 </div>
