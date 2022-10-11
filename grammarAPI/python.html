@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      5 min read
     
 </span></p>
 
@@ -153,14 +153,15 @@ window.onload = wrap_img;
 
 <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">request</span><span class="p">(</span><span class="s2">"GET"</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+<span class="c1"># print(response.text)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Name"</span><span class="p">)</span>
-<span class="n">name</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()</span> 
-<span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">name</span><span class="o">.</span><span class="n">items</span><span class="p">()</span><span class="o">.</span><span class="n">get</span><span class="p">:</span> 
-    <span class="nb">print</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Languages Supported"</span><span class="p">)</span>
+<span class="n">languagelist</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()</span> 
+
+
+<span class="k">for</span> <span class="n">language</span> <span class="ow">in</span> <span class="n">languagelist</span><span class="p">:</span>
+	<span class="nb">print</span><span class="p">(</span><span class="n">language</span><span class="p">[</span><span class="s2">"name"</span><span class="p">],</span> <span class="s2">" = "</span><span class="p">,</span> <span class="n">language</span><span class="p">[</span><span class="s2">"code"</span><span class="p">])</span> <span class="c1">#this code is used in the next step to check the grammer in a specified language</span>
 </pre></div>
 
     </div>
@@ -173,26 +174,494 @@ window.onload = wrap_img;
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[{"name":"Arabic","code":"ar","longCode":"ar"},{"name":"Asturian","code":"ast","longCode":"ast-ES"},{"name":"Belarusian","code":"be","longCode":"be-BY"},{"name":"Breton","code":"br","longCode":"br-FR"},{"name":"Catalan","code":"ca","longCode":"ca-ES"},{"name":"Catalan (Valencian)","code":"ca","longCode":"ca-ES-valencia"},{"name":"Chinese","code":"zh","longCode":"zh-CN"},{"name":"Danish","code":"da","longCode":"da-DK"},{"name":"Dutch","code":"nl","longCode":"nl"},{"name":"Dutch","code":"nl","longCode":"nl"},{"name":"Dutch (Belgium)","code":"nl","longCode":"nl-BE"},{"name":"English","code":"en","longCode":"en"},{"name":"English","code":"en","longCode":"en"},{"name":"English (Australian)","code":"en","longCode":"en-AU"},{"name":"English (Australian)","code":"en","longCode":"en-AU"},{"name":"English (Canadian)","code":"en","longCode":"en-CA"},{"name":"English (Canadian)","code":"en","longCode":"en-CA"},{"name":"English (GB)","code":"en","longCode":"en-GB"},{"name":"English (GB)","code":"en","longCode":"en-GB"},{"name":"English (New Zealand)","code":"en","longCode":"en-NZ"},{"name":"English (New Zealand)","code":"en","longCode":"en-NZ"},{"name":"English (South African)","code":"en","longCode":"en-ZA"},{"name":"English (South African)","code":"en","longCode":"en-ZA"},{"name":"English (US)","code":"en","longCode":"en-US"},{"name":"English (US)","code":"en","longCode":"en-US"},{"name":"Esperanto","code":"eo","longCode":"eo"},{"name":"French","code":"fr","longCode":"fr"},{"name":"French","code":"fr","longCode":"fr"},{"name":"Galician","code":"gl","longCode":"gl-ES"},{"name":"German","code":"de","longCode":"de"},{"name":"German","code":"de","longCode":"de"},{"name":"German (Austria)","code":"de","longCode":"de-AT"},{"name":"German (Austria)","code":"de","longCode":"de-AT"},{"name":"German (Germany)","code":"de","longCode":"de-DE"},{"name":"German (Germany)","code":"de","longCode":"de-DE"},{"name":"German (Swiss)","code":"de","longCode":"de-CH"},{"name":"German (Swiss)","code":"de","longCode":"de-CH"},{"name":"Greek","code":"el","longCode":"el-GR"},{"name":"Irish","code":"ga","longCode":"ga-IE"},{"name":"Italian","code":"it","longCode":"it"},{"name":"Japanese","code":"ja","longCode":"ja-JP"},{"name":"Khmer","code":"km","longCode":"km-KH"},{"name":"Norwegian (Bokmål)","code":"nb","longCode":"nb"},{"name":"Norwegian (Bokmål)","code":"no","longCode":"no"},{"name":"Persian","code":"fa","longCode":"fa"},{"name":"Polish","code":"pl","longCode":"pl-PL"},{"name":"Portuguese","code":"pt","longCode":"pt"},{"name":"Portuguese (Angola preAO)","code":"pt","longCode":"pt-AO"},{"name":"Portuguese (Angola preAO)","code":"pt","longCode":"pt-AO"},{"name":"Portuguese (Brazil)","code":"pt","longCode":"pt-BR"},{"name":"Portuguese (Brazil)","code":"pt","longCode":"pt-BR"},{"name":"Portuguese (Moçambique preAO)","code":"pt","longCode":"pt-MZ"},{"name":"Portuguese (Moçambique preAO)","code":"pt","longCode":"pt-MZ"},{"name":"Portuguese (Portugal)","code":"pt","longCode":"pt-PT"},{"name":"Portuguese (Portugal)","code":"pt","longCode":"pt-PT"},{"name":"Romanian","code":"ro","longCode":"ro-RO"},{"name":"Russian","code":"ru","longCode":"ru-RU"},{"name":"Simple German","code":"de-DE-x-simple-language","longCode":"de-DE-x-simple-language"},{"name":"Slovak","code":"sk","longCode":"sk-SK"},{"name":"Slovenian","code":"sl","longCode":"sl-SI"},{"name":"Spanish","code":"es","longCode":"es"},{"name":"Spanish","code":"es","longCode":"es"},{"name":"Spanish (voseo)","code":"es","longCode":"es-AR"},{"name":"Swedish","code":"sv","longCode":"sv"},{"name":"Tagalog","code":"tl","longCode":"tl-PH"},{"name":"Tamil","code":"ta","longCode":"ta-IN"},{"name":"Ukrainian","code":"uk","longCode":"uk-UA"}]
-Name
+<pre>Languages Supported
+Arabic  =  ar
+Asturian  =  ast
+Belarusian  =  be
+Breton  =  br
+Catalan  =  ca
+Catalan (Valencian)  =  ca
+Chinese  =  zh
+Danish  =  da
+Dutch  =  nl
+Dutch  =  nl
+Dutch (Belgium)  =  nl
+English  =  en
+English  =  en
+English (Australian)  =  en
+English (Australian)  =  en
+English (Canadian)  =  en
+English (Canadian)  =  en
+English (GB)  =  en
+English (GB)  =  en
+English (New Zealand)  =  en
+English (New Zealand)  =  en
+English (South African)  =  en
+English (South African)  =  en
+English (US)  =  en
+English (US)  =  en
+Esperanto  =  eo
+French  =  fr
+French  =  fr
+Galician  =  gl
+German  =  de
+German  =  de
+German (Austria)  =  de
+German (Austria)  =  de
+German (Germany)  =  de
+German (Germany)  =  de
+German (Swiss)  =  de
+German (Swiss)  =  de
+Greek  =  el
+Irish  =  ga
+Italian  =  it
+Japanese  =  ja
+Khmer  =  km
+Norwegian (Bokmål)  =  nb
+Norwegian (Bokmål)  =  no
+Persian  =  fa
+Polish  =  pl
+Portuguese  =  pt
+Portuguese (Angola preAO)  =  pt
+Portuguese (Angola preAO)  =  pt
+Portuguese (Brazil)  =  pt
+Portuguese (Brazil)  =  pt
+Portuguese (Moçambique preAO)  =  pt
+Portuguese (Moçambique preAO)  =  pt
+Portuguese (Portugal)  =  pt
+Portuguese (Portugal)  =  pt
+Romanian  =  ro
+Russian  =  ru
+Simple German  =  de-DE-x-simple-language
+Slovak  =  sk
+Slovenian  =  sl
+Spanish  =  es
+Spanish  =  es
+Spanish (voseo)  =  es
+Swedish  =  sv
+Tagalog  =  tl
+Tamil  =  ta
+Ukrainian  =  uk
 </pre>
 </div>
 </div>
 
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">import</span> <span class="nn">json</span>
+
+<span class="n">url</span> <span class="o">=</span> <span class="s2">"https://dnaber-languagetool.p.rapidapi.com/v2/check"</span>
+
+<span class="n">payload</span> <span class="o">=</span> <span class="s2">"language=en-US&amp;text="</span> <span class="c1">#because of use of code'eu' this is checking in English</span>
+<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span>
+	<span class="s2">"content-type"</span><span class="p">:</span> <span class="s2">"application/x-www-form-urlencoded"</span><span class="p">,</span>
+	<span class="s2">"X-RapidAPI-Key"</span><span class="p">:</span> <span class="s2">"7b146afe20msh92e84c02ae27c6ap1185b5jsnb7a574f24cbe"</span><span class="p">,</span>
+	<span class="s2">"X-RapidAPI-Host"</span><span class="p">:</span> <span class="s2">"dnaber-languagetool.p.rapidapi.com"</span>
+<span class="p">}</span>
+
+<span class="n">text</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Please enter the text you would like checked"</span><span class="p">)</span>
+
+<span class="n">payload</span> <span class="o">+=</span> <span class="n">text</span> <span class="c1">#this appends the string defined above to add the text needing to be checked</span>
+
+<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">request</span><span class="p">(</span><span class="s2">"POST"</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">payload</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">)</span>
+
+<span class="c1"># print(response.text)</span>
+
+
+<span class="c1">#print(json.dumps(response.json(), indent=4))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s2">"matches"</span><span class="p">],</span> <span class="n">indent</span><span class="o">=</span><span class="mi">4</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
 <div class="output_area">
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">AttributeError</span>                            Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">/home/avac54765/vscode/fastpages-ava/_notebooks/2022-10-07-grammarAPI.ipynb Cell 2</span> in <span class="ansi-cyan-fg">&lt;cell line: 16&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/avac54765/vscode/fastpages-ava/_notebooks/2022-10-07-grammarAPI.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D?line=13'&gt;14&lt;/a&gt;</span> print("Name")
-<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/avac54765/vscode/fastpages-ava/_notebooks/2022-10-07-grammarAPI.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D?line=14'&gt;15&lt;/a&gt;</span> name = response.json() 
-<span class="ansi-green-fg">---&gt; &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/avac54765/vscode/fastpages-ava/_notebooks/2022-10-07-grammarAPI.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D?line=15'&gt;16&lt;/a&gt;</span> for key, value in name.items(): 
-<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/avac54765/vscode/fastpages-ava/_notebooks/2022-10-07-grammarAPI.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D?line=16'&gt;17&lt;/a&gt;</span>     print(key, value)
-<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/avac54765/vscode/fastpages-ava/_notebooks/2022-10-07-grammarAPI.ipynb#W3sdnNjb2RlLXJlbW90ZQ%3D%3D?line=18'&gt;19&lt;/a&gt;</span> print()
-
-<span class="ansi-red-fg">AttributeError</span>: 'list' object has no attribute 'items'</pre>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[
+    {
+        "message": "This sentence does not start with an uppercase letter.",
+        "shortMessage": "",
+        "replacements": [
+            {
+                "value": "Hello"
+            }
+        ],
+        "offset": 0,
+        "length": 5,
+        "context": {
+            "text": "hello kjah ",
+            "offset": 0,
+            "length": 5
+        },
+        "sentence": "hello kjah",
+        "type": {
+            "typeName": "Other"
+        },
+        "rule": {
+            "id": "UPPERCASE_SENTENCE_START",
+            "description": "Checks that a sentence starts with an uppercase letter",
+            "issueType": "typographical",
+            "urls": [
+                {
+                    "value": "https://languagetool.org/insights/post/spelling-capital-letters/"
+                }
+            ],
+            "category": {
+                "id": "CASING",
+                "name": "Capitalization"
+            },
+            "isPremium": false
+        },
+        "ignoreForIncompleteSentence": true,
+        "contextForSureMatch": -1
+    },
+    {
+        "message": "Possible spelling mistake found.",
+        "shortMessage": "Spelling mistake",
+        "replacements": [
+            {
+                "value": "yeah"
+            },
+            {
+                "value": "Jay"
+            },
+            {
+                "value": "Khan"
+            },
+            {
+                "value": "Utah"
+            },
+            {
+                "value": "jaw"
+            },
+            {
+                "value": "Ajax"
+            },
+            {
+                "value": "Kay"
+            },
+            {
+                "value": "Klein"
+            },
+            {
+                "value": "Noah"
+            },
+            {
+                "value": "jar"
+            },
+            {
+                "value": "khan",
+                "shortDescription": "title given to rulers"
+            },
+            {
+                "value": "Klan"
+            },
+            {
+                "value": "Leah"
+            },
+            {
+                "value": "ah"
+            },
+            {
+                "value": "kWh"
+            },
+            {
+                "value": "shah"
+            },
+            {
+                "value": "JAL"
+            },
+            {
+                "value": "Jan"
+            },
+            {
+                "value": "KIA"
+            },
+            {
+                "value": "jab"
+            },
+            {
+                "value": "rajah"
+            },
+            {
+                "value": "jag"
+            },
+            {
+                "value": "jay"
+            },
+            {
+                "value": "koan"
+            },
+            {
+                "value": "rah"
+            },
+            {
+                "value": "ajar"
+            },
+            {
+                "value": "ayah"
+            },
+            {
+                "value": "bah"
+            },
+            {
+                "value": "blah"
+            },
+            {
+                "value": "kith"
+            },
+            {
+                "value": "pah"
+            },
+            {
+                "value": "kph"
+            },
+            {
+                "value": "Ptah"
+            },
+            {
+                "value": "jam"
+            },
+            {
+                "value": "AAH"
+            },
+            {
+                "value": "AJAX"
+            },
+            {
+                "value": "AJH"
+            },
+            {
+                "value": "BAH"
+            },
+            {
+                "value": "BJH"
+            },
+            {
+                "value": "CAH"
+            },
+            {
+                "value": "CJA"
+            },
+            {
+                "value": "CJH"
+            },
+            {
+                "value": "CLAH"
+            },
+            {
+                "value": "EAH"
+            },
+            {
+                "value": "FAH"
+            },
+            {
+                "value": "FJA"
+            },
+            {
+                "value": "IAH"
+            },
+            {
+                "value": "JA"
+            },
+            {
+                "value": "JAA"
+            },
+            {
+                "value": "JAC"
+            },
+            {
+                "value": "JAF"
+            },
+            {
+                "value": "JAG"
+            },
+            {
+                "value": "JAI"
+            },
+            {
+                "value": "JAK"
+            },
+            {
+                "value": "JAP"
+            },
+            {
+                "value": "Jap"
+            },
+            {
+                "value": "KAL"
+            },
+            {
+                "value": "KAV"
+            },
+            {
+                "value": "KAZ"
+            },
+            {
+                "value": "KBA"
+            },
+            {
+                "value": "KEA"
+            },
+            {
+                "value": "KIAS"
+            },
+            {
+                "value": "KJ"
+            },
+            {
+                "value": "KMA"
+            },
+            {
+                "value": "KMH"
+            },
+            {
+                "value": "KNA"
+            },
+            {
+                "value": "KOH"
+            },
+            {
+                "value": "KSA"
+            },
+            {
+                "value": "KWH"
+            },
+            {
+                "value": "Kan"
+            },
+            {
+                "value": "Koch"
+            },
+            {
+                "value": "Kojak"
+            },
+            {
+                "value": "Kwan"
+            },
+            {
+                "value": "LAH"
+            },
+            {
+                "value": "MAH"
+            },
+            {
+                "value": "NAH"
+            },
+            {
+                "value": "PAH"
+            },
+            {
+                "value": "SAH"
+            },
+            {
+                "value": "SJA"
+            },
+            {
+                "value": "Shah"
+            },
+            {
+                "value": "TAH"
+            },
+            {
+                "value": "UAH"
+            },
+            {
+                "value": "UJA"
+            },
+            {
+                "value": "aah"
+            },
+            {
+                "value": "nah"
+            },
+            {
+                "value": "Ajay"
+            },
+            {
+                "value": "JHH"
+            },
+            {
+                "value": "JMH"
+            },
+            {
+                "value": "Kai"
+            },
+            {
+                "value": "Kat"
+            },
+            {
+                "value": "Kath"
+            },
+            {
+                "value": "Kia"
+            },
+            {
+                "value": "Kush"
+            },
+            {
+                "value": "hah"
+            },
+            {
+                "value": "kJ"
+            },
+            {
+                "value": "kcal"
+            },
+            {
+                "value": "kmph"
+            },
+            {
+                "value": "mAh"
+            },
+            {
+                "value": "woah"
+            }
+        ],
+        "offset": 6,
+        "length": 4,
+        "context": {
+            "text": "hello kjah ",
+            "offset": 6,
+            "length": 4
+        },
+        "sentence": "hello kjah",
+        "type": {
+            "typeName": "Other"
+        },
+        "rule": {
+            "id": "MORFOLOGIK_RULE_EN_US",
+            "description": "Possible spelling mistake",
+            "issueType": "misspelling",
+            "category": {
+                "id": "TYPOS",
+                "name": "Possible Typo"
+            },
+            "isPremium": false
+        },
+        "ignoreForIncompleteSentence": false,
+        "contextForSureMatch": 0
+    }
+]
+</pre>
 </div>
 </div>
 
