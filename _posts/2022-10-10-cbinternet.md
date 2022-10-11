@@ -21,6 +21,16 @@ categories: [week 8]
 -<mark>route</mark>= the process of finding a path from sender to receiver
 
 
+# Video Two Notes
+- The internet is a computer network consisting of interconnected networks that use <mark>standardized, open (nonproprietary) communication protocals</mark>
+- Access to the internet depends on the ability to connect a computing device to an Internet connected device
+- <mark>A protocal</mark>= an agreed-upon set of rules that specify the behavior of a system
+- the protocals used in the Internet are <mark>open,</mark> which allows users to easily connect additional computing devices to the Internet
+- Routing on the Internet is usually <mark>dynamic</mark>; it is not specified in advance
+- the <mark>scalability </mark>of a system is the capacity for the system to change in size and scale to meet new demands
+- the Internet was designed to be scalable 
+
+
 
 Internet Quiz
 ![]({{site.baseurl}}/images/internet quiz.png)
