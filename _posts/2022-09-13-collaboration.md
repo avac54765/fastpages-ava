@@ -1,5 +1,5 @@
 ---
-title: Learning to Collaborate
+title: Collaboration- Collegeboard 1.1
 toc: true
 comments: true
 layout: post
