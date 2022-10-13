@@ -38,3 +38,10 @@ Internet Quiz
 I accidentally took this quiz before watching the videos so I had no bacakground information on this. I think I would do better now.
 
 I struggled with the quiz because of the wording. After reading the questions again in my results, I realized my dumb mistakes. I need to read the questions more carefully next time.
+
+
+Computer Systems Map:
+![]({{site.baseurl}}/images/computersystemsmap.png)
+
+Internet Map:
+![]({{site.baseurl}}/images/NAMEHERE.png)
