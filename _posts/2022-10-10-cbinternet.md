@@ -44,4 +44,4 @@ Computer Systems Map:
 ![]({{site.baseurl}}/images/computersystemsmap.png)
 
 Internet Map:
-![]({{site.baseurl}}/images/NAMEHERE.png)
+![]({{site.baseurl}}/images/Internetmap.png)
