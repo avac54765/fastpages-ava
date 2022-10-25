@@ -2,10 +2,10 @@
   
     
         "post0": {
-            "title": "Week 9 Video Planning- Stock API",
-            "content": "Video Outline . Describe Project Purpose and Function using text on video: Our Project = A website that assists an ASB merch commisioner with the merchandise designing, tracking, and contacting processes. | . | Show Scrum Board and Slack This is our scrum board that is used weekly to keep track of goals and progress | Slack is used to communicate, give advice, and stay on track when not at school | . | Show debugging here is our team debugging but in a terminal to avoid an unknown module issue (show debugging on VScode issue) | we debug each file once code is written, and make necessary edits | . | Show shared fastpage and flask page This is our frontend(fastpage) and backend(flask) group pages that we use to complete assignments and projects. | . | Write how I helped with all the different roles when help needed. |",
-            "url": "https://avac54765.github.io/fastpages-ava/videoplanning/markdown",
-            "relUrl": "/videoplanning/markdown",
+            "title": "Week 9 Video Planning and Reflecting- Stock API",
+            "content": "Video Outline . Describe Project Purpose and Function using text on video: Our Project = A website that assists an ASB merch commisioner with the merchandise designing, tracking, and contacting processes. | . | Show Scrum Board and Slack This is our scrum board that is used weekly to keep track of goals and progress | Slack is used to communicate, give advice, and stay on track when not at school | . | Show debugging here is our team debugging but in a terminal to avoid an unknown module issue (show debugging on VScode issue) | we debug each file once code is written, and make necessary edits | . | Show shared fastpage and flask page This is our frontend(fastpage) and backend(flask) group pages that we use to complete assignments and projects. | . | Write how I helped with all the different roles when help needed. | Video Refelctions . APCSA- Rebecca, Linda, Divyanshi, Vaishavi . video here . Very organized consider making weekly issues that assign tasks, have links to completed code, and describe issues/things to work on | uses scrum board to track these issues | make more columns on scrum board for more organization | . | Explained all different DevOps utilities and showed where edits were made . | Made Diagrams helped with understanding | for DevOps and for Backend/frontend | specific diagram for backend/frontend to project (includes APIs and user input) | . | Used a website to plan out frontend design | APCSA- Vidhi, Riya, Lily, William . video here . Very detailed wireframe on Canva | Check lists for weekly work | Created a quiz using HTML on fastapges |",
+            "url": "https://avac54765.github.io/fastpages-ava/videoplanningreflection/markdown",
+            "relUrl": "/videoplanningreflection/markdown",
             "date": " • Oct 23, 2022"
         }
         
@@ -327,7 +327,7 @@
   
       ,"page10": {
           "title": "My Weekly Work",
-          "content": "Trimester 1 Work . Here is all of my APCSP work for every week. Have fun looking through Ava’s struggles and successes. :) . Week Projects . 0 | My First Jupyter Notebook,—&gt; My First Markdown. | . 1 | My Bread Quiz (Python),—&gt; Key Tools Check. | . 2 | Changing my Theme,—&gt; Lists, Dictionaries, Iteration. | . 3 | Making a Quiz on App Lab | . 4 | Learning to Collaborate,—&gt; My Group’s Collaboration. | . 5 | Learing Javascript, —&gt; Scrum Process. | . 6 | Project Function/Design Notes, —&gt; Final Project Wireframe and UML. | . 7 | Collegeboard 1.4 Video and Quiz, —&gt; Final Project Planning Collegeboard Criteria, —&gt; API Submenu, —. Correcting Errors, —&gt; Grammar API | . 8 | Internet Learning | .",
+          "content": "Trimester 1 Work . Here is all of my APCSP work for every week. Have fun looking through Ava’s struggles and successes. :) . Week Projects . 0 | My First Jupyter Notebook,—&gt; My First Markdown. | . 1 | My Bread Quiz (Python),—&gt; Key Tools Check. | . 2 | Changing my Theme,—&gt; Lists, Dictionaries, Iteration. | . 3 | Making a Quiz on App Lab | . 4 | Learning to Collaborate,—&gt; My Group’s Collaboration. | . 5 | Learing Javascript, —&gt; Scrum Process. | . 6 | Project Function/Design Notes, —&gt; Final Project Wireframe and UML. | . 7 | Collegeboard 1.4 Video and Quiz, —&gt; Final Project Planning Collegeboard Criteria, —&gt; API Submenu, —. Correcting Errors, —&gt; Grammar API | . 8 | Internet Learning | . 9 | Roles Team Video —&gt; Video planning/refelction —&gt; Stock API | .",
           "url": "https://avac54765.github.io/fastpages-ava/my_work",
           "relUrl": "/my_work",
           "date": ""
