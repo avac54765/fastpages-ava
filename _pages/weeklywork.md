@@ -4,6 +4,17 @@ permalink: /my_work
 title: My Weekly Work
 ---
 
+## Trimester 2 Work
+> Below is Ava's work as she survives trimester two of computer science. She survived trimester one with an "A" #womeninstem
+
+| Week | Projects |
+|----|----|
+| 0 | |
+| 1 | |
+| 2 | |
+| 3 | |
+
+
 ## Trimester 1 Work
 > Here is all of my APCSP work for every week. Have fun looking through Ava's struggles and successes. :)
 
@@ -19,3 +30,4 @@ title: My Weekly Work
  | 7 | [Collegeboard 1.4 Video and Quiz](https://avac54765.github.io/fastpages-ava/CBerror/markdown), ---> [Final Project Planning Collegeboard Criteria](https://avac54765.github.io/groupfastpage/finalplanning/criteria), ---> [API Submenu](https://avac54765.github.io/fastpages-ava/API/overview), ---. [Correcting Errors](https://avac54765.github.io/fastpages-ava/collegeboard/error), ---> [Grammar API](https://avac54765.github.io/fastpages-ava/grammarAPI/python) |
  | 8 | [Internet Learning](https://avac54765.github.io/fastpages-ava/CBinternet/markdown) |
  | 9 | [Roles Team Video](https://www.wevideo.com/view/2838344010) ---> [Video planning/refelction](https://avac54765.github.io/fastpages-ava/videoplanning/markdown) ---> [Stock API](https://avac54765.github.io/groupfastpage/data/stocks) |
+ | 10-12 | [group project review ticket](https://github.com/nighthawkcoders/APCSP/issues/71#issue-1436116993) |
