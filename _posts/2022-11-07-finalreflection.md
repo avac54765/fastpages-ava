@@ -19,11 +19,11 @@ On this final I received a **48/50** (to my surprise). I believe the reason for 
 
 One thing that helped me greatly with the more logic-based qustions was taking a screenshot of a question and using the sketch tool on my laptop to **sketch out my work**. On the AP test, I will hopefully use a <mark>scratch piece of paper</mark> to write out my math and logic to I don't mess it up. 
 
-Watching the <mark>colledgeboard videos</mark> greatly helped me understand the content on this test. After the test though, I went back and watched all the videos on <mark>_______ </mark> because those questions were especially challenging for me. 
+Watching the <mark>colledgeboard videos</mark> greatly helped me understand the content on this test. After the test though, I went back and watched all the videos from <mark>Big Idea 2 </mark> about binary numbers, data compression, extracting information from data, and using programs with data because those questions were especially challenging for me. 
 
 ### Corrections
 
-I got two corrections wrong on this final test:
+I got two questions wrong on this final test:
 
 - Q11 How nested loops with lists function:
     - ![Q11]({{site.baseurl}}/images/Q11.png)
