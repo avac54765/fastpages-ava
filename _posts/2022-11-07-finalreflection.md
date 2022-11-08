@@ -58,3 +58,11 @@ Night at the Museum was a night where all of the computer science students were 
 - I loved being able to see other people's projects for this class, and especially APCSA
 - the APCSA students were able to make their projects look very professional. I even had to ask one group what they used for frontend thinking they used some other fancy site, but they used fastapges. It really opened my eyes with design and creativity capabilities instead of simple fastpage templates. I think I need to learn more about the CSS page in order to make these cool edits.
 - One group I loved in my class of APCSP was the Frost group. This group is more on the advanced side and was able to successfully create a minesweepers game. I thought it was awesome seeing them create this advanced game from scratch. I saw them plan their project and saw their final project at Night at the Museum. 
+
+### Images
+Comp Sci:
+![Marketplace Project]({{site.baseurl}}/images/marketpalce.jpg)
+![Playlist Project]({{site.baseurl}}/images/playlist.jpg)
+
+Other Classes:
+![Room Design]({{site.baseurl}}/images/designclass.jpg)
