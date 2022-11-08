@@ -38,23 +38,23 @@ I got two questions wrong on this final test:
     - "i" needed to be multiplied by 2 first, and then add one to i so that 2 can be multiplied by 2, the next term in the list.
 
 
- # Night at the Museum
+# Night at the Museum
 
 Night at the Museum was a night where all of the computer science students were able to display their projects for others to see and learn from. I learned a great deal from the night even though ours didn't go that well. 
 
- ### What went Wrong
+### What went Wrong
  - Alexa and I had practice that night right after the first time slot, so we had little time to actually explore the other projects. 
  - our project crashed the day of the night at the museum about an hour before due to an error in the backend code
  - The team was unaware of this error, causing a panic at the night at the museum because our AWS, and therefore APIs, were not working.
  - We were unable to fix the issue before Alexa and I had to leave, meaning we were unable to show our project to other parents and students.
 
- ### Tips for Next Time
+### Tips for Next Time
  - In the future our team needs to have all code finished a few days before in case we need to spend a few days on the debugging process.
  - make sure team members alert each other when critical changes are made
  - try to have a free night for Night at the Museum to walk around and appreciate other peoples' projects and art. 
 
 
- ### Other People's Projects
+### Other People's Projects
 - I loved being able to see other people's projects for this class, and especially APCSA
 - the APCSA students were able to make their projects look very professional. I even had to ask one group what they used for frontend thinking they used some other fancy site, but they used fastapges. It really opened my eyes with design and creativity capabilities instead of simple fastpage templates. I think I need to learn more about the CSS page in order to make these cool edits.
 - One group I loved in my class of APCSP was the Frost group. This group is more on the advanced side and was able to successfully create a minesweepers game. I thought it was awesome seeing them create this advanced game from scratch. I saw them plan their project and saw their final project at Night at the Museum. 
