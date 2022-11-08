@@ -61,7 +61,7 @@ Night at the Museum was a night where all of the computer science students were 
 
 ### Images
 Comp Sci:
-![Marketplace Project]({{site.baseurl}}/images/marketpalce.jpg)
+![Marketplace Project]({{site.baseurl}}/images/marketplace.jpg)
 ![Playlist Project]({{site.baseurl}}/images/playlist.jpg)
 
 Other Classes:
