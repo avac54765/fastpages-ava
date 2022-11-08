@@ -64,5 +64,5 @@ Comp Sci:
 ![Marketplace Project]({{site.baseurl}}/images/marketplace.jpg)
 ![Playlist Project]({{site.baseurl}}/images/playlist.jpg)
 
-Other Classes:
+Other Classes (below is the design of a room):
 ![Room Design]({{site.baseurl}}/images/designclass.jpg)
