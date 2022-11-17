@@ -23,20 +23,24 @@ type: pbl
         <div class="col-8">
             <table class="table">
             <tr id="table">
+                <th>Multiply by 2 (shift left)</th>
                 <th>Plus</th>
                 <th>Binary</th>
                 <th>Octal</th>
                 <th>Hexadecimal</th>
                 <th>Decimal</th>
                 <th>Minus</th>
+                <th>Divide by 2 (shift right)</th>
             </tr>
             <tr>
+                <td><button type="button" id="shiftleft" onclick="shiftleft(1)">shift left one</button></td>
                 <td><button type="button" id="add1" onclick="add(1)">+1</button></td>
                 <td id="binary">00000000</td>
                 <td id="octal">0</td>
                 <td id="hexadecimal">0</td>
                 <td id="decimal">0</td>
                 <td><button type="button" id="sub1" onclick="add(-1)">-1</button></td>
+                <td><button type="button" id="shiftright" onclick="shiftright(1)">shift right one</button></td>
             </tr>
             </table>
         </div>
@@ -45,9 +49,9 @@ type: pbl
             {% assign bits = BITS | minus: 1 %} 
             <table class="table">
             <tr style="text-align: center; font-weight:bold">
-                <td> 2^2= 4 </td>
-                <td> 2^1= 2</td>
-                <td> 2^0= 1 </td>
+                <td> 2^2= <mark>4</mark></td>
+                <td> 2^1= <mark>2</mark></td>
+                <td> 2^0= <mark>1</mark></td>
             </tr>
             <tr>
                 {% comment %}Build many bits{% endcomment %}
@@ -142,6 +146,56 @@ type: pbl
         } else  {     // MINUS
         decimal = 0 === decimal ? MAX : decimal += n; // OVERFLOW or MINUS
         }
+        // convert the result back to binary
+        binary = decimal_2_base(decimal, 2);
+        // update conversions
+        setConversions(binary);
+        // update bits
+        for (let i = 0; i < binary.length; i++) {
+        let digit = binary.substr(i, 1);
+        document.getElementById('digit' + i).value = digit;
+        if (digit === "1") {
+            document.getElementById('bulb' + i).src = IMAGE_ON;
+            document.getElementById('butt' + i).innerHTML = MSG_OFF;
+        } else {
+            document.getElementById('bulb' + i).src = IMAGE_OFF;
+            document.getElementById('butt' + i).innerHTML = MSG_ON;
+        }
+        }
+    }
+     // shift left
+    function shiftleft(n) {
+        let binary = getBits();
+        // convert to decimal and do math
+        let decimal = parseInt(binary, 2);
+        if (n > 0) {  // positive integer
+        decimal = MAX === decimal ? 0 : decimal << n; // shift left
+        } 
+        // convert the result back to binary
+        binary = decimal_2_base(decimal, 2);
+        // update conversions
+        setConversions(binary);
+        // update bits
+        for (let i = 0; i < binary.length; i++) {
+        let digit = binary.substr(i, 1);
+        document.getElementById('digit' + i).value = digit;
+        if (digit === "1") {
+            document.getElementById('bulb' + i).src = IMAGE_ON;
+            document.getElementById('butt' + i).innerHTML = MSG_OFF;
+        } else {
+            document.getElementById('bulb' + i).src = IMAGE_OFF;
+            document.getElementById('butt' + i).innerHTML = MSG_ON;
+        }
+        }
+    }
+    // shift left
+    function shiftright(n) {
+        let binary = getBits();
+        // convert to decimal and do math
+        let decimal = parseInt(binary, 2);
+        if (n > 0) {  // positive integer
+        decimal = MAX === decimal ? 0 : decimal >> n; // shift right
+        } 
         // convert the result back to binary
         binary = decimal_2_base(decimal, 2);
         // update conversions
