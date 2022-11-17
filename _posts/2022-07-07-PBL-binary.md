@@ -45,9 +45,9 @@ type: pbl
             {% assign bits = BITS | minus: 1 %} 
             <table class="table">
             <tr style="text-align: center">
-                <td> 4 </td>
-                <td> 2 </td>
-                <td> 1 </td>
+                <td> 2^2= 4 </td>
+                <td> 2^1= 2</td>
+                <td> 2^0= 1 </td>
             </tr>
             <tr>
                 {% comment %}Build many bits{% endcomment %}
