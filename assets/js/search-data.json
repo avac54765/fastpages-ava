@@ -278,7 +278,7 @@
     
         ,"post25": {
             "title": "Binary Math",
-            "content": "Binary Math with Conversions . Plus Binary Octal Hexadecimal Decimal Minus . +1 | 00000000 | 0 | 0 | 0 | -1 | . 4 | 2 | 1 | . Turn on | Turn on | Turn on | . | | | .",
+            "content": "Binary Math with Conversions . Plus Binary Octal Hexadecimal Decimal Minus . +1 | 00000000 | 0 | 0 | 0 | -1 | . 2^2= 4 | 2^1= 2 | 2^0= 1 | . Turn on | Turn on | Turn on | . | | | .",
             "url": "https://avac54765.github.io/fastpages-ava/frontend/binary",
             "relUrl": "/frontend/binary",
             "date": " • Jul 7, 2022"
