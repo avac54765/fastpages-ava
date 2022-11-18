@@ -4,7 +4,7 @@ layout: default
 description: A Binary Math illustrative application using HTML, Liquid, and JavaScript.
 permalink: /frontend/binary
 image: /images/binary.png
-categories: [week 0]
+categories: [week 13]
 type: pbl
 ---
 
@@ -188,13 +188,13 @@ type: pbl
         }
         }
     }
-    // shift left
+    // shift right
     function shiftright(n) {
         let binary = getBits();
         // convert to decimal and do math
         let decimal = parseInt(binary, 2);
         if (n > 0) {  // positive integer
-        decimal = MAX === decimal ? 0 : decimal >> n; // shift right
+        decimal = 0 === decimal ? 0 : decimal >> n; // shift right
         } 
         // convert the result back to binary
         binary = decimal_2_base(decimal, 2);
