@@ -261,13 +261,13 @@ window.onload = wrap_img;
         }
         }
     }
-    // shift left
+    // shift right
     function shiftright(n) {
         let binary = getBits();
         // convert to decimal and do math
         let decimal = parseInt(binary, 2);
         if (n > 0) {  // positive integer
-        decimal = MAX === decimal ? 0 : decimal >> n; // shift right
+        decimal = 0 === decimal ? 0 : decimal >> n; // shift right
         } 
         // convert the result back to binary
         binary = decimal_2_base(decimal, 2);
