@@ -9,4 +9,6 @@ image: /images/hw.jpg
 categories: [week 14]
 ---
 
-# Hacks 1 ()
+# Hacks 1 (Data Types and Variables)
+
+![Screenshot of Hacks 1](/images/lessononehacksone.png)
