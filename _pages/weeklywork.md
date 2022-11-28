@@ -9,7 +9,7 @@ title: My Weekly Work
 
 | Week | Projects |
 |----|----|
-| 0 | [Binary Math](https://avac54765.github.io/fastpages-ava/frontend/binary) |
+| 0 | [Binary Math](https://avac54765.github.io/fastpages-ava/frontend/binary)  |
 | 1 | |
 | 2 | |
 | 3 | |
@@ -31,3 +31,6 @@ title: My Weekly Work
  | 8 | [Internet Learning](https://avac54765.github.io/fastpages-ava/CBinternet/markdown) |
  | 9 | [Roles Team Video](https://www.wevideo.com/view/2838344010) ---> [Video planning/refelction](https://avac54765.github.io/fastpages-ava/videoplanning/markdown) ---> [Stock API](https://avac54765.github.io/groupfastpage/data/stocks) |
  | 10-12 | [group project review ticket](https://github.com/nighthawkcoders/APCSP/issues/71#issue-1436116993) |
+
+
+ 
