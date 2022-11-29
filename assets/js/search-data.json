@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Team One Homework",
-            "content": "Hacks 1 (Data Types and Variables) . .",
+            "content": "Hacks 1 (Data Types and Variables) . . Hacks 2 (Variables) . An assignment operator, like the “=” in python, assigns a value to a variable. Assignment operators can assign strings, integers, and booleans to variables. This allows for a user to use the variables in various functions. . | In Colledgeboard pseudocode, the symbol “&lt;–” is the assignment operator (assigns values to variables). . | The print command will print the latest value of a variable. Due to the value of x being changed to 22, the command will display 22, not 15. . | Hacks 3 . A list is a finite series of ordered values. | An element is a value within a list. | An easy way to reference the elements in a list or string is by indexing. You can use the print function to print a specific element in a list. | An example of a string is “apple”. | Below is my list that I created of my favorite foods. Additionally, I created a dictonary of lists and indexed the elements within these lists as well. . . Hack 4 . . Hacks 5 . Below is my quiz: .",
             "url": "https://avac54765.github.io/fastpages-ava/lesson_one/hw",
             "relUrl": "/lesson_one/hw",
             "date": " • Nov 28, 2022"
