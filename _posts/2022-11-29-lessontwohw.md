@@ -11,7 +11,8 @@ categories: [week 14]
 
 # Hack 1 3.3.1
 
-![Hack Prompt](/images/hackprompt.png)
+![Hack Prompt]({{site.baseurl}}/images/hackprompt.png)
+
 
 - <u>sequencing:</u> steps one, two, five (specific steps in order)
 - <u>selection:</u> step three (if statement= two choices)
@@ -19,7 +20,8 @@ categories: [week 14]
 
 # Hack 2 
 
-![Hack 2](/images/lessontwohacktwo.png)
+![Hack 2]({{site.baseurl}}/images/lessontwohacktwo.png)
+
 
 **My work for evaluating the code above:**
 
@@ -39,4 +41,4 @@ result = 3
 
 # Hack 3 3.4
 
-![Quiz](/images/lessontwohackthree.png)
+![Quiz]({{site.baseurl}}/images/lessontwohackthree.png)
