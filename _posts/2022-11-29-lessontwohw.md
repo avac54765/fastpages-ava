@@ -13,6 +13,30 @@ categories: [week 14]
 
 ![Hack Prompt](/images/hackprompt.png)
 
-- sequencing: 
-- selection:
-- iteration: 
+- <u>sequencing:</u> steps one, two, five (specific steps in order)
+- <u>selection:</u> step three (if statement= two choices)
+- <u>iteration:</u> step 4 (loop)
+
+# Hack 2 
+
+![Hack 2](/images/lessontwohacktwo.png)
+
+**My work for evaluating the code above:**
+
+num 1 = 5
+num 2 = 15
+num 3 = 3 * 1 * 4 = 12
+result = (2 + 15) % 12 * 3/5 = 5 * 3/5 = 3
+^
+result = 3
+
+**Crossword puzzle answers:**
+
+1. iteration
+2. selection
+3. sequence
+
+
+# Hack 3 3.4
+
+![Quiz](/images/lessontwohackthree.png)
