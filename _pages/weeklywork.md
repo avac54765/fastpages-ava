@@ -10,7 +10,7 @@ title: My Weekly Work
 | Week | Projects |
 |----|----|
 | 13 | [Binary Math](https://avac54765.github.io/fastpages-ava/frontend/binary)  |
-| 14 | [|
+| 14 | [Week One Lessons](https://avac54765.github.io/fastpages-ava/teamlesson/notes)|
 | 15 | |
 | 16 | |
 
