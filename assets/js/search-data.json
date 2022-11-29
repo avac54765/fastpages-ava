@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Lesson Two Homework- Lessons 3.3-3.4",
-            "content": "Hack 1 3.3.1 . . sequencing: | selection: | iteration: | .",
+            "content": "Hack 1 3.3.1 . . sequencing: steps one, two, five (specific steps in order) | selection: step three (if statement= two choices) | iteration: step 4 (loop) | . Hack 2 . . My work for evaluating the code above: . num 1 = 5 num 2 = 15 num 3 = 3 * 1 * 4 = 12 result = (2 + 15) % 12 * 3/5 = 5 * 3/5 = 3 . result = 3 . Crossword puzzle answers: . iteration | selection | sequence | Hack 3 3.4 . .",
             "url": "https://avac54765.github.io/fastpages-ava/lesson_two/hw",
             "relUrl": "/lesson_two/hw",
             "date": " • Nov 29, 2022"
