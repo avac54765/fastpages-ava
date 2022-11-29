@@ -9,3 +9,10 @@ image: /images/hw.jpg
 categories: [week 14]
 ---
 
+# Hack 1 3.3.1
+
+![Hack Prompt](/images/hackprompt.png)
+
+- sequencing: 
+- selection:
+- iteration: 
