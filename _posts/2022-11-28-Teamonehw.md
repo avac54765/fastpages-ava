@@ -11,7 +11,7 @@ categories: [week 14]
 
 # Hacks 1 1.1(Data Types and Variables)
 
-![Screenshot of Hacks 1](/images/lessononehacksone.png)
+![Screenshot of Hacks 1]({{site.baseurl}}/images/lessononehacksone.png)
 
 # Hacks 2 3.1.2(Variables)
 
@@ -33,23 +33,24 @@ categories: [week 14]
 Below is my list that I created of my favorite foods.
 Additionally, I created a dictonary of lists and indexed the elements within these lists as well.
 
-![Hacks 3 List](/images/lessononehack3.png)
+![Hacks 3 List]({{site.baseurl}}/images/lessononehack3.png)
 
 # Hack 4 3.2.2 (Data Abstraction with Lists)
 
-![Hack 4](/images/lessononehackfour.png)
+![Hack 4]({{site.baseurl}}/images/lessononehackfour.png)
 
 
 # Hacks 5 3.2.3 (Managing Complexity with Lists)
 
 Below is my quiz:
-![Python Quiz](/images/lessononehackfive.png)
+![Python Quiz]({{site.baseurl}}/images/lessononehackfive.png)
 
 Below is my simplified list:
-![Simplified List](/images/simplifyinglist.png)
+![Simplified List]({{site.baseurl}}/images/simplifyinglist.png)
+
 
 **Question:**
 Using lists are better for a program, rather than writing out each line of code, because lists manage complexity within a program. It is much easier and saves a lot of time to organize values in a list. Lists also make it easier for other programers to understand a program instead of tracking numerous variables. Writing out each line of code takes a lot of time as well, and can get very tiring as you add more values to a program.
 
 **Below is a list of my friends the slow way and with managed complexity:**
-![Friends List](/images/friendslist.png)
+![Friends List]({{site.baseurl}}/images/friendslist.png)
