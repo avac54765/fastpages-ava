@@ -3,7 +3,6 @@ keywords: fastai
 description: Lesson two
 title: Week One Lesson Two
 toc: true 
-badges: true
 comments: true
 categories: [wk2]
 nb_path: _notebooks/2022-11-20-Lessontwo.ipynb
