@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>
 
@@ -129,6 +129,11 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h1"><a href="#3.9.1-Hacks:">3.9.1 Hacks: </a></li>
 <li class="toc-entry toc-h1"><a href="#Completion:">Completion: </a></li>
 <li class="toc-entry toc-h1"><a href="#3.9.2-Hacks:">3.9.2 Hacks: </a></li>
+<li class="toc-entry toc-h1"><a href="#Completiom:">Completiom: </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#Natural-Language:">Natural Language: </a></li>
+</ul>
+</li>
 <li class="toc-entry toc-h1"><a href="#3.9.3-Hacks:">3.9.3 Hacks: </a></li>
 <li class="toc-entry toc-h1"><a href="#3.11-Hacks:">3.11 Hacks: </a></li>
 </ul><!--
@@ -162,12 +167,59 @@ window.onload = wrap_img;
 <a class="anchor" href="#Completion:" aria-hidden="true"><span class="octicon octicon-link"></span></a>Completion:<a class="anchor-link" href="#Completion:"> </a>
 </h1>
 <ol>
-<li>It is important to know that algorithims that look different can do the same thing </li>
+<li>
+<p>It is important to know that algorithims that look different can do the same thing and that algorithims that look the same might have different results because users must look and examine algorithims carefully to predict the outcomes of algorithims. There is more than one way to create certain algorithims or algorithims may look the same and a person must be carefull not to make any assumptions.</p>
+</li>
+<li>
+<p>conditional to boolean below:</p>
+</li>
 </ol>
 
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sweaty</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="n">dirty</span> <span class="o">=</span> <span class="kc">False</span>
+
+<span class="k">if</span> <span class="n">sweaty</span> <span class="o">==</span> <span class="kc">True</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Take a shower!"</span><span class="p">)</span>
+
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">dirty</span> <span class="o">==</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Take a shower!"</span><span class="p">)</span>
+    
+    <span class="k">else</span><span class="p">:</span> 
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"No need to take a shower. You're clean!"</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Take a shower!
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -193,6 +245,76 @@ window.onload = wrap_img;
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Completiom:">
+<a class="anchor" href="#Completiom:" aria-hidden="true"><span class="octicon octicon-link"></span></a>Completiom:<a class="anchor-link" href="#Completiom:"> </a>
+</h1>
+<h3 id="Natural-Language:">
+<a class="anchor" href="#Natural-Language:" aria-hidden="true"><span class="octicon octicon-link"></span></a>Natural Language:<a class="anchor-link" href="#Natural-Language:"> </a>
+</h3>
+<ol>
+<li>Start</li>
+<li>The number of miles left of gas is 30 miles.</li>
+<li>Ask if you would like to go to school.</li>
+<li>Every trip to school is 5 miles. You go to school and lose 5 miles.</li>
+<li>How many miles of gas are left?</li>
+<li>How many miles of gas are left?</li>
+<li>Decide if you would like to go to school again.</li>
+<li>Repeat steps 3-6 until you are out of gas or you don't want to go to school again.</li>
+<li>State gas level.</li>
+<li>End</li>
+</ol>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">miles_of_gas</span> <span class="o">=</span> <span class="mi">30</span>
+
+<span class="k">while</span> <span class="n">miles_of_gas</span> <span class="o">&gt;=</span> <span class="mi">5</span><span class="p">:</span>
+    <span class="n">school</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Would you like to go to school?"</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">school</span> <span class="o">==</span> <span class="s2">"yes"</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"You have gone to school"</span><span class="p">)</span>
+        <span class="n">miles_of_gas</span> <span class="o">-=</span> <span class="mi">5</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"You now have "</span><span class="p">,</span> <span class="n">miles_of_gas</span><span class="p">,</span> <span class="s2">" miles of gas left"</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"You have "</span><span class="p">,</span> <span class="n">miles_of_gas</span><span class="p">,</span> <span class="s2">" miles of gas left"</span><span class="p">)</span>
+        <span class="n">miles_of_gas</span> <span class="o">=</span> <span class="mi">0</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>You have gone to school
+You now have  25  miles of gas left
+You have gone to school
+You now have  20  miles of gas left
+You have  20  miles of gas left
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
