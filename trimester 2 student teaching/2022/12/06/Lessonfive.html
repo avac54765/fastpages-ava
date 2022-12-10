@@ -738,10 +738,10 @@ ELSE
 <span class="c1">#Change the print statements to give feedback on whether the player guessed too high or too low</span>
 <span class="k">def</span> <span class="nf">search</span><span class="p">(</span><span class="n">number</span><span class="p">,</span> <span class="n">guess</span><span class="p">):</span>
     <span class="k">global</span> <span class="n">lower_bound</span><span class="p">,</span> <span class="n">upper_bound</span>
-    <span class="k">if</span> <span class="n">guess</span> <span class="o">&lt;</span> <span class="n">number</span><span class="p">:</span>
+    <span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">guess</span><span class="p">)</span> <span class="o">&lt;</span> <span class="nb">int</span><span class="p">(</span><span class="n">number</span><span class="p">):</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">"You are bad at guessing"</span><span class="p">)</span> <span class="c1">#change this</span>
         <span class="n">lower_bound</span> <span class="o">=</span> <span class="n">guess</span>
-    <span class="k">elif</span> <span class="n">guess</span> <span class="o">&gt;</span> <span class="n">number</span><span class="p">:</span>
+    <span class="k">elif</span> <span class="nb">int</span><span class="p">(</span><span class="n">guess</span><span class="p">)</span> <span class="o">&gt;</span> <span class="nb">int</span><span class="p">(</span><span class="n">number</span><span class="p">):</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">"You suck :("</span><span class="p">)</span> <span class="c1">#change this</span>
         <span class="n">upper_bound</span> <span class="o">=</span> <span class="n">guess</span>
     <span class="k">return</span> <span class="n">lower_bound</span><span class="p">,</span> <span class="n">upper_bound</span>
@@ -767,7 +767,10 @@ ELSE
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>I'm thinking of a number between 1 and 100.
-You guessed None.
+You guessed 70.
+You are bad at guessing
+Guess a number between 70 and 100.
+You guessed .
 </pre>
 </div>
 </div>
@@ -777,7 +780,7 @@ You guessed None.
 <div class="output_subarea output_text output_error">
 <pre>
 <span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">TypeError</span>                                 Traceback (most recent call last)
+<span class="ansi-red-fg">ValueError</span>                                Traceback (most recent call last)
 <span class="ansi-green-intense-fg ansi-bold">/home/avac54765/vscode/fastpages-ava/_notebooks/2022-12-06-Lessonfive.ipynb Cell 20</span> in <span class="ansi-cyan-fg">&lt;cell line: 32&gt;</span><span class="ansi-blue-fg">()</span>
 <span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/avac54765/vscode/fastpages-ava/_notebooks/2022-12-06-Lessonfive.ipynb#X25sdnNjb2RlLXJlbW90ZQ%3D%3D?line=33'&gt;34&lt;/a&gt;</span>     num_guesses += 1
 <span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/avac54765/vscode/fastpages-ava/_notebooks/2022-12-06-Lessonfive.ipynb#X25sdnNjb2RlLXJlbW90ZQ%3D%3D?line=34'&gt;35&lt;/a&gt;</span>     print(f"You guessed {user_guess}.")
@@ -788,11 +791,11 @@ You guessed None.
 <span class="ansi-green-intense-fg ansi-bold">/home/avac54765/vscode/fastpages-ava/_notebooks/2022-12-06-Lessonfive.ipynb Cell 20</span> in <span class="ansi-cyan-fg">search</span><span class="ansi-blue-fg">(number, guess)</span>
 <span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/avac54765/vscode/fastpages-ava/_notebooks/2022-12-06-Lessonfive.ipynb#X25sdnNjb2RlLXJlbW90ZQ%3D%3D?line=21'&gt;22&lt;/a&gt;</span> def search(number, guess):
 <span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/avac54765/vscode/fastpages-ava/_notebooks/2022-12-06-Lessonfive.ipynb#X25sdnNjb2RlLXJlbW90ZQ%3D%3D?line=22'&gt;23&lt;/a&gt;</span>     global lower_bound, upper_bound
-<span class="ansi-green-fg">---&gt; &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/avac54765/vscode/fastpages-ava/_notebooks/2022-12-06-Lessonfive.ipynb#X25sdnNjb2RlLXJlbW90ZQ%3D%3D?line=23'&gt;24&lt;/a&gt;</span>     if guess &lt; number:
+<span class="ansi-green-fg">---&gt; &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/avac54765/vscode/fastpages-ava/_notebooks/2022-12-06-Lessonfive.ipynb#X25sdnNjb2RlLXJlbW90ZQ%3D%3D?line=23'&gt;24&lt;/a&gt;</span>     if int(guess) &lt; int(number):
 <span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/avac54765/vscode/fastpages-ava/_notebooks/2022-12-06-Lessonfive.ipynb#X25sdnNjb2RlLXJlbW90ZQ%3D%3D?line=24'&gt;25&lt;/a&gt;</span>         print("You are bad at guessing") #change this
 <span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/avac54765/vscode/fastpages-ava/_notebooks/2022-12-06-Lessonfive.ipynb#X25sdnNjb2RlLXJlbW90ZQ%3D%3D?line=25'&gt;26&lt;/a&gt;</span>         lower_bound = guess
 
-<span class="ansi-red-fg">TypeError</span>: '&lt;' not supported between instances of 'NoneType' and 'int'</pre>
+<span class="ansi-red-fg">ValueError</span>: invalid literal for int() with base 10: ''</pre>
 </div>
 </div>
 
