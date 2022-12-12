@@ -10,9 +10,9 @@ title: My Weekly Work
 | Week | Projects |
 |----|----|
 | 13 | [Binary Math](https://avac54765.github.io/fastpages-ava/frontend/binary)  |
-| 14 | [Week One Lessons](https://avac54765.github.io/fastpages-ava/teamlesson/notes) --> [total week one]()|
-| 15 | [Week Lessons]() ---> [Live Review Two Lessons]() ---> [Live Review Three Lessons]()|
-| 16 | |
+| 14 | [Week One Lessons](https://avac54765.github.io/fastpages-ava/teamlesson/notes) --> [total week one](https://avac54765.github.io/fastpages-ava/lessons/weekone)|
+| 15 | [Lesson Notes](https://avac54765.github.io/fastpages-ava/teamlesson/notes) ---> [Live Review Two Lessons](https://avac54765.github.io/fastpages-ava/lessonsreview/two) |
+| 16 | [Lesson Notes](https://avac54765.github.io/fastpages-ava/teamlesson/notes) ---> [Live Review Three Lessons](https://avac54765.github.io/fastpages-ava/lessonsreview/three)|
 
 
 ## Trimester 1 Work
