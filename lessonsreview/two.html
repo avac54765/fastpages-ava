@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      19 min read
+      21 min read
     
 </span></p>
 
@@ -127,6 +127,7 @@ window.onload = wrap_img;
   <div class="post-content e-content" itemprop="articleBody">
     <ul id="toc" class="section-nav">
 <li class="toc-entry toc-h2"><a href="#Unit-3-Vocabulary">Unit 3 Vocabulary </a></li>
+<li class="toc-entry toc-h2"><a href="#Below-are-examples-of-some-vocab:">Below are examples of some vocab: </a></li>
 <li class="toc-entry toc-h1"><a href="#Lesson-3--3.5-3.6">Lesson 3- 3.5-3.6 </a>
 <ul>
 <li class="toc-entry toc-h3"><a href="#Booleans,-relational-operators,-logical-operators,-conditionals,-truth-tables,-nested-conditionals">Booleans, relational operators, logical operators, conditionals, truth tables, nested conditionals </a></li>
@@ -260,6 +261,92 @@ window.onload = wrap_img;
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Below-are-examples-of-some-vocab:">
+<a class="anchor" href="#Below-are-examples-of-some-vocab:" aria-hidden="true"><span class="octicon octicon-link"></span></a>Below are examples of some vocab:<a class="anchor-link" href="#Below-are-examples-of-some-vocab:"> </a>
+</h2>
+<ul>
+<li>variables, data types, assignment operators, dictionaries, algorithm, sequence, selection, expressions, comparision operators, boolena expressions, strings, python if, else, for loop, list, iteration, procedural abstraction, combining loops with conditional to break</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># algorithim example:</span>
+<span class="n">miles_of_gas</span> <span class="o">=</span> <span class="mi">30</span>
+
+<span class="k">while</span> <span class="n">miles_of_gas</span> <span class="o">&gt;=</span> <span class="mi">5</span><span class="p">:</span>
+    <span class="n">school</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Would you like to go to school?"</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">school</span> <span class="o">==</span> <span class="s2">"yes"</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"You have gone to school"</span><span class="p">)</span>
+        <span class="n">miles_of_gas</span> <span class="o">-=</span> <span class="mi">5</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"You now have "</span><span class="p">,</span> <span class="n">miles_of_gas</span><span class="p">,</span> <span class="s2">" miles of gas left"</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"You have "</span><span class="p">,</span> <span class="n">miles_of_gas</span><span class="p">,</span> <span class="s2">" miles of gas left"</span><span class="p">)</span>
+        <span class="n">miles_of_gas</span> <span class="o">=</span> <span class="mi">0</span>
+
+
+
+
+<span class="c1"># definitions</span>
+<span class="n">isalexatired</span> <span class="o">=</span> <span class="kc">True</span> <span class="c1">#these are variables with the assignment operator "="</span>
+<span class="n">havehw</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="k">if</span> <span class="n">isalexatired</span> <span class="o">==</span> <span class="kc">True</span> <span class="ow">and</span> <span class="n">havehw</span> <span class="o">==</span> <span class="kc">False</span><span class="p">:</span> <span class="c1"># these are Booleans and comparison operators</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Stay home and sleep!"</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">havehw</span> <span class="o">==</span> <span class="kc">True</span><span class="p">:</span> <span class="c1"># more examples of nested conditionals</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Go to school"</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Stay home and sleep!"</span><span class="p">)</span>
+
+
+
+
+<span class="c1"># definitions</span>
+<span class="n">input_string</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Input a string to check how many vowels it has. "</span><span class="p">)</span> <span class="c1"># another variable with the data type of string</span>
+<span class="n">vowelcount</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1"># assigning a number data type to a variable</span>
+<span class="k">for</span> <span class="n">character</span> <span class="ow">in</span> <span class="n">input_string</span><span class="p">:</span> <span class="c1">#iterates through the string character by character</span>
+    <span class="k">if</span> <span class="n">character</span> <span class="o">==</span> <span class="s2">"a"</span><span class="p">:</span>
+        <span class="n">vowelcount</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">elif</span> <span class="n">character</span> <span class="o">==</span> <span class="s2">"e"</span><span class="p">:</span> <span class="c1"># an example of an elif statement</span>
+        <span class="n">vowelcount</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">elif</span> <span class="n">character</span> <span class="o">==</span> <span class="s2">"i"</span><span class="p">:</span>
+        <span class="n">vowelcount</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">elif</span> <span class="n">character</span> <span class="o">==</span> <span class="s2">"o"</span><span class="p">:</span>
+        <span class="n">vowelcount</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">elif</span> <span class="n">character</span> <span class="o">==</span> <span class="s2">"u"</span><span class="p">:</span>
+        <span class="n">vowelcount</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">vowelcount</span><span class="p">)</span>
+
+
+
+
+<span class="c1"># here is an example of a list that uses a for loop (iteration)</span>
+<span class="n">numlist</span> <span class="o">=</span> <span class="p">[</span><span class="mi">50</span><span class="p">]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">numlist</span><span class="p">:</span>
+    <span class="n">i</span> <span class="o">-=</span> <span class="mi">1</span>
+    <span class="n">numlist</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="c1"># .append is an example of procedural abstraction</span>
+    <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">break</span> <span class="c1"># conditional to break the loop</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">numlist</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
