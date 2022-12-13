@@ -361,7 +361,7 @@ salad  was a healthy choice
 <div class="text_cell_render border-box-sizing rendered_html">
 <ol>
 <li>below
-^ <mark> I have also decided to work extra and figure out a way to list the number of words that start with each letter in the alphebet (unless is zero words start with that letter) </mark>
+^ <mark> EXTRA CREDIT: I have also decided to work extra and figure out a way to list the number of words that start with each letter in the alphebet (unless is zero words start with that letter) </mark>
 </li>
 </ol>
 
@@ -503,65 +503,29 @@ Words starting with y : 1
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><!-- function is called here --></p>
-<p><button id="add" onclick="add">Add two numbers</button></p>
-<p></p>
-<p id="result"></p>
-<!-- javascript -->
-<script>
-    function add {
-        var inputone = prompt("Input a number")
-        var inputtwo = prompt("Input another number")
-        document.getElementById("result").innerHTML = parseInt(inputone) + parseInt(inputtwo) // math
-    }
-</script>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><button id="subtract" onclick="subtract">Subtract two numbers</button></p>
-<p></p>
+<p><button id="enter" onclick="add">Add a and b</button></p>
+<p id="resultone"></p>
+<p><button id="enter" onclick="subtract">Subtract a and b</button></p>
 <p id="resulttwo"></p>
-<script>
-    function subtract {
-        var inputone = prompt("Input a number")
-        var inputtwo = prompt("Input another number")
-        document.getElementById("resulttwo").innerHTML = parseInt(inputone) - parseInt(inputtwo) // math
-    }
-</script>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><button id="multiply" onclick="multiply">Multiply two numbers</button></p>
-<p></p>
+<p><button id="enter" onclick="multiply">Multiply a and b</button></p>
 <p id="resultthree"></p>
-<script>
-    function multiply {
-        var inputone = prompt("Input a number")
-        var inputtwo = prompt("Input another number")
-        document.getElementById("resulttwo").innerHTML = parseInt(inputone) * parseInt(inputtwo) // math
-    }
-</script>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><button id="Divide" onclick="divide">Divide two numbers</button></p>
-<p></p>
+<p><button id="enter" onclick="divide">Divide a and b</button></p>
 <p id="resultfour"></p>
 <script>
-    function divide {
-        var inputone = prompt("Input a number")
-        var inputtwo = prompt("Input another number")
-        document.getElementById("resulttwo").innerHTML = parseInt(inputone) / parseInt(inputtwo) // math
+    function add {
+        document.getElementById("resultone").innerHTML = a + b // math
     }
+    function subtract {
+        document.getElementById("resulttwo").innerHTML = a - b
+    }
+    function multiply {
+        document.getElementById("resultthree").innerHTML = a * b
+    }
+    function divide {
+        document.getElementById("resultfour").innerHTML = a / b
+    }
+    var a = 2
+    var b = 5
 </script>
 </div>
 </div>
