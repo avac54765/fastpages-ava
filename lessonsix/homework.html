@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      6 min read
+      7 min read
     
 </span></p>
 
@@ -202,7 +202,7 @@ window.onload = wrap_img;
 <p>A procedure is the way of completing a task by code instructions that can return an output from an input/parameter. A parameter is a variable that follows a function that is used in a function to give an output without actually having an input value. They are used to write the function "blueprint".</p>
 </li>
 <li>
-<p><mark>Screenshot of quiz is linked in my review ticket</mark></p>
+<p>Below (not an image I completed the quiz on here)</p>
 </li>
 <li>
 <p>Return values are values that are returned after a return statement. They instruct the program to continue. Output parameters are used to call a function. For example, function(a,b) would be used to call the function, "function" with the parameter of a and b.</p>
@@ -215,6 +215,87 @@ window.onload = wrap_img;
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">questionNum</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="n">correct</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">questions</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s2">"What is are correct names for a procedure? </span><span class="se">\n</span><span class="s2"> A) Method </span><span class="se">\n</span><span class="s2"> B) Function </span><span class="se">\n</span><span class="s2"> C) Both"</span><span class="p">,</span>
+    <span class="s2">"What is a procedure? </span><span class="se">\n</span><span class="s2"> A) Sequencing </span><span class="se">\n</span><span class="s2"> B) Selection </span><span class="se">\n</span><span class="s2"> C) Iteration </span><span class="se">\n</span><span class="s2"> D) All"</span><span class="p">,</span>
+    <span class="s2">"Use this for following question: </span><span class="se">\n</span><span class="s2"> def inchesToFeet(lengthInches): </span><span class="se">\n\t</span><span class="s2"> lengthFeet = lengthInches / 12 </span><span class="se">\n\t</span><span class="s2"> return lengthFeet </span><span class="se">\n\n</span><span class="s2"> What is the procedure name, the parameter, and what the procedure returns? </span><span class="se">\n</span><span class="s2"> A) feetToInches, lengthInches, lengthMeters </span><span class="se">\n</span><span class="s2"> B) inchesToFeet, lengthInches, lengthFeet </span><span class="se">\n</span><span class="s2"> C) inchesToFeet, lengthFeet, lengthInches </span><span class="se">\n</span><span class="s2"> D) lengthInches, inchesToFeet, lengthFeet"</span><span class="p">]</span>
+<span class="n">answers</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"c"</span><span class="p">,</span> <span class="s2">"d"</span><span class="p">,</span> <span class="s2">"b"</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">qna</span><span class="p">(</span><span class="n">question</span><span class="p">,</span> <span class="n">answer</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Question:"</span><span class="p">,</span> <span class="n">question</span><span class="p">)</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Answer:"</span><span class="p">,</span> <span class="n">response</span><span class="p">)</span>
+    
+    <span class="k">if</span> <span class="n">response</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="n">answer</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Correct :) </span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+        <span class="k">global</span> <span class="n">correct</span>
+        <span class="n">correct</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Incorrect :( </span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">questionNum</span><span class="p">):</span>
+    <span class="n">qna</span><span class="p">(</span><span class="n">questions</span><span class="p">[</span><span class="n">x</span><span class="p">],</span> <span class="n">answers</span><span class="p">[</span><span class="n">x</span><span class="p">])</span>
+    
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Score:"</span><span class="p">,</span> <span class="n">correct</span><span class="p">,</span> <span class="s2">"/ 3"</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Question: What is are correct names for a procedure? 
+ A) Method 
+ B) Function 
+ C) Both
+Answer: c
+Correct :) 
+
+Question: What is a procedure? 
+ A) Sequencing 
+ B) Selection 
+ C) Iteration 
+ D) All
+Answer: d
+Correct :) 
+
+Question: Use this for following question: 
+ def inchesToFeet(lengthInches): 
+	 lengthFeet = lengthInches / 12 
+	 return lengthFeet 
+
+ What is the procedure name, the parameter, and what the procedure returns? 
+ A) feetToInches, lengthInches, lengthMeters 
+ B) inchesToFeet, lengthInches, lengthFeet 
+ C) inchesToFeet, lengthFeet, lengthInches 
+ D) lengthInches, inchesToFeet, lengthFeet
+Answer: b
+Correct :) 
+
+Score: 3 / 3
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
     
     
 <div class="cell border-box-sizing code_cell rendered">
