@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      7 min read
+      6 min read
     
 </span></p>
 
@@ -500,79 +500,51 @@ Words starting with y : 1
 </div>
 </div>
 </div>
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
+<div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">&lt;!</span>-- <span class="k">function</span> is called here --&gt;
-<span class="o">&lt;</span><span class="n">button</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"add"</span> <span class="n">onclick</span><span class="o">=</span><span class="s2">"add"</span> <span class="o">&gt;</span><span class="n">Add</span> <span class="n">two</span> <span class="n">numbers</span><span class="o">&lt;/</span><span class="n">button</span><span class="o">&gt;</span> 
-<span class="o">&lt;</span><span class="n">p</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"result"</span><span class="o">&gt;&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
-<span class="o">&lt;!</span>-- javascript --&gt;
-<span class="o">&lt;</span><span class="n">script</span><span class="o">&gt;</span>
-    <span class="n">function</span> <span class="n">add</span> <span class="p">{</span>
-        <span class="n">var</span> <span class="n">inputone</span> <span class="o">=</span> <span class="n">prompt</span><span class="p">(</span><span class="s2">"Input a number"</span><span class="p">)</span>
-        <span class="n">var</span> <span class="n">inputtwo</span> <span class="o">=</span> <span class="n">prompt</span><span class="p">(</span><span class="s2">"Input another number"</span><span class="p">)</span>
-        <span class="n">document</span><span class="o">.</span><span class="n">getElementById</span><span class="p">(</span><span class="s2">"result"</span><span class="p">)</span><span class="o">.</span><span class="n">innerHTML</span> <span class="o">=</span> <span class="n">parseInt</span><span class="p">(</span><span class="n">inputone</span><span class="p">)</span> <span class="o">+</span> <span class="n">parseInt</span><span class="p">(</span><span class="n">inputtwp</span><span class="p">)</span> <span class="o">//</span> <span class="n">math</span>
-    <span class="p">}</span>
-<span class="o">&lt;/</span><span class="n">script</span><span class="o">&gt;</span>
-
-<span class="o">&lt;</span><span class="n">button</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"subtract"</span> <span class="n">onclick</span><span class="o">=</span><span class="s2">"subtract"</span> <span class="o">&gt;</span><span class="n">Subtract</span> <span class="n">two</span> <span class="n">numbers</span><span class="o">&lt;/</span><span class="n">button</span><span class="o">&gt;</span> 
-<span class="o">&lt;</span><span class="n">p</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"resulttwo"</span><span class="o">&gt;&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
-<span class="o">&lt;</span><span class="n">script</span><span class="o">&gt;</span>
-    <span class="n">function</span> <span class="n">subtract</span> <span class="p">{</span>
-        <span class="n">var</span> <span class="n">inputone</span> <span class="o">=</span> <span class="n">prompt</span><span class="p">(</span><span class="s2">"Input a number"</span><span class="p">)</span>
-        <span class="n">var</span> <span class="n">inputtwo</span> <span class="o">=</span> <span class="n">prompt</span><span class="p">(</span><span class="s2">"Input another number"</span><span class="p">)</span>
-        <span class="n">document</span><span class="o">.</span><span class="n">getElementById</span><span class="p">(</span><span class="s2">"resulttwo"</span><span class="p">)</span><span class="o">.</span><span class="n">innerHTML</span> <span class="o">=</span> <span class="n">parseInt</span><span class="p">(</span><span class="n">inputone</span><span class="p">)</span> <span class="o">-</span> <span class="n">parseInt</span><span class="p">(</span><span class="n">inputtwp</span><span class="p">)</span> <span class="o">//</span> <span class="n">math</span>
-    <span class="p">}</span>
-<span class="o">&lt;/</span><span class="n">script</span><span class="o">&gt;</span>
-<span class="o">&lt;</span><span class="n">button</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"multiply"</span> <span class="n">onclick</span><span class="o">=</span><span class="s2">"multiply"</span> <span class="o">&gt;</span><span class="n">Multiply</span> <span class="n">two</span> <span class="n">numbers</span><span class="o">&lt;/</span><span class="n">button</span><span class="o">&gt;</span> 
-<span class="o">&lt;</span><span class="n">p</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"resultthree"</span><span class="o">&gt;&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
-<span class="o">&lt;</span><span class="n">script</span><span class="o">&gt;</span>
-    <span class="n">function</span> <span class="n">multiply</span> <span class="p">{</span>
-        <span class="n">var</span> <span class="n">inputone</span> <span class="o">=</span> <span class="n">prompt</span><span class="p">(</span><span class="s2">"Input a number"</span><span class="p">)</span>
-        <span class="n">var</span> <span class="n">inputtwo</span> <span class="o">=</span> <span class="n">prompt</span><span class="p">(</span><span class="s2">"Input another number"</span><span class="p">)</span>
-        <span class="n">document</span><span class="o">.</span><span class="n">getElementById</span><span class="p">(</span><span class="s2">"resulttwo"</span><span class="p">)</span><span class="o">.</span><span class="n">innerHTML</span> <span class="o">=</span> <span class="n">parseInt</span><span class="p">(</span><span class="n">inputone</span><span class="p">)</span> <span class="o">*</span> <span class="n">parseInt</span><span class="p">(</span><span class="n">inputtwp</span><span class="p">)</span> <span class="o">//</span> <span class="n">math</span>
-    <span class="p">}</span>
-<span class="o">&lt;/</span><span class="n">script</span><span class="o">&gt;</span>
-<span class="o">&lt;</span><span class="n">button</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"Divide"</span> <span class="n">onclick</span><span class="o">=</span><span class="s2">"divide"</span> <span class="o">&gt;</span><span class="n">Divide</span> <span class="n">two</span> <span class="n">numbers</span><span class="o">&lt;/</span><span class="n">button</span><span class="o">&gt;</span> 
-<span class="o">&lt;</span><span class="n">p</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"resultfour"</span><span class="o">&gt;&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
-<span class="o">&lt;</span><span class="n">script</span><span class="o">&gt;</span>
-    <span class="n">function</span> <span class="n">divide</span> <span class="p">{</span>
-        <span class="n">var</span> <span class="n">inputone</span> <span class="o">=</span> <span class="n">prompt</span><span class="p">(</span><span class="s2">"Input a number"</span><span class="p">)</span>
-        <span class="n">var</span> <span class="n">inputtwo</span> <span class="o">=</span> <span class="n">prompt</span><span class="p">(</span><span class="s2">"Input another number"</span><span class="p">)</span>
-        <span class="n">document</span><span class="o">.</span><span class="n">getElementById</span><span class="p">(</span><span class="s2">"resulttwo"</span><span class="p">)</span><span class="o">.</span><span class="n">innerHTML</span> <span class="o">=</span> <span class="n">parseInt</span><span class="p">(</span><span class="n">inputone</span><span class="p">)</span> <span class="o">/</span> <span class="n">parseInt</span><span class="p">(</span><span class="n">inputtwp</span><span class="p">)</span> <span class="o">//</span> <span class="n">math</span>
-    <span class="p">}</span>
-<span class="o">&lt;/</span><span class="n">script</span><span class="o">&gt;</span>
-</pre></div>
-
-    </div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><!-- function is called here --></p>
+<p><button id="add" onclick="add">Add two numbers</button></p>
+<p></p>
+<p id="result"></p>
+<!-- javascript -->
+<script>
+    function add {
+        var inputone = prompt("Input a number")
+        var inputtwo = prompt("Input another number")
+        document.getElementById("result").innerHTML = parseInt(inputone) + parseInt(inputtwp) // math
+    }
+</script><p><button id="subtract" onclick="subtract">Subtract two numbers</button></p>
+<p></p>
+<p id="resulttwo"></p>
+<script>
+    function subtract {
+        var inputone = prompt("Input a number")
+        var inputtwo = prompt("Input another number")
+        document.getElementById("resulttwo").innerHTML = parseInt(inputone) - parseInt(inputtwp) // math
+    }
+</script>
+<button id="multiply" onclick="multiply">Multiply two numbers</button> 
+<p id="resultthree"></p>
+<script>
+    function multiply {
+        var inputone = prompt("Input a number")
+        var inputtwo = prompt("Input another number")
+        document.getElementById("resulttwo").innerHTML = parseInt(inputone) * parseInt(inputtwp) // math
+    }
+</script>
+<button id="Divide" onclick="divide">Divide two numbers</button> 
+<p id="resultfour"></p>
+<script>
+    function divide {
+        var inputone = prompt("Input a number")
+        var inputtwo = prompt("Input another number")
+        document.getElementById("resulttwo").innerHTML = parseInt(inputone) / parseInt(inputtwp) // math
+    }
+</script>
 </div>
 </div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-cyan-fg">  Input </span><span class="ansi-green-fg">In [18]</span>
-<span class="ansi-red-fg">    &lt;!-- function is called here --&gt;</span>
-    ^
-<span class="ansi-red-fg">SyntaxError</span><span class="ansi-red-fg">:</span> invalid syntax
-</pre>
 </div>
-</div>
-
-</div>
-</div>
-
-</div>
-    
-
 </div>
 
 
