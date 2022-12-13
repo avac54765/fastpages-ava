@@ -503,25 +503,27 @@ Words starting with y : 1
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><button id="enter" onclick="add">Add a and b</button></p>
+<p> a = 2 </p>
+<p> b = 5 </p>
+<p><button id="enter" onclick="add(a,b)">Add a and b</button></p>
 <p id="resultone"></p>
-<p><button id="enter" onclick="subtract">Subtract a and b</button></p>
+<p><button id="enter" onclick="subtract(a,b)">Subtract a and b</button></p>
 <p id="resulttwo"></p>
-<p><button id="enter" onclick="multiply">Multiply a and b</button></p>
+<p><button id="enter" onclick="multiply(a,b)">Multiply a and b</button></p>
 <p id="resultthree"></p>
-<p><button id="enter" onclick="divide">Divide a and b</button></p>
+<p><button id="enter" onclick="divide(a,b)">Divide a and b</button></p>
 <p id="resultfour"></p>
 <script>
-    function add {
+    function add(a,b) {
         document.getElementById("resultone").innerHTML = a + b // math
     }
-    function subtract {
+    function subtract(a,b) {
         document.getElementById("resulttwo").innerHTML = a - b
     }
-    function multiply {
+    function multiply(a,b) {
         document.getElementById("resultthree").innerHTML = a * b
     }
-    function divide {
+    function divide(a,b) {
         document.getElementById("resultfour").innerHTML = a / b
     }
     var a = 2
