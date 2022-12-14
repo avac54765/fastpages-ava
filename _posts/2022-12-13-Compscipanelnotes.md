@@ -60,3 +60,9 @@ KATHYLEEN:
 - Some have a lot of hours/deadlines
 - If you have outside hobbies/necessities = set boundaries
 
+## Takeaways:
+
+1. Don't give up with computer science and programming, it's difficult and takes time!
+2. Try many different things and fields including exploring the more product side of management (collaborating with coders).
+3. Always be willing to learn more! Especially in the field of tech, technology is always changing. I need to be open to continuous learning and know that I will never know everything.
+
