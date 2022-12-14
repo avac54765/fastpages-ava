@@ -24,4 +24,39 @@ categories: [week 16]
 
 ## Kris Porter
 
-- Software engineer (SRE, DevOps, Infrastructure) = not coding all day
+- <mark>Software engineer </mark>(SRE, DevOps, Infrastructure) = not coding all day
+- UCLA for Electrical Engineering
+- failed his first computer science class = DON'T GIVE UP
+- was interested in stem classes in highschool
+- researched networked sensirs (robot swings in forest to obtain information and data about the environment)
+- worked for Qualcomm and Twitter = always learning new things
+- Twitter = switched from rest APIs to GraphQL
+- <mark>always learning more</mark> = not getting bored, you can follow more than one path!
+- Twitter projects = New DataCenter Deployment and Migrating HomeTimeline to GraphQL
+
+## Questions
+
+
+### Most Important skill to have in the tech industry?
+KRIS:
+- Continuous Learning
+- Learn multiple programming languages
+- “Learn how to learn” = always be ready to learn more
+
+- Don’t be super concerned about things you read on the news (resiliance)
+The only risk is not learning
+ 
+KATHY:
+- Be adaptive
+- Career paths won’t always be a straight line
+- Best technicians: listen and solve technical requirements (can explain in non-technical terms)
+
+### Something they had to Learn:
+- To be adaptive 
+- Be able to pass code tests (code has to work)
+
+### Work/life balance:
+- Some companies are great with work hours 
+- Some have a lot of hours/deadlines
+- If you have outside hobbies/necessities = set boundaries
+
