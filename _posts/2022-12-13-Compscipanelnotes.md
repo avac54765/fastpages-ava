@@ -46,7 +46,7 @@ KRIS:
 - Don’t be super concerned about things you read on the news (resiliance)
 The only risk is not learning
  
-KATHY:
+KATHYLEEN:
 - Be adaptive
 - Career paths won’t always be a straight line
 - Best technicians: listen and solve technical requirements (can explain in non-technical terms)
