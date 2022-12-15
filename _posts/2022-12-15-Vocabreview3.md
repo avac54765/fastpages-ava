@@ -6,7 +6,7 @@ layout: post
 description: Vocabulary for lessons
 permalink: /voacab/livereviewthree
 image: /images/vocab.jpg
-categories: [week 16]
+categories: [week 16, vocab]
 ---
 
 ### Live Review 3 Vocabulary and Examples
