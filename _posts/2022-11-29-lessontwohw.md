@@ -6,7 +6,7 @@ layout: post
 description: Algorithims, sequence, selection, iteration, mathmatical expressions, MOD, string concatination
 permalink: /lesson_two/hw
 image: /images/hw.jpg
-categories: [week 14]
+categories: [week 14, hacks]
 ---
 
 # Hack 1 3.3.1
