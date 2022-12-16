@@ -1,5 +1,5 @@
 ---
-title: Live Review 3 Vocabulary and Examples
+title: Live Review 2-3 Vocabulary and Examples
 toc: true
 comments: true
 layout: post
@@ -9,7 +9,7 @@ image: /images/vocab.jpg
 categories: [week 16, vocab]
 ---
 
-### Live Review 3 Vocabulary and Examples
+## Live Review 3 Vocabulary and Examples
 
 - **Binary Numbers**: a numbering scheme in which there are only two possible values for each digit -- 0 or 1 -- and is the basis for all binary code used in computing systems
 - **Hexadecimal**: a numbering system with base 16
@@ -38,3 +38,35 @@ categories: [week 16, vocab]
     - **Lossy**: data encoding and compression technique that deliberately discards some data in the compression process
     - **Lossless**: restores and rebuilds file data in its original form after the file is decompressed
 ![Data Compression Example]({{site.baseurl}}/images/catlosseyandlossless.jpg)
+
+## Live Review 2 Vocabulary and Examples
+
+- **variables**: "containers" or used to store information to be referenced and manipulated in a computer program
+- **data types**:  a classification that specifies which type of value a variable has and what type of mathematical, relational or logical operations can be applied to it
+- **assignment operators**: the operator used to assign a new value to a variable
+- **lists**: an abstract data type that represents a finite number of ordered values
+- **dictionaries**: an abstract data type that defines an unordered collection of data as a set of key-value pairs
+- **class**:  a template definition of a method and variable in a particular kind of object
+- **algorithm**: a procedure used for solving a problem or performing a computation
+- **sequence**: the order of how to do something to achieve a result
+- **selection**: allows an algorithm to make a decision based on if a condition is met
+- **iteration**: iteration: a loop and doing something again until a condition is met
+- **expressions**: a concept in which a number of variables or constants, and operators and functions, are put together in a single statement that is acted on by a particular programming language
+- **comparison operators**: compare the values within an expression, such as to check if the value held by a variable matches the value held by another variable
+- **boolean expression**: a logical statement that is either TRUE or FALSE
+- **truth tables**: a breakdown of all the possible truth values returned by a logical expression (usually 1/0, true/false)
+- **characters**: a display unit of information equivalent to one alphabetic letter or symbol
+- **strings**: an array data structure of bytes (or words) that stores a sequence of elements
+- **length**: length() function returns the number of items in an object
+- **concatenation**: the operation of joining two strings together
+- **python if**: a conditional statement tha decides if a certian condition is true/decides whether certain statements need to be executed or not
+- **python elif**: elif = else if and checks for multiple expressions (if the condition for if is False, it checks the condition of the next elif block)
+- **python else conditionals**: else catches anything which isn't caught by the previous conditions (like and if statement)
+- **nested selection statements**: when more than one decision must be made before carrying out a task
+- **Python for loop**: a control flow statement that is used to repeatedly execute a group of statements as long as the condition is satisfied
+- **Python while loop with range and with list**:  sets aside a block of code that is to be executed repeatedly until a condition is falsified
+- **Combining loops with conditionals to Break, Continue**:
+- **Procedural Abstraction**: when we create code sections which are generalised by having variable parameters (more simple)
+- **Python Def procedures**:
+- **paramerters**: a special kind of variable used in a function to refer to one of the pieces of data provided as input to the function
+- **return values**: a value that a function returns to the calling function when it completes its task
