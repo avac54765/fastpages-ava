@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      2 min read
+      3 min read
     
 </span></p>
 
@@ -313,14 +313,76 @@ You have to do study for physics
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><mark>efficiency expained</mark>: The first algorithim is much more efficient than my second algorithim. My second algorithim has repetition and duplication of inputs and printing. My first algoritim fixes this issue by having a loop that will allow a user to keep inputing tasks. This avoids duplication and is easier for a programmer to understand if they're are hundreds of tasks. In my second algorithim, a programer would have to keep adding individual task variables, inputs, and print them for every single task. This is very tedious if there are many tasks. My first algorithim only has nine lines of code, and can print unlimited number of tasks. My second algorithim requires two lines of code for every task. This means that the code would get very long if there are many tasks.</p>
+<p><mark>efficiency expained</mark>: The first algorithim is much more efficient than my second algorithim. My second algorithim has repetition and duplication of inputs and printing. My first algoritim fixes this issue with way <mark>fewer steps</mark> by having a loop that will allow a user to keep inputing tasks. This avoids duplication and is easier for a programmer to understand if they're are hundreds of tasks. In my second algorithim, a programer would have to keep adding individual task variables, inputs, and print them for every single task. This is very tedious if there are many tasks. My first algorithim only has nine lines of code with two or three steps, and can print unlimited number of tasks. My second algorithim requires two lines of code for every task, or two steps for every task. This means that the code would get very long if there are many tasks.</p>
 <ol>
-<li>Algorithim efficiency is the ability of an algorithim to be concise, avoiding repetition and duplication. </li>
+<li>
+<p>Algorithim efficiency is the ability of an algorithim to be concise, avoiding repetition and duplication. Efficient algorithims are short in length and require <mark>less steps</mark> to solve a problem.</p>
+</li>
+<li>
+<p>Daily tasks program below: <mark>MAYBE EXTRA CREDIT pwetty pwease</mark> for making a COMPLEX efficient alforithim for all the months in the year. This algorithim below is efficient because it only requires two/three steps instead of writing out three steps for every single month with appending each list for that month.</p>
+</li>
 </ol>
 
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">yearly_schedule</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">'January'</span> <span class="p">:</span> <span class="p">[],</span>
+    <span class="s1">'February'</span> <span class="p">:</span> <span class="p">[],</span>
+    <span class="s1">'March'</span> <span class="p">:</span> <span class="p">[],</span>
+    <span class="s1">'April'</span> <span class="p">:</span> <span class="p">[],</span>
+    <span class="s1">'May'</span> <span class="p">:</span> <span class="p">[],</span>
+    <span class="s1">'June'</span> <span class="p">:</span> <span class="p">[],</span>
+    <span class="s1">'July'</span> <span class="p">:</span> <span class="p">[],</span>
+    <span class="s1">'August'</span> <span class="p">:</span> <span class="p">[],</span>
+    <span class="s1">'September'</span> <span class="p">:</span> <span class="p">[],</span>
+    <span class="s1">'October'</span> <span class="p">:</span> <span class="p">[],</span>
+    <span class="s1">'November'</span> <span class="p">:</span> <span class="p">[],</span>
+    <span class="s1">'December'</span> <span class="p">:</span> <span class="p">[]</span>
+     <span class="p">}</span>
+
+<span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">while</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="n">month</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"What month would you like to add to?"</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">month</span> <span class="ow">in</span> <span class="n">yearly_schedule</span><span class="p">:</span>
+        <span class="n">event</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"What event would you like to add?"</span><span class="p">)</span>
+        <span class="n">yearly_schedule</span><span class="p">[</span><span class="n">month</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">event</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">month</span> <span class="o">==</span> <span class="s2">"None"</span><span class="p">:</span>
+        <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"That is not a month in the year or you did not capitilize your month."</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">yearly_schedule</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>{'January': ['Funeral'], 'February': [], 'March': ['play date w Lydia'], 'April': [], 'May': [], 'June': [], 'July': [], 'August': ['Go to Disneyland'], 'September': [], 'October': [], 'November': [], 'December': ['cheer practice', 'cry to Conan Grey']}
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 </div>
 
 
