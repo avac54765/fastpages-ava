@@ -42,31 +42,38 @@ categories: [week 16, vocab]
 ## Live Review 2 Vocabulary and Examples
 
 - **variables**: "containers" or used to store information to be referenced and manipulated in a computer program
+![Variable image]({{site.baseurl}}/images/variableexample.png)
 - **data types**:  a classification that specifies which type of value a variable has and what type of mathematical, relational or logical operations can be applied to it
 - **assignment operators**: the operator used to assign a new value to a variable
+![Operators]({{site.baseurl}}/images/operator.png)
 - **lists**: an abstract data type that represents a finite number of ordered values
 - **dictionaries**: an abstract data type that defines an unordered collection of data as a set of key-value pairs
+![Lists/Dictionaries image]({{site.baseurl}}/images/listdict.png)
 - **class**:  a template definition of a method and variable in a particular kind of object
+![class]({{site.baseurl}}/images/classexample.png)
 - **algorithm**: a procedure used for solving a problem or performing a computation
 - **sequence**: the order of how to do something to achieve a result
 - **selection**: allows an algorithm to make a decision based on if a condition is met
 - **iteration**: iteration: a loop and doing something again until a condition is met
+![Sequence, selection, iteration image]({{site.baseurl}}/images/sequence.jpg)
 - **expressions**: a concept in which a number of variables or constants, and operators and functions, are put together in a single statement that is acted on by a particular programming language
 - **comparison operators**: compare the values within an expression, such as to check if the value held by a variable matches the value held by another variable
+![Comparison operators image]({{site.baseurl}}/images/comparison.png)
 - **boolean expression**: a logical statement that is either TRUE or FALSE
 - **truth tables**: a breakdown of all the possible truth values returned by a logical expression (usually 1/0, true/false)
-- **characters**: a display unit of information equivalent to one alphabetic letter or symbol
-- **strings**: an array data structure of bytes (or words) that stores a sequence of elements
+![truth table image]({{site.baseurl}}/images/truth.jpg)
+- **characters**: a display unit of information equivalent to one alphabetic letter or symbol ex. a
+- **strings**: an array data structure of bytes (or words) that stores a sequence of elements ex. "apple"
 - **length**: length() function returns the number of items in an object
-- **concatenation**: the operation of joining two strings together
+- **concatenation**: the operation of joining two strings together (joined by plus sign)
 - **python if**: a conditional statement tha decides if a certian condition is true/decides whether certain statements need to be executed or not
 - **python elif**: elif = else if and checks for multiple expressions (if the condition for if is False, it checks the condition of the next elif block)
 - **python else conditionals**: else catches anything which isn't caught by the previous conditions (like and if statement)
+![if, elif, else image]({{site.baseurl}}/images/elif.png)
 - **nested selection statements**: when more than one decision must be made before carrying out a task
-- **Python for loop**: a control flow statement that is used to repeatedly execute a group of statements as long as the condition is satisfied
-- **Python while loop with range and with list**:  sets aside a block of code that is to be executed repeatedly until a condition is falsified
-- **Combining loops with conditionals to Break, Continue**:
+- **Python for loop**: a control flow statement that is used to repeatedly execute a group of statements as long as the condition is satisfied 
+- **Python while loop with range and with list**:  sets aside a block of code that is to be executed repeatedly until a condition is falsified ex. while i == 0
 - **Procedural Abstraction**: when we create code sections which are generalised by having variable parameters (more simple)
-- **Python Def procedures**:
-- **paramerters**: a special kind of variable used in a function to refer to one of the pieces of data provided as input to the function
-- **return values**: a value that a function returns to the calling function when it completes its task
+- **paramerters**: a special kind of variable used in a function to refer to one of the pieces of data provided as input to the function ex. function(parameter)
+- **return values**: a value that a function returns to the calling function when it completes its task 
+![return statement image]({{site.baseurl}}/images/return.png)
