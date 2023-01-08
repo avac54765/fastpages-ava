@@ -35,14 +35,18 @@ Why Did a Section(s) Not Recieve Points?
 
 
 ## Submission Number Two
+[Submission video](https://youtu.be/tEXoC-zYsrU)
+[Submission Written Response](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-2022-create-performance-task-sample-f.pdf)
 
-My Score: 
-[Click here to see my rubric]()
 
-Collegeboard's Score: 
-[Click here to see Collegeboard's rubric]()
+My Score: /6
+[Click here to see my rubric](https://github.com/avac54765/fastpages-ava/issues/17)
+
+Collegeboard's Score: 6/6
+[Click here to see Collegeboard's rubric](https://drive.google.com/file/d/1h1BDVPlYfXE5Lg1AZ8VdWJf6erT3hQ4e/view?usp=share_link)
 
 ### Reflection
 
 Why Did a Section(s) Not Recieve Points?
-- 
+- I decided to score the section, Algorithim Implementation, a 0/1 because I thought they did not explain how they program code worked enough for someone to recreate it. I believe that I thought this due to my lack of experience of coding. As someone who hasn't coded very many projects yet, I would need more detailed instructions than a person grading for Collegeboard.
+    - Collegeboard graded this project a 6/6. I was surprised to see this score becauase I feel like Collegeboard grades on the scrict side. It seems that this group explained with excess on how to recreate this project. They described, "“The algorithm uses nested if-else statements to identify which list will be copied from, by looking at the first parameter. Inside the if statement matching that parameter, are another set of if statements to determine where the list should be copied over to. This could be adapted to any number of lists, but is in this case just three, meaning two if statements within each of three nested if-else, as of course a list cannot be copied to itself.” This seems complicated to me so maybe I just didn't understand it enough to recreate it.
