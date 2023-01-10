@@ -13,7 +13,8 @@ title: My Weekly Work
 | 14 | [Week One Lessons](https://avac54765.github.io/fastpages-ava/teamlesson/notes) --> [total week one](https://avac54765.github.io/fastpages-ava/lessons/weekone)|
 | 15 | [Lesson Notes](https://avac54765.github.io/fastpages-ava/teamlesson/notes) ---> [Live Review Two Lessons](https://avac54765.github.io/fastpages-ava/lessonsreview/two) |
 | 16 | [Lesson Notes](https://avac54765.github.io/fastpages-ava/teamlesson/notes) ---> [Live Review Three Lessons](https://avac54765.github.io/fastpages-ava/lessonsreview/three)|
-| 17 | []() |
+| 17 | Designed frontend for group project -->  [Graded Collegeboard Projects](https://avac54765.github.io/fastpages-ava/CB/submissions/one) |
+| 18 | []() --> [Graded Collegeboard Projects](https://avac54765.github.io/fastpages-ava/CB/submissions/one) |
 
 
 ## Trimester 1 Work
