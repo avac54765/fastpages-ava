@@ -56,24 +56,57 @@ Why Did a Section(s) Not Recieve Points?
 # Week Two
 
 ## Submission One
+[Submission Video](https://secure-media.collegeboard.org/apc/ap-computer-science-principles-2022-create-performance-task-sample-i-video.mp4)
+[Submission Written Response](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-2022-create-performance-task-sample-i.pdf)
+
+My Score: 4/6
+[Click here to see my rubric](https://github.com/avac54765/fastpages-ava/issues/18)
+
+Collegeboard's Score: 1/6
+[Click here to see Collegeboard's rubric](https://drive.google.com/file/d/1HXDauimq8edpT0-aZ2iIujzLdIxtyKMx/view)
+
 
 ### Reflection
 
 
 
 ## Submision Two
+[Submission Video](https://youtu.be/VTtZi_Cr4Cc)
+[Submission Written Response](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-2022-create-performance-task-sample-b.pdf)
+
+My Score: /6
+[Click here to see my rubric]()
+
+Collegeboard's Score: /6
+[Click here to see Collegeboard's rubric](https://drive.google.com/file/d/1bzSueMdVVt3QVmkMCSKEkIVd9mZ3hQBP/view?usp=share_link)
 
 ### Reflection
 
 
 
 ## Submission Three
+[Submission Video](https://youtube.com/shorts/TiKzQk5aK9k)
+[Submission Written Response](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-2022-create-performance-task-sample-d.pdf)
+
+My Score: /6
+[Click here to see my rubric]()
+
+Collegeboard's Score: /6
+[Click here to see Collegeboard's rubric](https://drive.google.com/file/d/1dX7KNT9axip5DQDEYdIYbuajcrWUB4lR/view?usp=share_link)
 
 ### Reflection
 
 
 
 ## Submission Four
+[Submission Video](https://secure-media.collegeboard.org/apc/ap-computer-science-principles-2022-create-performance-task-sample-g-video.mp4)
+[Submission Written Response](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-2022-create-performance-task-sample-g.pdf)
+
+My Score: /6
+[Click here to see my rubric]()
+
+Collegeboard's Score: /6
+[Click here to see Collegeboard's rubric](https://drive.google.com/file/d/1so2WKNMi5vONuFCWZFFUqq8gVWNe_jCS/view?usp=share_link)
 
 ### Reflection
 
