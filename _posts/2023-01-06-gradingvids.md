@@ -4,7 +4,7 @@ toc: true
 comments: true
 layout: post
 description: Example CB Project Submissions and Grading
-permalink: /CB/submissions/one
+permalink: /CB/submissions/grading
 image: /images/cbimage.png
 categories: [week 17, collegeboard, project, grading]
 ---
