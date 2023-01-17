@@ -68,6 +68,11 @@ Collegeboard's Score: 1/6
 
 ### Reflection
 
+- I was very surprised to see the score for this project. I scored this project much higher than collegeboard did. This is because this project often only met one of two requirements for a row, resulting in a zero for that section. This makes me realize how easy it is to lose a point for a section by not meeting all the requirements. 
+- What was different?
+    - I scored rows one and five as 0/1, unlike collegeboard, who scored rows 1-5 zeroes. I belive this is because I was more leient on the requirements than they were. 
+    - When looking at the code segements, I didn't think to look at the list names and check that they list names matched when being implemented. Apparently, this group showed a list being defined in one code segment, but then used a different list being implemented in the code. 
+    - Looking at their code segments, I figured that the code looked simple due to managing complexity, but collegboard said that their code was simple to begin with, with little complexity managing.
 
 
 ## Submision Two
