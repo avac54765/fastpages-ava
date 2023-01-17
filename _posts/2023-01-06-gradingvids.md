@@ -123,3 +123,56 @@ Collegeboard's Score: 3/6
     - I thought that this project did not explain how to write the code of the list without the list, although collegeboard says that this project doesn't even manage complexity with the list. I need to remember when creating my project, a simple list than can easily be replaced does not count as a list that manages complexity.
     - This person did not describe specific values that were being called, but just described the "conditionals". When I write my written response, I need to be specific about what is being called.
 
+
+# Week Three
+
+## Submission One
+[Submission Video](https://secure-media.collegeboard.org/apc/ap-computer-science-principles-2022-create-performance-task-sample-h-video.mp4)
+[Submission Written Response](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-2022-create-performance-task-sample-h.pdf)
+
+My Score: /6
+[Click here to see my rubric]()
+
+Collegeboard's Score: /6
+[Click here to see Collegeboard's rubric](https://drive.google.com/file/d/19KBDJTwn0DPSKhBUz2bFSMEtnNcnpEZx/view?usp=share_link)
+
+### Reflection
+
+
+## Submission Two
+[Submission Video](https://secure-media.collegeboard.org/apc/ap-computer-science-principles-2022-create-performance-task-sample-c-video.mp4)
+[Submission Written Response](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-2022-create-performance-task-sample-c.pdf)
+
+My Score: /6
+[Click here to see my rubric]()
+
+Collegeboard's Score: /6
+[Click here to see Collegeboard's rubric](https://drive.google.com/file/d/1KNzEy7woRmvGmEE0LPJ24FwDhoyWDU7_/view?usp=share_link)
+
+### Reflection
+
+
+## Submission Three
+[Submission Video](https://youtube.com/shorts/KeY7B6cNSic)
+[Submission Written Response](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-2022-create-performance-task-sample-j.pdf)
+
+My Score: /6
+[Click here to see my rubric]()
+
+Collegeboard's Score: /6
+[Click here to see Collegeboard's rubric](https://drive.google.com/file/d/1q5N1F_6NA7NLB2wkp6wqC8jLxHuxFm7Z/view?usp=share_link)
+
+### Reflection
+
+
+## Submission Four
+[Submission Video](https://secure-media.collegeboard.org/apc/ap-computer-science-principles-2022-create-performance-task-sample-e-video.mp4)
+[Submission Written Response](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-2022-create-performance-task-sample-e.pdf)
+
+My Score: /6
+[Click here to see my rubric]()
+
+Collegeboard's Score: /6
+[Click here to see Collegeboard's rubric](https://drive.google.com/file/d/1c-w31AwXb-m1E5A4OKiRC6SezoB8JDuK/view?usp=share_link)
+
+### Reflection
