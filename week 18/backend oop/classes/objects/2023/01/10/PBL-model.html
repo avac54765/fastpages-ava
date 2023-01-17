@@ -535,7 +535,7 @@ Test 4, make a dictionary
     <span class="k">return</span> <span class="n">result</span>    
 
 <span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">"__main__"</span><span class="p">:</span>
-    <span class="n">u1</span> <span class="o">=</span> <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'Thomas Edison'</span><span class="p">,</span> <span class="n">uid</span><span class="o">=</span><span class="s1">'toby'</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s1">'123toby'</span><span class="p">,</span> <span class="n">dob</span><span class="o">=</span><span class="n">date</span><span class="p">(</span><span class="mi">1847</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">11</span><span class="p">),</span> <span class="n">classOf</span><span class="o">=</span><span class="s1">'1920'</span><span class="p">)</span>
+    <span class="n">u1</span> <span class="o">=</span> <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'Dylan OBrien'</span><span class="p">,</span> <span class="n">uid</span><span class="o">=</span><span class="s1">'mazerunner'</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s1">'success'</span><span class="p">,</span> <span class="n">dob</span><span class="o">=</span><span class="n">date</span><span class="p">(</span><span class="mi">1999</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">11</span><span class="p">),</span> <span class="n">classOf</span><span class="o">=</span><span class="s1">'1920'</span><span class="p">)</span>
     <span class="n">u2</span> <span class="o">=</span> <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'Ava Carlson'</span><span class="p">,</span> <span class="n">uid</span><span class="o">=</span><span class="s1">'coolcat'</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s1">'welovecoolcats4'</span><span class="p">,</span> <span class="n">dob</span><span class="o">=</span><span class="n">date</span><span class="p">(</span><span class="mi">2006</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">13</span><span class="p">),</span> <span class="n">classOf</span><span class="o">=</span><span class="s1">'2024'</span><span class="p">)</span>
     <span class="n">u3</span> <span class="o">=</span> <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'Tom Holland'</span><span class="p">,</span> <span class="n">uid</span><span class="o">=</span><span class="s1">'thebestspiderman'</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="s1">'peter1'</span><span class="p">,</span> <span class="n">dob</span><span class="o">=</span><span class="n">date</span><span class="p">(</span><span class="mi">1999</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">12</span><span class="p">),</span> <span class="n">classOf</span><span class="o">=</span><span class="s1">'2015'</span><span class="p">)</span>
 
@@ -572,24 +572,24 @@ Test 4, make a dictionary
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Test 1, find user 3
-{"name": "Thomas Edison", "uid": "toby", "dob": "02-11-1847", "age": 175, "classOf": "1920"}
+{"name": "Dylan OBrien", "uid": "mazerunner", "dob": "02-11-1999", "age": 23, "classOf": "1920"}
 {"name": "Ava Carlson", "uid": "coolcat", "dob": "01-13-2006", "age": 17, "classOf": "2024"}
 * {"name": "Tom Holland", "uid": "thebestspiderman", "dob": "08-12-1999", "age": 23, "classOf": "2015"}
 Test 2, change user 3
-{"name": "Thomas Edison", "uid": "toby", "dob": "02-11-1847", "age": 175, "classOf": "1920"}
+{"name": "Dylan OBrien", "uid": "mazerunner", "dob": "02-11-1999", "age": 23, "classOf": "1920"}
 {"name": "Ava Carlson", "uid": "coolcat", "dob": "01-13-2006", "age": 17, "classOf": "2024"}
 * {"name": "John Mortensen", "uid": "jm1021", "dob": "08-12-1999", "age": 23, "classOf": "2015"}
 JSON ready string:
  {"name": "Ava Carlson", "uid": "coolcat", "dob": "01-13-2006", "age": 17, "classOf": "2024"} 
 
 Raw Variables of object:
- {'_name': 'Ava Carlson', '_uid': 'coolcat', '_password': 'sha256$AuZLeqZXZDJveuwi$972b361885d09d99febdb4a6f384938c295d6448c38a7bab1705fa443aaba71e', '_dob': datetime.date(2006, 1, 13), '_classOf': '2024'} 
+ {'_name': 'Ava Carlson', '_uid': 'coolcat', '_password': 'sha256$7Bxy8S38fzctiLgy$58d1a97d9d59092d5786d75125d13ec992c00cd1a358bbd515f74df34acedb18', '_dob': datetime.date(2006, 1, 13), '_classOf': '2024'} 
 
 Raw Attributes and Methods of object:
  ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_classOf', '_dob', '_name', '_password', '_uid', 'age', 'classOf', 'dictionary', 'dob', 'is_password', 'is_uid', 'name', 'set_password', 'uid'] 
 
 Representation to Re-Create the object:
- User(name=Ava Carlson, uid=coolcat, password=sha256$AuZLeqZXZDJveuwi$972b361885d09d99febdb4a6f384938c295d6448c38a7bab1705fa443aaba71e,dob=2006-01-13, classOf=2024) 
+ User(name=Ava Carlson, uid=coolcat, password=sha256$7Bxy8S38fzctiLgy$58d1a97d9d59092d5786d75125d13ec992c00cd1a358bbd515f74df34acedb18,dob=2006-01-13, classOf=2024) 
 
 </pre>
 </div>
