@@ -131,7 +131,7 @@ Collegeboard's Score: 3/6
 [Submission Written Response](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-2022-create-performance-task-sample-h.pdf)
 
 My Score: /6
-[Click here to see my rubric]()
+[Click here to see my rubric](https://github.com/avac54765/fastpages-ava/issues/22)
 
 Collegeboard's Score: /6
 [Click here to see Collegeboard's rubric](https://drive.google.com/file/d/19KBDJTwn0DPSKhBUz2bFSMEtnNcnpEZx/view?usp=share_link)
@@ -144,7 +144,7 @@ Collegeboard's Score: /6
 [Submission Written Response](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-2022-create-performance-task-sample-c.pdf)
 
 My Score: /6
-[Click here to see my rubric]()
+[Click here to see my rubric](https://github.com/avac54765/fastpages-ava/issues/23)
 
 Collegeboard's Score: /6
 [Click here to see Collegeboard's rubric](https://drive.google.com/file/d/1KNzEy7woRmvGmEE0LPJ24FwDhoyWDU7_/view?usp=share_link)
@@ -157,7 +157,7 @@ Collegeboard's Score: /6
 [Submission Written Response](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-2022-create-performance-task-sample-j.pdf)
 
 My Score: /6
-[Click here to see my rubric]()
+[Click here to see my rubric](https://github.com/avac54765/fastpages-ava/issues/24)
 
 Collegeboard's Score: /6
 [Click here to see Collegeboard's rubric](https://drive.google.com/file/d/1q5N1F_6NA7NLB2wkp6wqC8jLxHuxFm7Z/view?usp=share_link)
@@ -170,7 +170,7 @@ Collegeboard's Score: /6
 [Submission Written Response](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-2022-create-performance-task-sample-e.pdf)
 
 My Score: /6
-[Click here to see my rubric]()
+[Click here to see my rubric](https://github.com/avac54765/fastpages-ava/issues/25)
 
 Collegeboard's Score: /6
 [Click here to see Collegeboard's rubric](https://drive.google.com/file/d/1c-w31AwXb-m1E5A4OKiRC6SezoB8JDuK/view?usp=share_link)
