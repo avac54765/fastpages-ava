@@ -70,8 +70,8 @@ Collegeboard's Score: 1/6
 
 - I was very surprised to see the score for this project. I scored this project much higher than collegeboard did. This is because this project often only met one of two requirements for a row, resulting in a zero for that section. This makes me realize how easy it is to lose a point for a section by not meeting all the requirements. 
 - What was different?
-    - I scored rows one and five as 0/1, unlike collegeboard, who scored rows 1-5 zeroes. I belive this is because I was more leient on the requirements than they were. 
-    - When looking at the code segements, I didn't think to look at the list names and check that they list names matched when being implemented. Apparently, this group showed a list being defined in one code segment, but then used a different list being implemented in the code. 
+    - I scored rows one and five as 0/1, unlike collegeboard, who scored rows 1-5 zeroes. I believe this is because I was more lenient on the requirements than they were. 
+    - When looking at the code segments, I didn't think to look at the list names and check that they list names matched when being implemented. Apparently, this group showed a list being defined in one code segment, but then used a different list being implemented in the code. 
     - Looking at their code segments, I figured that the code looked simple due to managing complexity, but collegboard said that their code was simple to begin with, with little complexity managing.
 
 
@@ -79,39 +79,47 @@ Collegeboard's Score: 1/6
 [Submission Video](https://youtu.be/VTtZi_Cr4Cc)
 [Submission Written Response](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-2022-create-performance-task-sample-b.pdf)
 
-My Score: /6
-[Click here to see my rubric]()
+My Score: 6/6
+[Click here to see my rubric](https://github.com/avac54765/fastpages-ava/issues/19)
 
-Collegeboard's Score: /6
+Collegeboard's Score: 6/6
 [Click here to see Collegeboard's rubric](https://drive.google.com/file/d/1bzSueMdVVt3QVmkMCSKEkIVd9mZ3hQBP/view?usp=share_link)
 
 ### Reflection
-
+- I am not surprised that this project received a 6/6 by both collegeboard and me. 
+- The written response was very well done and explained. I can take this project as an example for my project on how to correctly explain things in my written response. For example, this person explained how their project benefited the user and how the user would use it. It had very concise code segments with explanations that explained the lists being used, the functions being used, and their functions in terms of the program's function/purpose.
 
 
 ## Submission Three
 [Submission Video](https://youtube.com/shorts/TiKzQk5aK9k)
 [Submission Written Response](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-2022-create-performance-task-sample-d.pdf)
 
-My Score: /6
-[Click here to see my rubric]()
+My Score: 5/6
+[Click here to see my rubric](https://github.com/avac54765/fastpages-ava/issues/20)
 
-Collegeboard's Score: /6
-[Click here to see Collegeboard's rubric](https://drive.google.com/file/d/1dX7KNT9axip5DQDEYdIYbuajcrWUB4lR/view?usp=share_link)
+Collegeboard's Score: 5/6
+[Click here to see Collegeboard's rubric](https://drive.google.com/file/d/1dX7KNT9axip5DQDEYdIYbuajcrWUB4lR/viewow?usp=share_link)
 
 ### Reflection
-
+- I agree with Collegeboard that this project deserves a 5/6. 
+- This group did not describe the purpose of their project correctly. Instead of mentioning how the project would benefit the user, they described the function. Although, I thought that they did not describe the function of the project as well, but collegeboard disagrees. I thought that the function must describe how the program chooses a winner, but instead it just said that it uses buttons to choose screens. I guess that this does describe how the program works.
+- This project did a great job with complex code segments and describing their code. I will look to this project when I need to check how to manage complexity. I also learned from this project that you can use a list in a code segment but it can be used under the parameter of a function. If you do so though, you need to describe what the name of the parameter and the list are. 
 
 
 ## Submission Four
 [Submission Video](https://secure-media.collegeboard.org/apc/ap-computer-science-principles-2022-create-performance-task-sample-g-video.mp4)
 [Submission Written Response](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-2022-create-performance-task-sample-g.pdf)
 
-My Score: /6
-[Click here to see my rubric]()
+My Score: 3/6
+[Click here to see my rubric](https://github.com/avac54765/fastpages-ava/issues/21)
 
-Collegeboard's Score: /6
+Collegeboard's Score: 3/6
 [Click here to see Collegeboard's rubric](https://drive.google.com/file/d/1so2WKNMi5vONuFCWZFFUqq8gVWNe_jCS/view?usp=share_link)
 
 ### Reflection
+- I feel that I am getting better at grading these projects. Both Collegeboard and I graded this project a 3/6.
+- Where did they go wrong?
+    - This person did not use their list in their code segment. I did not see the name of the list in their code, but apparently they used the length of the list in the code. I learned that using the length of a list in your project does not satisfy using the contents of the list.
+    - I thought that this project did not explain how to write the code of the list without the list, although collegeboard says that this project doesn't even manage complexity with the list. I need to remember when creating my project, a simple list than can easily be replaced does not count as a list that manages complexity.
+    - This person did not describe specific values that were being called, but just described the "conditionals". When I write my written response, I need to be specific about what is being called.
 
