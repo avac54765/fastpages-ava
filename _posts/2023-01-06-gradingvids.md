@@ -41,7 +41,7 @@ Why Did a Section(s) Not Recieve Points?
 [Submission Written Response](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-2022-create-performance-task-sample-f.pdf)
 
 
-My Score: /6
+My Score: 5/6
 [Click here to see my rubric](https://github.com/avac54765/fastpages-ava/issues/17)
 
 Collegeboard's Score: 6/6
@@ -130,26 +130,32 @@ Collegeboard's Score: 3/6
 [Submission Video](https://secure-media.collegeboard.org/apc/ap-computer-science-principles-2022-create-performance-task-sample-h-video.mp4)
 [Submission Written Response](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-2022-create-performance-task-sample-h.pdf)
 
-My Score: /6
+My Score: 5/6
 [Click here to see my rubric](https://github.com/avac54765/fastpages-ava/issues/22)
 
-Collegeboard's Score: /6
+Collegeboard's Score: 3/6
 [Click here to see Collegeboard's rubric](https://drive.google.com/file/d/19KBDJTwn0DPSKhBUz2bFSMEtnNcnpEZx/view?usp=share_link)
 
 ### Reflection
+- What was different? 
+    - In row two, I figured that the person used the data from their list in their function, although Collegeboard said that the data is not being accessed from the list. If this were my project, I would clarify in the description of the name that the data is being accessed through a parameter.
+    - In row 4, I gave this person a point because I thought that they showed their procedure being called and explained it well, but they missed explaining how their project contributes to the overall program. I need to make sure I address this in this question instead of just explaining how the procedure works.
+
 
 
 ## Submission Two
 [Submission Video](https://secure-media.collegeboard.org/apc/ap-computer-science-principles-2022-create-performance-task-sample-c-video.mp4)
 [Submission Written Response](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-2022-create-performance-task-sample-c.pdf)
 
-My Score: /6
+My Score: 6/6
 [Click here to see my rubric](https://github.com/avac54765/fastpages-ava/issues/23)
 
-Collegeboard's Score: /6
+Collegeboard's Score: 6/6
 [Click here to see Collegeboard's rubric](https://drive.google.com/file/d/1KNzEy7woRmvGmEE0LPJ24FwDhoyWDU7_/view?usp=share_link)
 
 ### Reflection
+- I agree with Collegeboard that this project earned a 6/6. This project was very detailed in their descriptions and hit every requirement spot-on. When I am writing my written portion for my project, I will refer to this project and try to follow this format. 
+- In this project, it was a lot easier for me to see the data being stored in a list and being used. The calls that were described were also easy to follow and allowed me to understand more what the different parts of a call are. 
 
 
 ## Submission Three
