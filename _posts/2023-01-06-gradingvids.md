@@ -162,13 +162,18 @@ Collegeboard's Score: 6/6
 [Submission Video](https://youtube.com/shorts/KeY7B6cNSic)
 [Submission Written Response](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-2022-create-performance-task-sample-j.pdf)
 
-My Score: /6
+My Score: 2/6
 [Click here to see my rubric](https://github.com/avac54765/fastpages-ava/issues/24)
 
-Collegeboard's Score: /6
+Collegeboard's Score: 1/6
 [Click here to see Collegeboard's rubric](https://drive.google.com/file/d/1q5N1F_6NA7NLB2wkp6wqC8jLxHuxFm7Z/view?usp=share_link)
 
 ### Reflection
+I feel like if I were able to give half points, this project would have earned a much higher score. This person was always close with their written responses, but was never specific enough. Collegeboard gave a lot less half credit for requirements than I did.
+- I did not realize that the list they have does not hold all the information they said, but just the state name.
+- I gave this project a point for managing complexity, but it turns out Collegboard said they met neither of the criteria. They do not have iteration (because it doesn't loop through) and they did not describe the algorithim completely.
+- This project did not make any calls TO their procedure due to the parameter being assigned after the call. They also just described what happens to the screen from these calls instead of specific results from the calls.
+
 
 
 ## Submission Four
