@@ -180,10 +180,13 @@ I feel like if I were able to give half points, this project would have earned a
 [Submission Video](https://secure-media.collegeboard.org/apc/ap-computer-science-principles-2022-create-performance-task-sample-e-video.mp4)
 [Submission Written Response](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-2022-create-performance-task-sample-e.pdf)
 
-My Score: /6
+My Score: 6/6
 [Click here to see my rubric](https://github.com/avac54765/fastpages-ava/issues/25)
 
-Collegeboard's Score: /6
+Collegeboard's Score: 5/6
 [Click here to see Collegeboard's rubric](https://drive.google.com/file/d/1c-w31AwXb-m1E5A4OKiRC6SezoB8JDuK/view?usp=share_link)
 
 ### Reflection
+
+- I thought that this project was very well done. They explained very clearly in accordance to the Collegeboard standards. 
+- I was very off with the final criteria for row six of this project. Collegeboard states that, "The response did not earn the point for this row, meeting none of the three criteria." I thought that they should have earned the point for this, but it turns out they got none of the criteria. This person described more of the code rather than specific parameters, what is being tested from these parameters, and the results of these parameters.
