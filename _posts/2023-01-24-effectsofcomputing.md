@@ -86,4 +86,4 @@ categories: [week 20, collegeboard, reflection, notes]
 
 ### Concerns about the Digital Divide
 
-I am concerned that 
+I am concerned that the digital divide will only continue to grow as technology advances. This means that some people in the world will continue to fully integrate with technology and will lose communication with those who are without technology. I think that the digital divide will divide countries and/or people.
