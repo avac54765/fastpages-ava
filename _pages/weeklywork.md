@@ -15,7 +15,8 @@ title: My Weekly Work
 | 16 | [Lesson Notes](https://avac54765.github.io/fastpages-ava/teamlesson/notes) ---> [Live Review Three Lessons](https://avac54765.github.io/fastpages-ava/lessonsreview/three)|
 | 17 | Designed frontend for group project -->  [Graded Collegeboard Projects](https://avac54765.github.io/fastpages-ava/CB/submissions/one) |
 | 18 | [Frontend and Backend Team Work](https://srihitakott1213.github.io/TeamBaddies/lesson/week18) --> [Graded Collegeboard Projects](https://avac54765.github.io/fastpages-ava/CB/submissions/one) |
-| 19 | []() --> [Graded Collegeboard Projects](https://avac54765.github.io/fastpages-ava/CB/submissions/one) |
+| 19 | API and Database Hacks --> [Graded Collegeboard Projects](https://avac54765.github.io/fastpages-ava/CB/submissions/one) |
+| 20 | [CB MCQ Test Reflection]() |  
 
 
 ## Trimester 1 Work
