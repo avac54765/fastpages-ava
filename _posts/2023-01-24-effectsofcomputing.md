@@ -9,7 +9,7 @@ image: /images/cbimage.png
 categories: [week 20, collegeboard, reflection, notes]
 ---
 
-# 5.1 Positiv and Negative Effects
+# 5.1 Positive and Negative Effects
 
 ### Drones- Effects
 > Drones are used for military advantages, photography, and delivering things to people. But are drones always good?
