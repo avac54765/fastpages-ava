@@ -17,12 +17,14 @@ I received a 46/50 on the test, which is a 92%. I would say I was confident with
 # Corrections
 
 ### Question 13
-
+![Q13]({{site.baseurl}}/images/Q13.png)
 
 ### Question 22
-
+![Q22]({{site.baseurl}}/images/Q22.png)
 
 ### Question 24
-
+![Q24]({{site.baseurl}}/images/Q24.png)
 
 ### Question 30
+![Q30]({{site.baseurl}}/images/Q30pt1.png)
+![Q30]({{site.baseurl}}/images/Q30pt2.png)
