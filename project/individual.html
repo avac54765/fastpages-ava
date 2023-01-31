@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      3 min read
     
 </span></p>
 
@@ -107,21 +107,98 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h1"><a href="#preview-write-up-for-collegeboard-requirements">Preview Write-Up for CollegeBoard Requirements</a></li>
 <li class="toc-entry toc-h1"><a href="#what-is-my-feature">What is my feature?</a></li>
 <li class="toc-entry toc-h1"><a href="#how-do-i-plan-to-code-it">How do I plan to code it?</a></li>
 <li class="toc-entry toc-h1"><a href="#what-will-be-in-the-video">What will be in the video?</a></li>
-<li class="toc-entry toc-h1"><a href="#preview-write-up-for-collegeboard-requirements">Preview Write-Up for CollegeBoard Requirements</a></li>
-</ul><h1 id="what-is-my-feature">
+</ul><h1 id="preview-write-up-for-collegeboard-requirements">
+<a class="anchor" href="#preview-write-up-for-collegeboard-requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Preview Write-Up for CollegeBoard Requirements</h1>
+
+<ul>
+  <li>Row 1 (Program Purpose and Function)
+    <ul>
+      <li>The purpose of my function is to motivate users to want to workout.</li>
+      <li>The function of my program is for users to input their own motivational quotes and see other motivational quotes from other users/developers. This page also as an alert of a motivational saying.</li>
+      <li>The input of my video would be a user putting in a quote into the form and seeing their quote be placed in a table of other quotes. The user could also click the motivational button to receive an alert at the top of their screen of a motivational saying.</li>
+    </ul>
+  </li>
+  <li>Row 2 (Data Abstraction):
+    <ul>
+      <li>The collection of data will be in a database with a class named Quotes</li>
+      <li>the data in this database will contain all of the quotes that users have inputted which are then showed to the users in the table.</li>
+    </ul>
+  </li>
+  <li>Row 3 (Managing Complexity):
+    <ul>
+      <li>This database and class manage complexity because they keep the inputted data organized and easy to access from the frontend. Without this class and database, I would have to store all input locally within a list/dictionary and use a rest API to call it.</li>
+    </ul>
+  </li>
+  <li>Row 4 (Procedural Abstraction):
+    <ul>
+      <li>show procedure of backend? class? Maybe show CRUD features.</li>
+      <li>The delete feature allows a user to delete a quote that they have posted. This would delete the quote from the table of quotes.</li>
+    </ul>
+  </li>
+  <li>Row 5 (Algorithm Implementation):
+    <ul>
+      <li>sequencing = setter function in class = going through steps</li>
+      <li>selection = if a condition is tested = garbage data</li>
+      <li>iteration = loop for putting the quotes in the table</li>
+      <li>A user will input a quote, using the API to send it to the backend and add it to the database. The API will then send an updated list of the quotes to the frontend to be turned into a table.</li>
+    </ul>
+  </li>
+  <li>Row 6 (Testing):
+    <ul>
+      <li>first call: sending a quote to the backend</li>
+      <li>second call: sending a short quote to the backend</li>
+      <li>first condition: is the quote valid? long enough?</li>
+      <li>second condition: is the quote valid? long enough (more than two characters?)</li>
+      <li>first result: quote is added to the table</li>
+      <li>second result: an error message is returned saying the quote is not long enough/valid.</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="what-is-my-feature">
 <a class="anchor" href="#what-is-my-feature" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is my feature?</h1>
+
+<p><img src="/fastpages-ava/images/quotes.png" alt="Quotes images">
+<img src="/fastpages-ava/images/inspoindividual.png" alt="Inspo Table"></p>
+
+<p>My feature of our team CPT project is the Inspiration page.</p>
+
+<ul>
+  <li>This page allows for users to gain motivation and inspiration to work out.</li>
+  <li>Users can read existing quotes or even input their own quotes for others to read.</li>
+  <li>All of the quotes will be added to a table below all of the image quotes for all users to read.</li>
+  <li>Users will be able to edit and delete the quotes they add to the table.</li>
+</ul>
 
 <h1 id="how-do-i-plan-to-code-it">
 <a class="anchor" href="#how-do-i-plan-to-code-it" aria-hidden="true"><span class="octicon octicon-link"></span></a>How do I plan to code it?</h1>
 
+<ul>
+  <li>the frontend will include an HTML5 table with an ID for the form that will be used to send to the backend</li>
+  <li>the frontend also consists of the styling and images</li>
+  <li>the backend will consist of a class, database, and API in order to send data, store it, and send an updated list back</li>
+  <li>Json, Javascript, and HTML will autogenerate the table</li>
+</ul>
+
 <h1 id="what-will-be-in-the-video">
 <a class="anchor" href="#what-will-be-in-the-video" aria-hidden="true"><span class="octicon octicon-link"></span></a>What will be in the video?</h1>
 
-<h1 id="preview-write-up-for-collegeboard-requirements">
-<a class="anchor" href="#preview-write-up-for-collegeboard-requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Preview Write-Up for CollegeBoard Requirements</h1>
+<ul>
+  <li>will demonstrate what a user will see when clicking on the inspiration page
+    <ul>
+      <li>show the images at the top</li>
+      <li>add a quote to the form</li>
+      <li>show quote being added to the table</li>
+      <li>show a single letter being added to the form</li>
+      <li>show the error message that is returned</li>
+      <li>maybe show the alert inspo message</li>
+    </ul>
+  </li>
+</ul>
 
 
   </div><!-- from https://github.com/utterance/utterances -->
