@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>5.3-5.4 Computing Bias and Crowd Sourcing | Ava’s Blog</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="5.3-5.4 Computing Bias and Crowd Sourcing" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Notes and hacks on computing bias and crowd sourcing." />
+<meta property="og:description" content="Notes and hacks on computing bias and crowd sourcing." />
+<link rel="canonical" href="https://avac54765.github.io/fastpages-ava/CB/bias/crowdsourcing" />
+<meta property="og:url" content="https://avac54765.github.io/fastpages-ava/CB/bias/crowdsourcing" />
+<meta property="og:site_name" content="Ava’s Blog" />
+<meta property="og:image" content="https://avac54765.github.io/fastpages-ava/images/cbimage.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-02-01T00:00:00-06:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://avac54765.github.io/fastpages-ava/images/cbimage.png" />
+<meta property="twitter:title" content="5.3-5.4 Computing Bias and Crowd Sourcing" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-02-01T00:00:00-06:00","datePublished":"2023-02-01T00:00:00-06:00","description":"Notes and hacks on computing bias and crowd sourcing.","headline":"5.3-5.4 Computing Bias and Crowd Sourcing","image":"https://avac54765.github.io/fastpages-ava/images/cbimage.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://avac54765.github.io/fastpages-ava/CB/bias/crowdsourcing"},"url":"https://avac54765.github.io/fastpages-ava/CB/bias/crowdsourcing"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/fastpages-ava/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://avac54765.github.io/fastpages-ava/feed.xml" title="Ava's Blog" /><link rel="shortcut icon" type="image/x-icon" href="/fastpages-ava/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/fastpages-ava/">Ava&#39;s Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/fastpages-ava/frontend/overview">Frontend</a><a class="page-link" href="/fastpages-ava/API/overview">API</a><a class="page-link" href="/fastpages-ava/resources">APCSP Resources</a><a class="page-link" href="/fastpages-ava/aboutava">About Me</a><a class="page-link" href="/fastpages-ava/search/">Search</a><a class="page-link" href="/fastpages-ava/categories/">Tags</a><a class="page-link" href="/fastpages-ava/my_work">My Weekly Work</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">5.3-5.4 Computing Bias and Crowd Sourcing</h1><p class="page-description">Notes and hacks on computing bias and crowd sourcing.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-02-01T00:00:00-06:00" itemprop="datePublished">
+        Feb 1, 2023
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      3 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/fastpages-ava/categories/#week 21">week 21</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/fastpages-ava/categories/#collegeboard">collegeboard</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/fastpages-ava/categories/#reflection">reflection</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/fastpages-ava/categories/#notes">notes</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h1"><a href="#53-bias">5.3 Bias</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#intentional-or-purposeful-bias">Intentional or Purposeful Bias</a></li>
+<li class="toc-entry toc-h2"><a href="#hp-computers">HP Computers</a></li>
+<li class="toc-entry toc-h2"><a href="#conclusion">Conclusion</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#54-crowdsourcing">5.4 Crowdsourcing</a></li>
+</ul><h1 id="53-bias">
+<a class="anchor" href="#53-bias" aria-hidden="true"><span class="octicon octicon-link"></span></a>5.3 Bias</h1>
+
+<h2 id="intentional-or-purposeful-bias">
+<a class="anchor" href="#intentional-or-purposeful-bias" aria-hidden="true"><span class="octicon octicon-link"></span></a>Intentional or Purposeful Bias</h2>
+<ol>
+  <li>
+    <ul>
+      <li>Tik Tok age group: 16-24</li>
+      <li>Facebook age group: 25-34</li>
+      <li>This data proves that different generations are the target audiences for these different apps. I definitely think that these two different companies aim to reach different age groups by putting more trendy content based on age. For an example, I think that Facebook is for a more mature audience with interests more in the adult life such as politics, communication, and community concerns. Tik Tok reaches the younger demographic by promoting trends, dances, and humor that younger people would be more interested in.</li>
+      <li>This is great for business because business can choose which app to promote on based off of who their target audience and customers are.</li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li>Virtual assistants may have female voices due to past female gender roles. Females previously were associated with helping in the kitchen and the household. Females also have softer voices and may seem more genuine and welcoming to users. Although, many of these devices have an option to switch to a male voice. This may be harmful because women may still be seen as the people who should fulfill tasks in the house instead of males. This may be backtracking the progress that women and men are equal.</li>
+      <li>I will see promoted videos on Tik Tok that make me want to buy a product or try something new. Instagram, TikTok, and Facebook learn users’ interests and direct specific adds/videos/posts for the users to see. This can create intentional biases in users too.</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="hp-computers">
+<a class="anchor" href="#hp-computers" aria-hidden="true"><span class="octicon octicon-link"></span></a>HP Computers</h2>
+
+<ul>
+  <li>The male in the video does believe that the computer is racist and is intentional. I think this because he comments about how the computer does not track his face due to the color of his skin. This may be true, but he talks about how it is only because he is black, and not considering computer error.</li>
+  <li>I think that there was an error with testing when it comes to this bias. The computer has learned how to recognize faces of the lighter colors, but not darker faces. If HP would have tested this feature with various skin colors, they could have caught this error and tried to fix it.</li>
+  <li>I believe that this error was an accident, but is still harmful. People of darker skin color may feel excluded intentionally, even if it was an accident. This should definitely be fixed so all users can use the feature. To produce a better outcome, testing should be done on various, different skin colors and of different groups.</li>
+</ul>
+
+<h2 id="conclusion">
+<a class="anchor" href="#conclusion" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conclusion</h2>
+
+<p>When writing algorithms, bias needs to be taken in account when designing and testing algorithms. As developers, we need to test with many different groups and many different biases to get the best feedback that can be used to fix the algorithm to best suit all users.</p>
+
+<h1 id="54-crowdsourcing">
+<a class="anchor" href="#54-crowdsourcing" aria-hidden="true"><span class="octicon octicon-link"></span></a>5.4 Crowdsourcing</h1>
+
+<ol>
+  <li>
+    <p>A crowdsource idea that can be conducted in the APCSP environment may include a mental health survey for a website. This survey could be sent to the APCSP slack for everyone to fill out. This data would include student opinions from all the different APCSP classes and periods, and not just my APCSP class/period if I were to go around in my class. This use of crowdsourcing will reach a much wider group of students with different experiences, opinions, and biases.</p>
+  </li>
+  <li>
+    <p>Del Norte crowdsourcing would reach an even larger group/demographic of students. This use of crowdsourcing would reach numerous groups of people with different biases and experiences. This would reach more than just the computer science group. Data from this survey would be much more accurate for my project.</p>
+  </li>
+  <li>
+    <p>At N@TM, I could capture data from students and parents walking around. I could ask them about their workout habits and opinions. Doing do would allow me to get data from various age groups and groups of interest.</p>
+  </li>
+</ol>
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="avac54765/fastpages-ava"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/fastpages-ava/CB/bias/crowdsourcing" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/fastpages-ava/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://avac54765.github.io/fastpages-ava/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/fastpages-ava/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Ava&#39;s work in APCSP</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li>
+  <a rel="me" href="https://github.com/avac54765" target="_blank" title="github">
+    <svg class="svg-icon grey">
+      <use xlink:href="/fastpages-ava/assets/minima-social-icons.svg#github"></use>
+    </svg>
+  </a>
+</li>
+<li>
+  <a rel="me" href="https://www.youtube.com/channel/UClIKOsDS5dsfzFA3zveDT3Q" target="_blank" title="youtube">
+    <svg class="svg-icon grey">
+      <use xlink:href="/fastpages-ava/assets/minima-social-icons.svg#youtube"></use>
+    </svg>
+  </a>
+</li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
