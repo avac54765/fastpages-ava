@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      5 min read
     
 </span></p>
 
@@ -111,9 +111,14 @@ window.onload = wrap_img;
 <ul>
 <li class="toc-entry toc-h2"><a href="#license-types">License Types</a></li>
 <li class="toc-entry toc-h2"><a href="#legal-and-ethically">Legal and Ethically</a></li>
+<li class="toc-entry toc-h2"><a href="#reflection">Reflection</a></li>
 </ul>
 </li>
-<li class="toc-entry toc-h1"><a href="#reflection">Reflection</a></li>
+<li class="toc-entry toc-h1"><a href="#56-safe-computing">5.6 Safe Computing</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#reflection-1">Reflection</a></li>
+</ul>
+</li>
 </ul><h1 id="55-legal-and-ethical-concerns">
 <a class="anchor" href="#55-legal-and-ethical-concerns" aria-hidden="true"><span class="octicon octicon-link"></span></a>5.5 Legal and Ethical Concerns</h1>
 
@@ -140,8 +145,8 @@ window.onload = wrap_img;
   <li>creative commons = open source code that lets us learn a lot for free</li>
 </ul>
 
-<h1 id="reflection">
-<a class="anchor" href="#reflection" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reflection</h1>
+<h2 id="reflection">
+<a class="anchor" href="#reflection" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reflection</h2>
 
 <ol>
   <li>
@@ -166,11 +171,40 @@ window.onload = wrap_img;
 <ul>
   <li>personal: <img src="/fastpages-ava/images/fastpagelicense.png" alt="personal license">
 </li>
-  <li>team fastpage repo: <img src="/fastpages-ava/images/Fitness4Baddieslicense.jpg" alt="Team frontend license">
+  <li>team frontend repo: <img src="/fastpages-ava/images/Fitness4Baddieslicense.jpg" alt="Team frontend license">
 </li>
-  <li>team flask repo: <img src="/fastpages-ava/images/teambaddieslicense.png" alt="Team fastpage license">
+  <li>team fastpage repo: <img src="/fastpages-ava/images/teambaddieslicense.png" alt="Team fastpage license">
 </li>
+  <li>
+    <p>team flask repo: <img src="/fastpages-ava/images/teamflasklicense.png" alt="Team fastpage license"></p>
+  </li>
+  <li>My team chose the MIT license for all of our repositories but one because the MIT License allows for commercial use, modification, distribution, amd private use but limits liability and warranty. Users are also required to give credit to us when using our code. This means that anyone is allowed to use our code, but we will not get in trouble if the code causes an issue/damage, and we will still be credited for our code contributions (to help the ego yk).</li>
+  <li>For our Team Fastpage, (where we have team blogs, planning, and presentations) there was already in existing license for the Apache License 2.0. Our team decided to leave this license because it is similar to the MIT license, but also limits trademark use. This means that someone cannot trademark our work, causing us to not be able to use it.</li>
+  <li>How we changed our repository licenses. We referenced <a href="https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository">this link</a>, which taught us how to add a license file and select the type of license we would like.</li>
 </ul>
+
+<h1 id="56-safe-computing">
+<a class="anchor" href="#56-safe-computing" aria-hidden="true"><span class="octicon octicon-link"></span></a>5.6 Safe Computing</h1>
+
+<ul>
+  <li>PII= Personal Identifiable Information</li>
+  <li>acceptable PII = name, email, picture, high school, college, residence, etc.</li>
+  <li>grey area = birthday, birthplace, street address, number, drivers license, etc.</li>
+  <li>secret: access credentials, financial accounts, social security number, tax records, etc.</li>
+  <li>RECOMMEND: use multi-factor authentication, symmetric encryption (one key), DON’T click on random attachments/phishing that will ask you to log in/install malware</li>
+</ul>
+
+<h2 id="reflection-1">
+<a class="anchor" href="#reflection-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reflection</h2>
+
+<ol>
+  <li>PII I have seen in Computer Science Principals include names, Github usernames, repositories, Github activity, Twitter profiles, Youtube profiles, emails, and pictures. Github profiles give a lot of information about someone and as students in this class, we all of Github accounts. Any link for contact on Github repositories is also PII.</li>
+  <li>When it comes to PII, there is some information that I feel is okay to expose, but other information I would be greatly concerned about if leaked. I think it is okay to have my name, email, and maybe picture out for the world to see. Although, I would want to keep my number, credit card information, and passwords all away from other people’s knowledge. Others attaining this information could do some pretty bad things to me.</li>
+  <li>Good passwords are long in length, have different types of characters, and do not have your name in them. Bad passwords are short, easily guessable, and have very limited combinations that the password could be. Another step that is used to assist in authentication is when a code is sent via email or text to ensure it is in fact you trying to login.</li>
+  <li>Asymmetric Encryption is a process of sending data to someone that is encrypted. A public key is used to encrypt the data, but a private key is needed to decrypt the data. Symmetric Encryption is the same as Asymmetric Encryption, except only a single key is needed to encrypt and decrypt the data. Generally, Asymmetric Encryption is safer than Symmetric Encryption.</li>
+  <li>In AWS deployment, we used encryption keys when first creating our repository. We used SHH deployment keys, one public and one private (asymmetrical), and copied and pasted them into our Github.</li>
+  <li>Normally I am pretty good about not falling for phishing schemes, but on scheme that I learned the hard way from was an email from apple that seemed legit. The email was talking about some apple update or something that required me to sign into my Apple account. I ended up doing it because the site looked legit. I then soon realize that the website was a phishing scheme and I change my Apple ID password. Other phishing techniques include bank account alerts/texts, prize-winning emails/calls, and Instagram messages that say something like ‘I need your help” or “I made this for you”.</li>
+</ol>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
