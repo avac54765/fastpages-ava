@@ -41,5 +41,5 @@ categories: [week 22, collegeboard, reflection, notes]
 3. Creating Licenses for repos:
 
 - personal: ![personal license]({{site.baseurl}}/images/fastpagelicense.png)
-- team fastpage repo: ![Team fastpage license]({{site.baseurl}}/images/Fitness4Baddieslicense.jpg)
-- team flask repo: ![Team flask license]({{site.baseurl}}/images/teamflasklicense.png)
+- team fastpage repo: ![Team frontend license]({{site.baseurl}}/images/Fitness4Baddieslicense.jpg)
+- team flask repo: ![Team fastpage license]({{site.baseurl}}/images/teambaddieslicense.png)
