@@ -39,3 +39,15 @@ Above is my class for my inspiration database. This database stores all of the q
 ![Inspo API]({{site.baseurl}}/images/inspoapi.png)
 
 Above is the api that is used to connect my frontend and backend. My frontend sends a post to the backend through the API. Frontend turns the data into javascript and POSTs to the API. The API then checks for data validity and sends it to the database to be added. Once added, the API turns all of the data into JSON to be sent back to the frontend where it is read and displayed in a table. 
+
+
+
+# Takeaways
+
+- In the future, my team needs to create our databases and APIs more slowly, step by step. 
+- We need to test more often to make sure our code still works when we add features.
+- We need to remind each other to pull before working and not work in the same file at the same time. 
+- use inspect from the frontend to see errors with fetching.
+- use SQlite and run main.py to see errors with the database and backend
+- add tester data first in frontend and backend to test which parts are working (helps to identify errors)
+- ALWAYS communicate what each member is doing at all times
