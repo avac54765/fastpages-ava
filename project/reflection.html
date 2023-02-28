@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>
 
@@ -110,7 +110,42 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h1"><a href="#the-struggles-of-backend">The Struggles of Backend</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#our-timeline">Our Timeline</a></li>
 </ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#backend-specifics">Backend Specifics</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#my-inspo-database-and-class">My Inspo Database and Class</a></li>
+</ul>
+</li>
+</ul><h1 id="the-struggles-of-backend">
+<a class="anchor" href="#the-struggles-of-backend" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Struggles of Backend</h1>
+<blockquote>
+  <p>No one will ever know the struggle it was and the journey that my group has been through to get where we are with backend.</p>
+</blockquote>
+
+<h3 id="our-timeline">
+<a class="anchor" href="#our-timeline" aria-hidden="true"><span class="octicon octicon-link"></span></a>Our Timeline</h3>
+
+<ol>
+  <li>My group started off with only having one repository for both backend and frontend.</li>
+  <li>My group figured out how to use the user database and api to create individual classes under the same api for each of our features. We used this knowledge to eventually create our own databases.</li>
+  <li>Once we figured this step out, we created a backend repository and dragged our files into this repository (sorry mort we didn’t realize we needed a separate backend oopsie). Once we did this we were able to use local hosts to try and connect frontend and backend. We had an issue with CORS with localhost to localhost but we were able to comment out the CORS lines in our main.py until we deployed using AWS.</li>
+  <li>Before full-stack worked, we had a lot of issues to debug. We spent hours fixing one database and making the same edits on everyone elses databases. It took a lot of teamwork to help each other fix our issues and typos. It felt like once something would work, something else would go wrong (we had to stay sane and help each other).</li>
+  <li>After we got local full stack working, it was time to deploy. Deploying was confusing with AWS, but was much more simple once we got the guide. Unfortunately our group had issues with our site crashing when we tried to deploy. Main.py would run and successfully run a localhost, but our curl would not work. Thank you Mr. Mort for helping us fix an issue with each of our databases to make this work. Sri spent a lot of time getting our backend deployed when Alexa and I were in Texas.</li>
+  <li>When is comes to adding features, my group spent hours together experimenting and trying new things. We figured out how to have an alert for specific errors to tell a user what they entered incorrectly (garbage data), but soon learned that it does not work with CORS when deployed (only works with local to local full stack). We did add new garbage data filters in the backend as well. Our features have similar structures so we were able to share ideas and debug together.</li>
+  <li>Our main.py stopped working when a teammate tried to edit their code, so we went back to an older version of their code. Unfortunately, do so caused our site to crash, so we took a lot of time to figure out where the edit was needed to fix the site. The hard part about a team project is that when the site works, one member can change something and cause the site to crash for everyone. AWS was also down for awhile due to an incorrect Nginx file, but someone thankfully fixed the error.</li>
+  <li>Here we are today with running, deployed frontend and backend servers. Full stack works for everyone and we were all able to create our collegeboard videos and write-ups.</li>
+</ol>
+
+<h1 id="backend-specifics">
+<a class="anchor" href="#backend-specifics" aria-hidden="true"><span class="octicon octicon-link"></span></a>Backend Specifics</h1>
+
+<h3 id="my-inspo-database-and-class">
+<a class="anchor" href="#my-inspo-database-and-class" aria-hidden="true"><span class="octicon octicon-link"></span></a>My Inspo Database and Class</h3>
+
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
