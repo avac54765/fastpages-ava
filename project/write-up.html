@@ -176,16 +176,22 @@ window.onload = wrap_img;
   </li>
   <li>Row 6 (Testing):
     <ul>
-      <li>First call: In my video, the user inputs a the quote “You are stronger than you’ll ever know!” into the form and clicks submit.
+      <li>First call: In my video, the user inputs a the quote “Be prepared!” into the form and clicks submit.
         <ul>
           <li>conditions being tested: Checks if the quote is valid (greater than two characters) and if it is successfully added to the database and fetched from the frontend.</li>
           <li>result: The quote appears in the table above the form, and stays once refreshed.</li>
         </ul>
       </li>
-      <li>Second call: The user enters the quote “h” into the form and clicks submit.
+      <li>Second call: The user enters nothing into the form and clicks submit.
         <ul>
           <li>Conditions being tested: The quote is checked for a minimum length of two characters.</li>
-          <li>result: Due to the invalidity of quote, the program will alert the user “Quote is too short, please refresh and enter a longer quote”.</li>
+          <li>result: Due to the invalidity of quote, the program will alert the user “Please fill out this field”.</li>
+        </ul>
+      </li>
+      <li>Third call LOCAL HOST ONLY RN: The user enters “h” into the form.
+        <ul>
+          <li>Conditions being tested: The quote is checked for a minimum length of two characters.</li>
+          <li>result: Due to the invalidity of quote, the program will alert the user “Quote is too short, please refresh and enter a longer quote” at the top of their screen.</li>
         </ul>
       </li>
     </ul>
