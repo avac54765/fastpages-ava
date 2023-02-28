@@ -118,6 +118,7 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h1"><a href="#backend-specifics">Backend Specifics</a>
 <ul>
 <li class="toc-entry toc-h3"><a href="#my-inspo-database-and-class">My Inspo Database and Class</a></li>
+<li class="toc-entry toc-h3"><a href="#my-inspo-api">My Inspo API</a></li>
 </ul>
 </li>
 </ul><h1 id="the-struggles-of-backend">
@@ -151,7 +152,12 @@ window.onload = wrap_img;
 
 <p>Above is my class for my inspiration database. This database stores all of the quotes that users send in from the frontend. This class is in charge of creating columns for each of the quotes, the user IDs, and user UIDs.</p>
 
-<p><img src="/fastpages-ava/images/inspodatabase.png" alt="Inspo API"></p>
+<h3 id="my-inspo-api">
+<a class="anchor" href="#my-inspo-api" aria-hidden="true"><span class="octicon octicon-link"></span></a>My Inspo API</h3>
+
+<p><img src="/fastpages-ava/images/inspoapi.png" alt="Inspo API"></p>
+
+<p>Above is the api that is used to connect my frontend and backend. My frontend sends a post to the backend through the API. Frontend turns the data into javascript and POSTs to the API. The API then checks for data validity and sends it to the database to be added. Once added, the API turns all of the data into JSON to be sent back to the frontend where it is read and displayed in a table.</p>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
