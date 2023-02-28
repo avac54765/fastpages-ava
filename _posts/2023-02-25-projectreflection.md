@@ -36,7 +36,7 @@ Above is my class for my inspiration database. This database stores all of the q
 
 ### My Inspo API
 
-![Inspo API]({{site.baseurl}}/images/inspoapi.png)
+![Inspo API]({{site.baseurl}}/images/apiscreenshot.png)
 
 Above is the api that is used to connect my frontend and backend. My frontend sends a post to the backend through the API. Frontend turns the data into javascript and POSTs to the API. The API then checks for data validity and sends it to the database to be added. Once added, the API turns all of the data into JSON to be sent back to the frontend where it is read and displayed in a table. 
 
