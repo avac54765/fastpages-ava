@@ -118,51 +118,64 @@ window.onload = wrap_img;
 
 <p><a href="">Here is a link to my video</a></p>
 
-<p>| Row |  Scoring Criteria | Response |
-|—–|——————-|———-|
-| 1 |  • describes the overall purpose of the program.
-• describes what functionality of the program is
-demonstrated in the video.
-• describes the input and output of the program
-demonstrated in the video.    |      |
-| 2 |  includes two program code segments:</p>
 <ul>
-  <li>one that shows how data has been stored in
-this list (or other collection type).</li>
-  <li>one that shows the data in this same list being
-used as part of fulfilling the program’s purpose.
-• identifies the name of the variable representing the
-list being used in this response.
-• describes what the data contained in this list is
-representing in the program.   |      |
-| 3 | includes a program code segment that shows a list being used to manage complexity in the program. Responses that do not earn the point in row 2 may still earn the point in this row.
- • explains how the named, selected list manages
-complexity in the program code by explaining why
-the program code could not be written, or how it
-would be written differently, without using this list.   |      |
-| 4 | includes two program code segments:</li>
-  <li>one showing a student-developed procedure Requirements for program code segments:
-with at least one parameter that has an effect
-on the functionality of the procedure.</li>
-  <li>one showing where the student-developed
-procedure is being called.
-• describes what the identified procedure does and
-how it contributes to the overall functionality of the
-program.     |      |
-| 5 |  • includes a program code segment of a student-developed algorithm that includes</li>
-  <li>sequencing</li>
-  <li>selection</li>
-  <li>iteration
-• explains in detailed steps how the identified
-algorithm works in enough detail that someone else
-could recreate it.    |      |
-| 6 |  The written response:
-Testing • describes two calls to the selected procedure
-identified in written response 3c. Each call must pass a different argument(s) that causes a different
-segment of code in the algorithm to execute.
-• describes the condition(s) being tested by each call
-to the procedure.
-• identifies the result of each call.    |      |</li>
+  <li>Row 1 (Program Purpose and Function):
+    <ul>
+      <li>the purpose of my program is to aid ISPE students to stay organized and ensure they get credit for their class</li>
+      <li>my program works (functionality) by allowing users to input their workouts and corresponding grade, and see the following inputs on the page in an organized table</li>
+      <li>the user inputs a workout by typing their “Name”, “Date of Completion”, “Number of Hours Completed”, “Grade” and click submit</li>
+      <li>the output of the program is that the data appears in a table below
+<br>
+</li>
+    </ul>
+  </li>
+  <li>Row 2 (Data Abstraction):
+    <ul>
+      <li>name of collection type (database class): ISPE</li>
+      <li>data in this class is the data (workouts) that the user inputed
+<br>
+</li>
+    </ul>
+  </li>
+  <li>Row 3 (Managing Complexity):
+    <ul>
+      <li>without the use of the class in the database, the inputed data would be very unorganized in a list and would only be stored locally. However, I could store the data in a list and use a rest API to connect the frontend and backend.
+<br>
+</li>
+    </ul>
+  </li>
+  <li>Row 4 (Procedural Abstraction):
+    <ul>
+      <li>Show a procedure in creating the API or database?</li>
+      <li>the API and database are critical to this project since they allow data to be stored (not just locally) and connect the inputs from the frontend to the backend (data a user inputs will show up in table and stay there even when page is refreshed)
+<br>
+</li>
+    </ul>
+  </li>
+  <li>Row 5 (Algorithm Implentation):
+    <ul>
+      <li>we haven’t finished our code yet</li>
+      <li>describe process of input getting posted to the backend, getting stored in the database, and then sent back to the frontend (table) in JSON format using the API
+<br>
+</li>
+    </ul>
+  </li>
+  <li>Row 6 (Testing):
+    <ul>
+      <li>First call: user inputs a workout into the form and clicks submit
+        <ul>
+          <li>conditions being tested: checks if data is valid and if it can be added to the database</li>
+          <li>result: data will appear in the table below with the corresponding grade</li>
+        </ul>
+      </li>
+      <li>Second call: user enters invalid (garbage) data into the field: “number of hours completed”
+        <ul>
+          <li>Conditions being tested: checks if the data inputted is valid (numerical number) to be put in the database</li>
+          <li>result: the program will return the message “please enter a valid number”</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
 </ul>
 
   </div><!-- from https://github.com/utterance/utterances -->
