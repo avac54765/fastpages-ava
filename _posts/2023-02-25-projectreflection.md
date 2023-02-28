@@ -29,3 +29,9 @@ categories: [week 24, collegeboard, write-up, project, reflection]
 
 ### My Inspo Database and Class
 
+![Inspo Database]({{site.baseurl}}/images/inspodatabase.png)
+![Inspo SQlite table]({{site.baseurl}}/images/insposqlite.png)
+
+Above is my class for my inspiration database. This database stores all of the quotes that users send in from the frontend. This class is in charge of creating columns for each of the quotes, the user IDs, and user UIDs. 
+
+![Inspo API]({{site.baseurl}}/images/inspodatabase.png)
