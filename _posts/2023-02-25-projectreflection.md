@@ -5,7 +5,7 @@ comments: true
 layout: post
 description: CB CPT project reflection
 permalink: /project/reflection
-image: /images/cbimage.pn
+image: /images/cbimage.png
 categories: [week 24, collegeboard, write-up, project, reflection]
 ---
 
