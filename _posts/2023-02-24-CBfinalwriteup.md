@@ -52,9 +52,15 @@ categories: [week 24, collegeboard, write-up, project]
     - This Read class is in charge of taking existing data in the database, changing it into json data, and sending it to the frontend to be read. This "get" function sequences through three steps to retrieve and change the format of the quotes. First, the function retrieves all the data from the database. Then the function iterates through all of the quotes that have been retrieved, turning them into json ready data. Finally the data is turned into json to be sent to the frontend. The frontend uses the function read_Inspos to reference the Read class from the API. The data sent from the API is then tested for any response errors. If the condition is met, an error response will be returned. If not, the function will continue to the next step of actually adding the quotes to the table in the frontend. 
 <br>
 - Row 6 (Testing):
-    - First call: In my video, the user inputs a the quote "You are stronger than you'll ever know!" into the form and clicks submit.
+    - First call: In my video, the user inputs a the quote "Be prepared!" into the form and clicks submit.
         - conditions being tested: Checks if the quote is valid (greater than two characters) and if it is successfully added to the database and fetched from the frontend.
         - result: The quote appears in the table above the form, and stays once refreshed.
-    - Second call: The user enters the quote "h" into the form and clicks submit.
+    - Second call: The user enters nothing into the form and clicks submit.
         - Conditions being tested: The quote is checked for a minimum length of two characters.
-        - result: Due to the invalidity of quote, the program will alert the user "Quote is too short, please refresh and enter a longer quote".
+        - result: Due to the invalidity of quote, the program will alert the user "Please fill out this field".
+
+
+
+    - Third call LOCAL HOST ONLY RN: The user enters "h" into the form.
+        - Conditions being tested: The quote is checked for a minimum length of two characters.
+        - result: Due to the invalidity of quote, the program will alert the user "Quote is too short, please refresh and enter a longer quote" at the top of their screen.
