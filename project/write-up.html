@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      2 min read
+      3 min read
     
 </span></p>
 
@@ -121,57 +121,71 @@ window.onload = wrap_img;
 <ul>
   <li>Row 1 (Program Purpose and Function):
     <ul>
-      <li>the purpose of my program is to aid ISPE students to stay organized and ensure they get credit for their class</li>
-      <li>my program works (functionality) by allowing users to input their workouts and corresponding grade, and see the following inputs on the page in an organized table</li>
-      <li>the user inputs a workout by typing their “Name”, “Date of Completion”, “Number of Hours Completed”, “Grade” and click submit</li>
-      <li>the output of the program is that the data appears in a table below
+      <li>This program is meant to motivate users to workout and never give up.</li>
+      <li>The functionality of my program is for users to input their own motivational quotes into a table and be able to see others’ quotes as well.</li>
+      <li>The user inputs a quote by typing a quote longer than two characters and clicking submit.</li>
+      <li>The output of my program is the addition of the user’s quote in a table above where they entered their quote.
 <br>
 </li>
     </ul>
   </li>
   <li>Row 2 (Data Abstraction):
+  <img src="/fastpages-ava/images/inspoclass.png" alt="Class Code">
+  <img src="/fastpages-ava/images/sqinspotable.png" alt="SQlite table">
+  <img src="/fastpages-ava/images/readfrontend.png" alt="Read Frontend">
     <ul>
-      <li>name of collection type (database class): ISPE</li>
-      <li>data in this class is the data (workouts) that the user inputed
-<br>
-</li>
+      <li>My data is collected in a database with a class titled Inspo. The data within this class is portrayed in this SQlite table titled Inspo_data.</li>
+      <li>The data represented in this database are the various quotes that users have inputted (are shown in a table in frontend).</li>
     </ul>
   </li>
+</ul>
+
+<p><br></p>
+<ul>
   <li>Row 3 (Managing Complexity):
+  <img src="/fastpages-ava/images/inspoclass.png" alt="Class Code">
+  <img src="/fastpages-ava/images/sqinspotable.png" alt="SQlite table">
     <ul>
-      <li>without the use of the class in the database, the inputed data would be very unorganized in a list and would only be stored locally. However, I could store the data in a list and use a rest API to connect the frontend and backend.
+      <li>Without the use of this database to collect the quotes, the inputted quotes would only be stored locally in a very disorganized manner. This disorganized alternative would include the use of a list in the backend that stores the quotes and would call a rest API to connect the frontend and backend. Although, a programmer would need to individually add all of the quotes to this list in the backend directly. This use of a list would make it much more difficult to see the stored data, debug, update, and access specific quotes.
 <br>
 </li>
     </ul>
   </li>
   <li>Row 4 (Procedural Abstraction):
     <ul>
-      <li>Show a procedure in creating the API or database?</li>
-      <li>the API and database are critical to this project since they allow data to be stored (not just locally) and connect the inputs from the frontend to the backend (data a user inputs will show up in table and stay there even when page is refreshed)
+      <li>Procedure: create_quote
+  <img src="/fastpages-ava/images/create_quote_defined.png" alt="procedure">
+  procedure called:
+   <img src="/fastpages-ava/images/create_quote.png" alt="procedure called">
+</li>
+      <li>This procedure is in charge of taking the submitted quote(parameter) from the form, changing the data into javascript format, and sending it to the backend to be added to the database (POST). Without this function, the inputted quotes would not be stored and seen from the frontend.
 <br>
 </li>
     </ul>
   </li>
   <li>Row 5 (Algorithm Implentation):
     <ul>
-      <li>we haven’t finished our code yet</li>
-      <li>describe process of input getting posted to the backend, getting stored in the database, and then sent back to the frontend (table) in JSON format using the API
+      <li>
+<img src="/fastpages-ava/images/defget.png" alt="API Read class">
+  <img src="/fastpages-ava/images/databasecreateerror.png" alt="Frontend Read">
+</li>
+      <li>This Read class is in charge of taking existing data in the database, changing it into json data, and sending it to the frontend to be read. This “get” function sequences through three steps to retrieve and change the format of the quotes. First, the function retrieves all the data from the database. Then the function iterates through all of the quotes that have been retrieved, turning them into json ready data. Finally the data is turned into json to be sent to the frontend. The frontend uses the function read_Inspos to reference the Read class from the API. The data sent from the API is then tested for any response errors. If the condition is met, an error response will be returned. If not, the function will continue to the next step of actually adding the quotes to the table in the frontend. 
 <br>
 </li>
     </ul>
   </li>
   <li>Row 6 (Testing):
     <ul>
-      <li>First call: user inputs a workout into the form and clicks submit
+      <li>First call: In my video, the user inputs a the quote “You are stronger than you’ll ever know!” into the form and clicks submit.
         <ul>
-          <li>conditions being tested: checks if data is valid and if it can be added to the database</li>
-          <li>result: data will appear in the table below with the corresponding grade</li>
+          <li>conditions being tested: Checks if the quote is valid (greater than two characters) and if it is successfully added to the database and fetched from the frontend.</li>
+          <li>result: The quote appears in the table above the form, and stays once refreshed.</li>
         </ul>
       </li>
-      <li>Second call: user enters invalid (garbage) data into the field: “number of hours completed”
+      <li>Second call: The user enters the quote “h” into the form and clicks submit.
         <ul>
-          <li>Conditions being tested: checks if the data inputted is valid (numerical number) to be put in the database</li>
-          <li>result: the program will return the message “please enter a valid number”</li>
+          <li>Conditions being tested: The quote is checked for a minimum length of two characters.</li>
+          <li>result: Due to the invalidity of quote, the program will alert the user “Quote is too short, please refresh and enter a longer quote”.</li>
         </ul>
       </li>
     </ul>
