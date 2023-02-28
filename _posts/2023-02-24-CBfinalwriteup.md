@@ -17,7 +17,7 @@ categories: [week 24, collegeboard, write-up, project]
 
 
 
-[Here is a link to my video]()
+[Here is a link to my video](https://www.youtube.com/watch?v=AcCnwChFiLI)
 
 
 - Row 1 (Program Purpose and Function):
