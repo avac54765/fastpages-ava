@@ -35,10 +35,10 @@
   
     
         ,"post3": {
-            "title": "Collegeboard MCQ Test 2 Reflection",
+            "title": "Collegeboard MCQ Test 3 Reflection",
             "content": "My Overall Score . . I received a 48/50 on the test, which is a 96%. This test was more of a challenge on the more conceptual questions such as web browser content and cyber security. Before this test, my exposure to cyber security included ideas of phishing and multi-factor authentication, but I hadn’t learned much about cookies and web browser security. The questions that asked about certain programs were much easier for me this time than last time. When it comes to these questions, I continue to get better at them every single test. I also noticed that I was faster at taking this test than the previous couple of tests. I required less research this time on the test topics. . Incorrect Questions . Question 35- Nested conditionals to determine trivia winner . . On this question, I had an error of logic. When I tested out Team C and Team A having the highest score, the program was correct. Although, I didn’t realize that if Team B had the highest score but Team C had a higher score than Team A, then team C was incorrectly ruled the winner. . Answer A was the correct answer because it compares team A and team B, and then compares the Team C with the higher scoring team to see which team won. . Question 50- Which algorithms run in reasonable time . . On this question, I failed to think about how the algorithms were calculating the number of steps it takes to run them. Instead, I was simply just looking at the step totals at the bottom of the table. Although, as the list size increases, the amount of steps on the shorter algorithm may end up way greater than the previously “longer algorithm”. . The reason Answers A and D were correct is because algorithm A grew linearly and algorithm D grew at a rate of n^2. My incorrect answer of B is incorrect because algorithm B grows exponentially, which will increase at a MUCH faster rate than the other algorithms. . Advice for next time: . I actually would use my same methods from this test on my future tests, for I did well. I think next time I just need to pay more attention to the details of how algorithms run and I need to test ALL possible cases when trying to determine the correct segment of code for an algorithm. .",
-            "url": "https://avac54765.github.io/fastpages-ava/CB/MCQ2",
-            "relUrl": "/CB/MCQ2",
+            "url": "https://avac54765.github.io/fastpages-ava/CB/MCQ3",
+            "relUrl": "/CB/MCQ3",
             "date": " • Mar 3, 2023"
         }
         
