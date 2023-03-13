@@ -4,6 +4,20 @@ permalink: /my_work
 title: My Weekly Work
 ---
 
+
+
+## Trimester 3 Work
+> Data structures weekly work, hacks, lessons, links
+
+| Week | Projects |
+|---|---|
+| 25 | [Data Compression and Images Lesson Blog](https://avac54765.github.io/fastpages-ava/datacompression/images), [Pandas and Data Blog](https://avac54765.github.io/fastpages-ava/week%2025/2023/03/09/AP-unit2-3.html), [Collegeboard 2.2 and 2.3 Quizzes Blog](https://avac54765.github.io/fastpages-ava/CB/quizzes/4) |
+| 26 |  |
+
+
+
+
+
 ## Trimester 2 Work
 > Below is Ava's work as she survives trimester two of computer science. She survived trimester one with an "A" #womeninstem
 
@@ -21,7 +35,6 @@ title: My Weekly Work
 | 22 | [5.5-5.6 Notes and Hacks](https://avac54765.github.io/fastpages-ava/CB/concerns/safety) --> [N@TM](https://avac54765.github.io/fastpages-ava/night/museum) |
 | 23 | [CB CPT Project Video](https://www.youtube.com/watch?v=AcCnwChFiLI) --> [CB write-up](https://avac54765.github.io/fastpages-ava/project/write-up) --> [Team Review Ticket](https://github.com/alexac54767/Fitness_4_Baddies/issues/25) --> [Technical Reflection](https://avac54765.github.io/fastpages-ava/project/reflection) --> [Crossover Grading](https://github.com/avac54765/fastpages-ava/issues/29)|
 | 24 | [MCQ Collegeboard Test and Reflection](https://avac54765.github.io/fastpages-ava/CB/MCQ3) |
-| 25 | [Data Compression and Images Lesson Blog](https://avac54765.github.io/fastpages-ava/datacompression/images), [Pandas and Data Blog](https://avac54765.github.io/fastpages-ava/week%2025/2023/03/09/AP-unit2-3.html), [Collegeboard 2.2 and 2.3 Quizzes Blog](https://avac54765.github.io/fastpages-ava/CB/quizzes/4) |
 
 ## Trimester 1 Work
 > Here is all of my APCSP work for every week. Have fun looking through Ava's struggles and successes. 
