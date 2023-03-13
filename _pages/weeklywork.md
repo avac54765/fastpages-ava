@@ -20,8 +20,8 @@ title: My Weekly Work
 | 21 | [5.3-5.4 Notes and Hacks](https://avac54765.github.io/fastpages-ava/CB/bias/crowdsourcing) |
 | 22 | [5.5-5.6 Notes and Hacks](https://avac54765.github.io/fastpages-ava/CB/concerns/safety) --> [N@TM](https://avac54765.github.io/fastpages-ava/night/museum) |
 | 23 | [CB CPT Project Video](https://www.youtube.com/watch?v=AcCnwChFiLI) --> [CB write-up](https://avac54765.github.io/fastpages-ava/project/write-up) --> [Team Review Ticket](https://github.com/alexac54767/Fitness_4_Baddies/issues/25) --> [Technical Reflection](https://avac54765.github.io/fastpages-ava/project/reflection) --> [Crossover Grading](https://github.com/avac54765/fastpages-ava/issues/29)|
-| 24 | [MCQ Collegeboard Test and Reflection](https://avac54765.github.io/fastpages-ava/CB/MCQ2) |
-| 25 | [Data Compression and Images Lesson Blog]() |
+| 24 | [MCQ Collegeboard Test and Reflection](https://avac54765.github.io/fastpages-ava/CB/MCQ3) |
+| 25 | [Data Compression and Images Lesson Blog](https://avac54765.github.io/fastpages-ava/datacompression/images), [Pandas and Data Blog](https://avac54765.github.io/fastpages-ava/week%2025/2023/03/09/AP-unit2-3.html), [Collegeboard 2.2 and 2.3 Quizzes Blog](https://avac54765.github.io/fastpages-ava/CB/quizzes/4) |
 
 ## Trimester 1 Work
 > Here is all of my APCSP work for every week. Have fun looking through Ava's struggles and successes. 
@@ -39,6 +39,7 @@ title: My Weekly Work
  | 8 | [Internet Learning](https://avac54765.github.io/fastpages-ava/CBinternet/markdown) |
  | 9 | [Roles Team Video](https://www.wevideo.com/view/2838344010) ---> [Video planning/refelction](https://avac54765.github.io/fastpages-ava/videoplanning/markdown) ---> [Stock API](https://avac54765.github.io/groupfastpage/data/stocks) |
  | 10-12 | [group project review ticket](https://github.com/nighthawkcoders/APCSP/issues/71#issue-1436116993) |
+ 
 
 
  
