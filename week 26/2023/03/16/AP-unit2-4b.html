@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      8 min read
+      9 min read
     
 </span></p>
 
@@ -130,11 +130,14 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h2"><a href="#Reading-Users-table-in-Sqlite.db">Reading Users table in Sqlite.db </a></li>
 <li class="toc-entry toc-h2"><a href="#Create-a-new-User-in-table-in-Sqlite.db">Create a new User in table in Sqlite.db </a></li>
 <li class="toc-entry toc-h2"><a href="#Updating-a-User-in-table-in-Sqlite.db">Updating a User in table in Sqlite.db </a></li>
-<li class="toc-entry toc-h2"><a href="#What-code-seems-to-be-repeated-in-each-of-these-examples-to-point,-why-is-it-repeated?">What code seems to be repeated in each of these examples to point, why is it repeated? </a></li>
 <li class="toc-entry toc-h2"><a href="#Delete-a-User-in-table-in-Sqlite.db">Delete a User in table in Sqlite.db </a></li>
 </ul>
 </li>
-<li class="toc-entry toc-h1"><a href="#Menu-Interface-to-CRUD-operations">Menu Interface to CRUD operations </a></li>
+<li class="toc-entry toc-h1"><a href="#Menu-Interface-to-CRUD-operations">Menu Interface to CRUD operations </a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#--Could-you-refactor-this-menu?--Make-it-work-with-a-List?">- Could you refactor this menu?  Make it work with a List? </a></li>
+</ul>
+</li>
 <li class="toc-entry toc-h1"><a href="#Hacks">Hacks </a></li>
 </ul><!--
 #################################################
@@ -452,9 +455,12 @@ window.onload = wrap_img;
 <li>In this example, when a user is updating their password, the try/except looks for certain conditions. If the user tries to update an unknown user, it will send an unknown uid error. If the password is successfully changed, then the user will be notified. If neither of those are met, then the user will be notified with an alternative error.</li>
 </ul>
 </li>
-<li><h2 id="What-code-seems-to-be-repeated-in-each-of-these-examples-to-point,-why-is-it-repeated?">
-<a class="anchor" href="#What-code-seems-to-be-repeated-in-each-of-these-examples-to-point,-why-is-it-repeated?" aria-hidden="true"><span class="octicon octicon-link"></span></a>What code seems to be repeated in each of these examples to point, why is it repeated?<a class="anchor-link" href="#What-code-seems-to-be-repeated-in-each-of-these-examples-to-point,-why-is-it-repeated?"> </a>
-</h2></li>
+<li>
+<p>What code seems to be repeated in each of these examples to point, why is it repeated?</p>
+<ul>
+<li>Conn and cursor are redefined in every function before every try and except. Cursor.clos() and the conn.close are also redefined. This is likely due to connection objects and the need for the connection to the database to be unique every time.</li>
+</ul>
+</li>
 </ul>
 
 </div>
@@ -520,10 +526,18 @@ window.onload = wrap_img;
 <blockquote>
 <p>Uses a delete function to remove a user based on a user input of the id.</p>
 <ul>
-<li>Is DELETE a dangerous operation?  Why?</li>
-<li>In the print statemements, what is the "f" and what does {uid} do?</li>
+<li>Is DELETE a dangerous operation?  Why?<ul>
+<li>Yes, delete is a dangerous operation because once an item is deleted, it cannot be found again. This operation is permanent. </li>
+</ul>
+</li>
 </ul>
 </blockquote>
+<ul>
+<li>In the print statemements, what is the "f" and what does {uid} do?<ul>
+<li>The "f" and {} form formatted string literals. They allow the uid to be replaced with specific data to the situation.</li>
+</ul>
+</li>
+</ul>
 
 </div>
 </div>
@@ -581,11 +595,15 @@ window.onload = wrap_img;
 <blockquote>
 <p>CRUD and Schema interactions from one location by running menu. Observe input at the top of VSCode, observe output underneath code cell.</p>
 <ul>
-<li>Why does the menu repeat?</li>
-<li>Could you refactor this menu?  Make it work with a List?</li>
+<li>Why does the menu repeat?<ul>
+<li>The menu repeats so a user can perform multiple CRUD operations without having to run the code every time. This also allows a user to perform all of their desired edits in one place.</li>
+</ul>
+</li>
 </ul>
 </blockquote>
-
+<h2 id="--Could-you-refactor-this-menu?--Make-it-work-with-a-List?">
+<a class="anchor" href="#--Could-you-refactor-this-menu?--Make-it-work-with-a-List?" aria-hidden="true"><span class="octicon octicon-link"></span></a>- Could you refactor this menu?  Make it work with a List?<a class="anchor-link" href="#--Could-you-refactor-this-menu?--Make-it-work-with-a-List?"> </a>
+</h2>
 </div>
 </div>
 </div>
