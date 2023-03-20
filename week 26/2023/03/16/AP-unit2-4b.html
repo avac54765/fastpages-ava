@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      6 min read
+      8 min read
     
 </span></p>
 
@@ -130,6 +130,7 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h2"><a href="#Reading-Users-table-in-Sqlite.db">Reading Users table in Sqlite.db </a></li>
 <li class="toc-entry toc-h2"><a href="#Create-a-new-User-in-table-in-Sqlite.db">Create a new User in table in Sqlite.db </a></li>
 <li class="toc-entry toc-h2"><a href="#Updating-a-User-in-table-in-Sqlite.db">Updating a User in table in Sqlite.db </a></li>
+<li class="toc-entry toc-h2"><a href="#What-code-seems-to-be-repeated-in-each-of-these-examples-to-point,-why-is-it-repeated?">What code seems to be repeated in each of these examples to point, why is it repeated? </a></li>
 <li class="toc-entry toc-h2"><a href="#Delete-a-User-in-table-in-Sqlite.db">Delete a User in table in Sqlite.db </a></li>
 </ul>
 </li>
@@ -171,10 +172,29 @@ window.onload = wrap_img;
 <p>Uses PRAGMA statement to read schema.</p>
 </blockquote>
 <p>Describe Schema, here is resource <a href="https://www.sqlite.org/index.html">Resource</a>- What is a database schema?</p>
+
+<pre><code>- A database schema is a template for the database information to be stored. For example, the schema involves the rows and columns of a database table.
+
+</code></pre>
 <ul>
-<li>What is the purpose of identity Column in SQL database?</li>
-<li>What is the purpose of a primary key in SQL database?</li>
-<li>What are the Data Types in SQL table?</li>
+<li>
+<p>What is the purpose of identity Column in SQL database?</p>
+<ul>
+<li>The identity column in the SQL database is so the objects are different and easily identifiable when trying to iterate through them. If there were no identity column, it would be much harder to successfully complete the CRUD operations.</li>
+</ul>
+</li>
+<li>
+<p>What is the purpose of a primary key in SQL database?</p>
+<ul>
+<li>The primary key in an SQL database is to uniquely identify the different objects in the rows and columns. If there were no primary key, it would be much harder to identify specific objects in the table.</li>
+</ul>
+</li>
+<li>
+<p>What are the Data Types in SQL table?</p>
+<ul>
+<li>In an SQL table, there are strings, integers, and date/time.</li>
+</ul>
+</li>
 </ul>
 
 </div>
@@ -252,11 +272,28 @@ window.onload = wrap_img;
 <p>Uses SQL SELECT statement to read data</p>
 </blockquote>
 <ul>
-<li>What is a connection object?  After you google it, what do you think it does?</li>
-<li>Same for cursor object?</li>
-<li>Look at conn object and cursor object in VSCode debugger.  What attributes are in the object?
-classes a functions</li>
-<li>Is "results" an object?  How do you know?</li>
+<li>
+<p>What is a connection object?  After you google it, what do you think it does?</p>
+<ul>
+<li>A connection object is a unique session with a data source. I think that this means that when you run code with SQL, that code's information will show up in the database. This is what creates a conn that connects to the database.</li>
+</ul>
+</li>
+<li>
+<p>Same for cursor object?</p>
+<ul>
+<li>An SQL cursor object "allows you to retrieve and manipulate rows from a result set one at a time". I think these objects allow for a programer to iterate through the database rows and data and change individual objects and their attributes.</li>
+</ul>
+</li>
+<li>
+<p>Look at conn object and cursor object in VSCode debugger.  What attributes are in the object?</p>
+<ul>
+<li>The database schema are the attributes in the object (ex:id, name, uid, password, dob, etc.).</li>
+</ul>
+</li>
+<li>Is "results" an object?  How do you know?<ul>
+<li>Yes, "results" is an object. "results" has variables and functions, and all objects have variables and functions.</li>
+</ul>
+</li>
 </ul>
 
 </div>
@@ -330,10 +367,18 @@ classes a functions</li>
 <blockquote>
 <p>Uses SQL INSERT to add row</p>
 <ul>
-<li>Compore create() in both SQL lessons.  What is better or worse in the two implementations?</li>
-<li>Explain purpose of SQL INSERT.   Is this the same as User <strong>init</strong>?</li>
+<li>Compore create() in both SQL lessons.  What is better or worse in the two implementations?<ul>
+<li>I prefer OOP better for the CRUD operations. To me, the OOP seems more easy to follow and memorize. Although, this method seems to have less code and is more efficient due to avoiding defining a class with setter and getter functions.</li>
+</ul>
+</li>
 </ul>
 </blockquote>
+<ul>
+<li>Explain purpose of SQL INSERT.   Is this the same as User <strong>init</strong>?<ul>
+<li>SQL INSERT is a command that will add data into the database. This function is is written within the code of each line that is being changed/added but the <em>init</em> is called once.</li>
+</ul>
+</li>
+</ul>
 
 </div>
 </div>
@@ -394,11 +439,23 @@ classes a functions</li>
 <blockquote>
 <p>Uses SQL UPDATE to modify password</p>
 <ul>
-<li>What does the hacked part do?</li>
-<li>Explain try/except, when would except occur?</li>
-<li>What code seems to be repeated in each of these examples to point, why is it repeated?</li>
+<li>What does the hacked part do?<ul>
+<li>The hacked code helps with garbage data when someone is updating their password. If they type a password that is less than two characters, the user will get a message that says the have been hacked and will set their password to "gothackednewpassword123".</li>
+</ul>
+</li>
 </ul>
 </blockquote>
+<ul>
+<li>
+<p>Explain try/except, when would except occur?</p>
+<ul>
+<li>In this example, when a user is updating their password, the try/except looks for certain conditions. If the user tries to update an unknown user, it will send an unknown uid error. If the password is successfully changed, then the user will be notified. If neither of those are met, then the user will be notified with an alternative error.</li>
+</ul>
+</li>
+<li><h2 id="What-code-seems-to-be-repeated-in-each-of-these-examples-to-point,-why-is-it-repeated?">
+<a class="anchor" href="#What-code-seems-to-be-repeated-in-each-of-these-examples-to-point,-why-is-it-repeated?" aria-hidden="true"><span class="octicon octicon-link"></span></a>What code seems to be repeated in each of these examples to point, why is it repeated?<a class="anchor-link" href="#What-code-seems-to-be-repeated-in-each-of-these-examples-to-point,-why-is-it-repeated?"> </a>
+</h2></li>
+</ul>
 
 </div>
 </div>
