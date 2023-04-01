@@ -14,7 +14,7 @@ title: My Weekly Work
 | 25 | [Data Compression and Images Lesson Blog](https://avac54765.github.io/fastpages-ava/datacompression/images), [Pandas and Data Blog](https://avac54765.github.io/fastpages-ava/week%2025/2023/03/09/AP-unit2-3.html), [Collegeboard 2.2 and 2.3 Quizzes Blog](https://avac54765.github.io/fastpages-ava/CB/quizzes/4) |
 | 26 | [2.4A Lesson (database with crud)](https://avac54765.github.io/fastpages-ava/week%2026/2023/03/13/AP-unit2-4a.html), [2.4B Lesson (SQL and Imperative Style)](https://avac54765.github.io/fastpages-ava/week%2026/2023/03/16/AP-unit2-4b.html), [Debugging Database Blog](https://avac54765.github.io/fastpages-ava/create/debug) |
 | 27 | [Final CPT Plans](https://avac54765.github.io/fastpages-ava/CB/CPTplan), [Big Idea Quiz 2 Reflection](https://avac54765.github.io/fastpages-ava/CB/bigidea/quiz), [Data Structures- time and space complexity](https://avac54765.github.io/fastpages-ava/week%2027/2023/03/22/DS-space_time_complexity.html), [Main Code Page Plan](https://avac54765.github.io/fastpages-ava/mainpage/plan) |
-| 28 | [Hashmaps Lesson](), [Parallel Computing Lesson](), [Project Main Lesson Work](), [CSUSM extra credit blog](https://avac54765.github.io/fastpages-ava/event/CSUSM)|
+| 28 | [Hashmaps Lesson](https://avac54765.github.io/fastpages-ava/hashmaps/data), [Parallel Computing Lesson](), [Project Main Lesson Work](), [CSUSM extra credit blog](https://avac54765.github.io/fastpages-ava/event/CSUSM), [MCQ Test 4](https://avac54765.github.io/fastpages-ava/CB/MCQ4)|
 
 
 
