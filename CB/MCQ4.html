@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>
 
@@ -107,9 +107,9 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h1"><a href="#my-overall-score">My Overall Score</a></li>
 <li class="toc-entry toc-h1"><a href="#incorrect-questions">Incorrect Questions</a>
 <ul>
-<li class="toc-entry toc-h3"><a href="#question-20-">Question 20-</a></li>
-<li class="toc-entry toc-h3"><a href="#question-37-">Question 37-</a></li>
-<li class="toc-entry toc-h3"><a href="#question-49-">Question 49-</a></li>
+<li class="toc-entry toc-h3"><a href="#question-20--metadata-and-data-from-a-call-using-a-cellphone">Question 20- Metadata and data from a call using a cellphone</a></li>
+<li class="toc-entry toc-h3"><a href="#question-37--efficiency-of-algorithm-to-draw-shapes">Question 37- Efficiency of algorithm to draw shapes</a></li>
+<li class="toc-entry toc-h3"><a href="#question-49--traverse-list-to-compare-quiz-scores">Question 49- Traverse list to compare quiz scores</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h1"><a href="#advice-for-next-time">Advice for next time:</a></li>
@@ -120,25 +120,39 @@ window.onload = wrap_img;
 
 <p>I received a 47/50 on the test.</p>
 
+<p>This test definitely was challenging in terms of the topics. I feel like I was able to infer for many of the questions I did not know, but I did have to google the definition for heuristic and a little bit about how data is transferred through the internet. I also still take awhile on the questions that involve binary conversions (I am a very slow math person when it comes to powers in my head). I feel that I am improving on my test taking skills though.</p>
+
 <h1 id="incorrect-questions">
 <a class="anchor" href="#incorrect-questions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Incorrect Questions</h1>
 
-<h3 id="question-20-">
-<a class="anchor" href="#question-20-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Question 20-</h3>
+<h3 id="question-20--metadata-and-data-from-a-call-using-a-cellphone">
+<a class="anchor" href="#question-20--metadata-and-data-from-a-call-using-a-cellphone" aria-hidden="true"><span class="octicon octicon-link"></span></a>Question 20- Metadata and data from a call using a cellphone</h3>
 <p><img src="/fastpages-ava/images/q20.PNG" alt="Q20"></p>
 
-<h3 id="question-37-">
-<a class="anchor" href="#question-37-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Question 37-</h3>
+<p>On this question, I was half correct. I just didn’t realize that answer 3 was also correct in which suspects can be found from the metadata of certain calls. I got this incorrect because I was thinking that the police would need to be able to hear the calls to generate suspect lists (ex. hear what they are talking about), but it turns out you can generate a list of numbers from the criminal’s calls to make the list (anyone they talk to is a suspect).</p>
+
+<h3 id="question-37--efficiency-of-algorithm-to-draw-shapes">
+<a class="anchor" href="#question-37--efficiency-of-algorithm-to-draw-shapes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Question 37- Efficiency of algorithm to draw shapes</h3>
 <p><img src="/fastpages-ava/images/q37.PNG" alt="Q37"></p>
 
-<h3 id="question-49-">
-<a class="anchor" href="#question-49-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Question 49-</h3>
+<p>On this question, I was correct that the number of steps is approximately equal to n^2. Although due to this being a O(n^2) time complexity, this algorithm does run in a reasonable time.</p>
+
+<h3 id="question-49--traverse-list-to-compare-quiz-scores">
+<a class="anchor" href="#question-49--traverse-list-to-compare-quiz-scores" aria-hidden="true"><span class="octicon octicon-link"></span></a>Question 49- Traverse list to compare quiz scores</h3>
 <p><img src="/fastpages-ava/images/q49pt1.PNG" alt="Q49">
 <img src="/fastpages-ava/images/q49pt2.PNG" alt="Q49"></p>
+
+<p>On this question, I didn’t think about the length of the list and how the program will fail to compare the last score. This is due to the program terminating when the index is greater than OR equal to the length of the list meaning the last one is not checked. To fix this, the program would need to say repeat until idex &gt; len, not index &gt;= len.</p>
+
+<p>Answer A starts at the second index and compares ALL of the scores by repeating the list the length of the list (minus one for the initial max score).</p>
 
 <h1 id="advice-for-next-time">
 <a class="anchor" href="#advice-for-next-time" aria-hidden="true"><span class="octicon octicon-link"></span></a>Advice for next time:</h1>
 
+<p>The mistakes I am making are just simple misunderstandings that can be easily fixed with a little bit more practice with how the Collegboard questions are asked. I am getting better and better at knowing what these questions are asking. More tips:
+    - take time reading all questions and answers
+    - try to prove the other options wrong also instead of just finding the first “correct one”
+    - think about how a programmer would write a question in a certain scenario</p>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
