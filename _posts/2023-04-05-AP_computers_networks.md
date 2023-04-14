@@ -15,14 +15,28 @@ categories: [week 29]
 > As we have learned, a computer needs aa program to do something smart.  The sequence of a program initiates a series of actions with the computers Central Processing Unit (CPU). This component is essentially a binary machine focussing on program instructions provided.  The CPU retrieives and stores the data it acts upon in Random Access Memory (RAM). Between the CPU, RAM, and Storage Devices a computer can work with many programs and large amounts of data.
 
 List specification of your Computer, or Computers if working as Pair/Trio
-- Processor GHz:
-- Memory in GB:
-- Storage in GB:
-- OS:
+- Processor GHz:  <mark>2.50 GHz</mark>
+- Memory in GB:<mark> 8.0 GB </mark>
+- Storage in GB: <mark>237 GB</mark>
+- OS:  <mark>Windows Build 19044.2728 </mark>
 
 Define or describe usage of Computer using Computer Programs. Pictures are preferred over a lot of text.  Use your experience.
-- Input devices
-- Output devices
+- <mark>Input devices</mark>
+    - includes: keyboards, microphones, cameras, mouses, scanners
+    - where users input/interact with a computer
+    - a hardware device that sends data to a computer, allowing you to interact with and control it
+
+    ![image](https://user-images.githubusercontent.com/111486111/232163657-d90d1aeb-ee73-4967-bf27-5a9a0aa76ad2.png)
+
+- <mark>Output devices</mark>
+    - includes: monitors, printers, headphones, speakers, projectors, etc.
+    - where users receive response from input action
+    - a hardware device used to send data from a computer to another device or user
+
+    ![image](https://user-images.githubusercontent.com/111486111/232163744-1d863e47-47d7-400a-8428-476785342d80.png)
+
+![image](https://user-images.githubusercontent.com/111486111/232163417-7a72e15f-4f1c-4c6d-8f14-ccc66c4ec813.png)
+
 - Program File
 - Program Code
 - Processes
