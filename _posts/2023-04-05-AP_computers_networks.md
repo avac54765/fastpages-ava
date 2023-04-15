@@ -80,13 +80,13 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
 > Watch/review College Board Daily Video for 4.1.1
 
 - Essential Knowledge
-    - A computing device is a physical artifact that can run a program. Some examples include computers, tablets, servers, routers, and smart sensors.
-    - A computing system is a group of computing devices and programs working together for a common purpose.
-    - A computer network is a group of interconnected computing devices capable of sending or receiving data.
-    - A computer network is a type of computing system. 
-    - A path between two computing devices on a computer network (a sender and a receiver) is a sequence of directly connected computing devices that begins at the sender and ends at the receiver.
-    - Routing is the process of finding a path from sender to receiver.
-    - The bandwidth of a computer network is the maximum amount of data that can be sent in a fixed amount of time.
+    - <mark>A computing device</mark> is a physical artifact that can run a program. Some examples include computers, tablets, servers, routers, and smart sensors.
+    - <mark>A computing system is a</mark> group of computing devices and programs working together for a common purpose.
+    - <mark> A computer network</mark> is a group of interconnected computing devices capable of sending or receiving data.
+    - <mark>A computer network</mark> is a type of computing system. 
+    - <mark>A path</mark> between two computing devices on a computer network (a sender and a receiver) is a sequence of directly connected computing devices that begins at the sender and ends at the receiver.
+    - <mark>Routing</mark> is the process of finding a path from sender to receiver.
+    - <mark>The bandwidth </mark>of a computer network is the maximum amount of data that can be sent in a fixed amount of time.
     - Bandwidth is usually measured in bits per second
 
 - Complete Vocabulary Matching Activity.  Incorporate this into your learnings from year.  To analyze measure path and latency use `traceroute` and `ping` commands from Linux Terminal.  
@@ -100,6 +100,7 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
 > Watch/review College Board Daily Video 4.1.2
 
 - Complete True of False Questions
+![image](https://user-images.githubusercontent.com/111486111/232180994-871f8e2a-f119-4c9f-a444-6a00a3e98581.png)
 
 - Essential Knowledge
     - The internet is a computer network consisting of interconnected networks that use standardized, open (nonproprierary) communication protocols.
