@@ -118,7 +118,11 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
     - HTTP is a protocol used by the world wide web
     - The world wide web uses the internet
 
-- Go over AP videos, vocabulary, and essential knowledge.  Draw a diagram showing the internet and its many levels. A preferred diagram would using your knowledge of frontend, backend, deployment, etc.  Picture would highligh vocabulary by illustration. The below illustration have some ideas
+- Go over AP videos, vocabulary, and essential knowledge.  Draw a diagram showing the internet and its many levels. A preferred diagram would using your knowledge of frontend, backend, deployment, etc.  Picture would highlight vocabulary by illustration. The below illustration have some ideas
+
+![Internet Map](https://user-images.githubusercontent.com/111486111/232373729-c244e504-b29b-4b21-b47a-23b50b1d9ff4.png)
+
+![Internet pt 2](https://user-images.githubusercontent.com/111486111/232391011-0d1b204d-17b9-4a66-9ed2-ac66fc234020.png)
 
 ![Full Stack]({{site.baseurl}}/images/fullstack.png)
 
@@ -154,13 +158,24 @@ The "network" layer is responsible for ***routing data packets between networks*
 
 - Complete the network activity, summarize your understanding of fault tolerance.
 
+Activity:
+<img width="727" alt="image" src="https://user-images.githubusercontent.com/111486111/232398086-2f271180-d7e6-4935-8f59-472fcae91d8b.png">
+<img width="721" alt="image" src="https://user-images.githubusercontent.com/111486111/232398365-d58c4748-024b-49a8-8931-7ab203d2503e.png">
+
+
+Fault Tolerance is the safety of having multiple connections within a network between devices to ensure a route is available if a connection goes down. The more devices and connections there are in a network, the more secure the network is. In order for a network to be fault tolerant, ALL of the devices need at least two different connections to the network. That way, if one connection goes down, the given device still has a way to communicate with the other devices in the network.
+
 
 ### Parallel and Distributed Computing
 > Review previous lecture on Parallel Computing and watch Daily vidoe 4.3.  Think of ways to make something in you team project to utilize Cores more effectively.  Here are some thoughts to add to your story of Computers and Networks...
 
 - What is naturally Distributed in Frontend/Backend archeticture?  
 
+    In frontend and backend architecture, data is naturally distributed to make both pages more efficient. Frontend and backend both have their own processes that they need to run to make the page/server run efficiently. Therefore, frontend and backend both use parallel processing to complete tasks/run processes quickly.
+
 - Analyze this command in Docker: ```ENV GUNICORN_CMD_ARGS="--workers=1 --bind=0.0.0.0:8086"```.   Determine if there is options are options in this command for parallel computing within the server that runs python/gunicorn.  Here is an [article](https://medium.com/building-the-system/gunicorn-3-means-of-concurrency-efbb547674b7)
+
+Within the server that runs python/gunicorn, the Python application is run once for each worker. In order to run parallel computing, you can input the command "gunicorn --workers=5 --threads=2 --worker-class=gthread main:app" into the terminal. Doing so allows each worker to have two treads, allowing for 10 concurrent requests instead of the previous 5. 
 
 
 > Last week we discussed parallel computing on local machine.  There are many options.  Here is something to get parallel computing work with a tool called Ray.
