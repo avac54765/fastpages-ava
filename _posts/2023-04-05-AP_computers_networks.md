@@ -120,6 +120,8 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
 
 - Go over AP videos, vocabulary, and essential knowledge.  Draw a diagram showing the internet and its many levels. A preferred diagram would using your knowledge of frontend, backend, deployment, etc.  Picture would highlight vocabulary by illustration. The below illustration have some ideas
 
+![CSP Full Stack Diagram](https://user-images.githubusercontent.com/111486111/236324944-bd7e0f6b-3cda-4372-b708-8fd4844c4767.png)
+
 ![Internet Map](https://user-images.githubusercontent.com/111486111/232373729-c244e504-b29b-4b21-b47a-23b50b1d9ff4.png)
 
 ![Internet pt 2](https://user-images.githubusercontent.com/111486111/232391011-0d1b204d-17b9-4a66-9ed2-ac66fc234020.png)
