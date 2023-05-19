@@ -970,6 +970,17 @@
   
     
         ,"post88": {
+            "title": "Mario Sprite Sheet",
+            "content": ".",
+            "url": "https://avac54765.github.io/fastpages-ava/frontend/mario",
+            "relUrl": "/frontend/mario",
+            "date": " • Jul 19, 2022"
+        }
+        
+    
+  
+    
+        ,"post89": {
             "title": "Mario in Motion",
             "content": ". .",
             "url": "https://avac54765.github.io/fastpages-ava/frontend/mario1",
@@ -980,7 +991,18 @@
     
   
     
-        ,"post89": {
+        ,"post90": {
+            "title": "Mario in Motion OOP",
+            "content": "| Overview | Javascript Table | Binary | . . .",
+            "url": "https://avac54765.github.io/fastpages-ava/frontend/mario2",
+            "relUrl": "/frontend/mario2",
+            "date": " • Jul 19, 2022"
+        }
+        
+    
+  
+    
+        ,"post91": {
             "title": "Binary Math",
             "content": "Binary Math with Conversions . Multiply by 2 (shift left) Plus Binary Octal Hexadecimal Decimal Minus Divide by 2 (shift right) . shift left one | +1 | 00000000 | 0 | 0 | 0 | -1 | shift right one | . 2^2= 4 | 2^1= 2 | 2^0= 1 | . Turn on | Turn on | Turn on | . | | | .",
             "url": "https://avac54765.github.io/fastpages-ava/frontend/binary",
@@ -1081,10 +1103,12 @@
   
 
   
+
+  
   
 
   
-      ,"page20": {
+      ,"page21": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://avac54765.github.io/fastpages-ava/robots.txt",
