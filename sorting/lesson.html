@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      6 min read
+      9 min read
     
 </span></p>
 
@@ -264,7 +264,7 @@ Take about 5 minutes to read about your algorithm (Geek for Geeks linked below) 
 <ul>
 <li>Bubble Sort</li>
 <li>Selection Sort<blockquote>
-<p>Bubble sort:&gt; Selection sort:
+<p>Bubble sort:First, 75 and 17 would be compared in which 17 would be placed in front. Then 75 and 46 would be compared, and 46 would be put in front. This process would continue until there are no more switches made. &gt; Selection sort:First, the computer would search for the smallest value in the list, which is 0. Then, it would place it at the very left end. The computer will iterate through the list until the list is sorted.
 [88, 39, 53, 39, 58, 43, 74, 81, 71, 51]</p>
 </blockquote>
 </li>
@@ -273,7 +273,7 @@ Take about 5 minutes to read about your algorithm (Geek for Geeks linked below) 
 <ul>
 <li>Merge Sort</li>
 <li>Insertion Sort<blockquote>
-<p>Merge Sort:&gt; Insertion Sort:</p>
+<p>Merge Sort:I would split the list in half (5 values and 5 values) until it cannot be split anymore, and then sort each of the pieces. Once the pieces are sorted, they are added together, then sorted again. This process continues until the whole list is sorted.&gt; Insertion Sort:I would start from the left, 88, and insert each value one by one into its ordered spot. The numbers on the left become the sorted portion and the numbers on the right are not sorted. I would keep moving down the line until the entire list is sorted.</p>
 </blockquote>
 </li>
 </ul>
@@ -452,10 +452,19 @@ sorted:
 <ul>
 <li>When should you use each algorithm? What makes an algorithm the right choice?</li>
 <li>Given the following lists...<ul>
-<li>[0, 2, 6, 4, 8, 10]</li>
-<li>[Elephant, Banana, Cat, Dog, Apple]</li>
-<li>[29, 13, 83, 47, 32, 78, 100, 60, 65, 15, 24, 9, 40, 68, 53, 8, 90, 58, 39, 32, 34, 91, 74, 94, 49, 87, 34, 87, 23, 17, 27, 2, 38, 58, 84, 15, 9, 46, 74, 40, 44, 8, 55, 28, 81, 92, 81, 88, 53, 38, 19, 21, 9, 54, 21, 67, 3, 41, 3, 74, 13, 71, 70, 45, 5, 36, 80, 64, 97, 86, 73, 74, 94, 79, 49, 32, 20, 68, 64, 69, 1, 77, 31, 56, 100, 80, 48, 75, 85, 93, 67, 57, 26, 56, 43, 53, 59, 28, 67, 50]
+<li>[0, 2, 6, 4, 8, 10]<ul>
+<li>insertion sort: is efficeint for small data sets</li>
+</ul>
+</li>
+<li>[Elephant, Banana, Cat, Dog, Apple]<ul>
+<li>selection sort: will only take n size of array to sort (and can easily find next letter of alphebet)</li>
+</ul>
+</li>
+<li>[29, 13, 83, 47, 32, 78, 100, 60, 65, 15, 24, 9, 40, 68, 53, 8, 90, 58, 39, 32, 34, 91, 74, 94, 49, 87, 34, 87, 23, 17, 27, 2, 38, 58, 84, 15, 9, 46, 74, 40, 44, 8, 55, 28, 81, 92, 81, 88, 53, 38, 19, 21, 9, 54, 21, 67, 3, 41, 3, 74, 13, 71, 70, 45, 5, 36, 80, 64, 97, 86, 73, 74, 94, 79, 49, 32, 20, 68, 64, 69, 1, 77, 31, 56, 100, 80, 48, 75, 85, 93, 67, 57, 26, 56, 43, 53, 59, 28, 67, 50]<ul>
+<li>Merge sort: can sort large data sets quickly
 Select the algorithm you believe is best for each, explain.</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -479,13 +488,19 @@ Select the algorithm you believe is best for each, explain.</li>
 <li>
 <p>Run code and then research and answer these questions...</p>
 <ul>
-<li>Is a list and/or dictionary in python considered a primitive or collection type?  Why?</li>
-<li>Is the list passed into bubble sort "pass-by-value" or "pass-by-reference? Describe why in relation to output.</li>
-</ul>
+<li>
+<p>Is a list and/or dictionary in python considered a primitive or collection type?  Why?
+Lists and dictionaries in python are a non-primitive, a collection type, because they can only store one type of data at a time.</p>
 </li>
 <li>
-<p>Implement new cell(s) and/or organize cells to do the following.</p>
+<p>Is the list passed into bubble sort "pass-by-value" or "pass-by-reference? Describe why in relation to output.
+The list passed into bubble sort is "pass-by-reference" since the actual list is changed into the sorted one. The original list is not preserved like with "pass-by-value".</p>
+</li>
+</ul>
+</li>
+</ul>
 <ul>
+<li>Implement new cell(s) and/or organize cells to do the following.<ul>
 <li>Create your own list</li>
 <li>Use your expertise sorting algorithm (selection, insertion, merge). Note, I got my bubble sort from Geek for Geeks and made modifications. Each student in a group should have a unique algorithm.</li>
 <li>Test your list with my bubble sort</li>
@@ -499,6 +514,57 @@ Select the algorithm you believe is best for each, explain.</li>
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">sys</span>
+<span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">30</span><span class="p">,</span><span class="mi">22</span><span class="p">]</span>
+ 
+<span class="c1"># Traverse through all array elements</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">numbers</span><span class="p">)):</span>
+     
+    <span class="c1"># Find the minimum element in remaining</span>
+    <span class="c1"># unsorted array</span>
+    <span class="n">min_idx</span> <span class="o">=</span> <span class="n">i</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">numbers</span><span class="p">)):</span>
+        <span class="k">if</span> <span class="n">numbers</span><span class="p">[</span><span class="n">min_idx</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">numbers</span><span class="p">[</span><span class="n">j</span><span class="p">]:</span>
+            <span class="n">min_idx</span> <span class="o">=</span> <span class="n">j</span>
+             
+    <span class="c1"># Swap the found minimum element with</span>
+    <span class="c1"># the first element       </span>
+    <span class="n">numbers</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">numbers</span><span class="p">[</span><span class="n">min_idx</span><span class="p">]</span> <span class="o">=</span> <span class="n">numbers</span><span class="p">[</span><span class="n">min_idx</span><span class="p">],</span> <span class="n">numbers</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+ 
+<span class="c1"># Driver code to test above</span>
+<span class="nb">print</span> <span class="p">(</span><span class="s2">"Sorted array"</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">numbers</span><span class="p">)):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="si">%d</span><span class="s2">"</span> <span class="o">%</span><span class="k">numbers</span>[i],end=" , ")
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Sorted array
+2 , 4 , 10 , 22 , 30 , 100 , </pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
     
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -556,6 +622,27 @@ Select the algorithm you believe is best for each, explain.</li>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Original
+[{'name': 'Risa', 'age': 18, 'city': 'New York'}, {'name': 'John', 'age': 63, 'city': 'Eugene'}, {'name': 'Shekar', 'age': 18, 'city': 'San Francisco'}, {'name': 'Ryan', 'age': 21, 'city': 'Los Angeles'}]
+name
+[{'name': 'John', 'age': 63, 'city': 'Eugene'}, {'name': 'Risa', 'age': 18, 'city': 'New York'}, {'name': 'Ryan', 'age': 21, 'city': 'Los Angeles'}, {'name': 'Shekar', 'age': 18, 'city': 'San Francisco'}]
+age
+[{'name': 'Risa', 'age': 18, 'city': 'New York'}, {'name': 'Shekar', 'age': 18, 'city': 'San Francisco'}, {'name': 'Ryan', 'age': 21, 'city': 'Los Angeles'}, {'name': 'John', 'age': 63, 'city': 'Eugene'}]
+city
+[{'name': 'John', 'age': 63, 'city': 'Eugene'}, {'name': 'Ryan', 'age': 21, 'city': 'Los Angeles'}, {'name': 'Risa', 'age': 18, 'city': 'New York'}, {'name': 'Shekar', 'age': 18, 'city': 'San Francisco'}]
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
