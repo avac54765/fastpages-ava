@@ -1,7 +1,7 @@
 ---
 title: Dog Sprite
 layout: base
-description: A Binary Math illustrative application using HTML, Liquid, and JavaScript.
+description: Trying to make a dog animation
 permalink: /dog/sprite
 categories: [week 35]
 ---
