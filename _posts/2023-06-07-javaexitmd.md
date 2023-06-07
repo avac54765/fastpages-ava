@@ -2,6 +2,7 @@
 title: Javascript MD
 description: Seeing if I can run this here.
 permalink: /java/md
+layout: post
 categories: [week 36]
 ---
 
